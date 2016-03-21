@@ -1,0 +1,8 @@
+mx-system-sounds 		usr/bin
+mx-system-sounds.desktop 	usr/share/applications/mx
+mx-system-sounds.conf	 	etc
+translations/*.qm 		usr/share/mx-system-sounds/locale
+mx-system-sounds.png		usr/share/pixmaps
+icons/*                 	usr/share/mx-system-sounds/icons
+license.html            	usr/share/doc/mx-system-sounds
+
