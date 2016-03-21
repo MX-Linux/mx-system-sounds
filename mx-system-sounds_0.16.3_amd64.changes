@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 1.8
 Date: Mon, 21 Mar 2016 12:42:08 -0400
 Source: mx-system-sounds
@@ -19,26 +16,14 @@ Changes:
    * initial release
    *
 Checksums-Sha1:
- 24e8b0e842fee9b869221e601579f0d7a7562034 1172 mx-system-sounds_0.16.3.dsc
- c5d98c6dedf32ee8fd33fb0f5740a52f148aa7a2 72828 mx-system-sounds_0.16.3.tar.xz
- 3c3aea961b6e27461ba3e561055583c46741157c 22844 mx-system-sounds_0.16.3_amd64.deb
+ 2b8986917486e85ab3b1bc98270182ad46ffc5c4 654 mx-system-sounds_0.16.3.dsc
+ 725d5dd0b4ecb64d8ae2c41509e272a1926313c7 140212 mx-system-sounds_0.16.3.tar.xz
+ 80cf42dd03be984d844ef61aa0450e017814599e 25456 mx-system-sounds_0.16.3_amd64.deb
 Checksums-Sha256:
- 398ac069bd07500b65fe53d96eba547316f3d32ebfd6f6461b3d97698ce9312e 1172 mx-system-sounds_0.16.3.dsc
- 2ebad52a8248846be464bc156dffbb1e245887ce3eacf716218e21a08223b082 72828 mx-system-sounds_0.16.3.tar.xz
- 17bbecde4d99ec17f61bf8b236d5fb8a25296454288f720963daa6b754f5595a 22844 mx-system-sounds_0.16.3_amd64.deb
+ a6dbb5bf6b3c8ca69a1471b47903c247d55a510588a8ad22b20d5ef6554b1455 654 mx-system-sounds_0.16.3.dsc
+ 99fd50ea3afb9b20cbf2c9dae55f8c93d5fa7e34117100d8a0b715a6fa63d6d6 140212 mx-system-sounds_0.16.3.tar.xz
+ f9b041e5e22f9a379cce43ab088b46d081e613205e15cf5019c8c7e844c3e156 25456 mx-system-sounds_0.16.3_amd64.deb
 Files:
- 553418a7a75c5010a6bc8a6ecbc38113 1172 admin optional mx-system-sounds_0.16.3.dsc
- 26c0bc67b206fc7385b1b2ca355aea52 72828 admin optional mx-system-sounds_0.16.3.tar.xz
- 49c223767f9fb6625c7c730fd26c24f2 22844 admin optional mx-system-sounds_0.16.3_amd64.deb
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJW8CahAAoJEHCTjHgGee6Yn8cIAJie/ytFzuAiRmI8NU2eVCgG
-GdDrwyBS3JDzboU9SjQyZE5BTbCr+7iyWbQjKaDiLTnQT1sQEDX93qFy32XZEwqW
-0UiEZMahrQ3chwHwtBViRjnMA7nN90T5Z7jMtQB8eAOU6a1MYYgaLzL2Y59UjPy+
-X3a0ckqIMxINe7iEU8KPLxpN/vRgnFGy/TFKI6TTMt0a8K2NzLpQWGQKdjlCnrZx
-sgOqZtdP5y5s6r8ycUbMyj8IpjSFlJeMOt84uNV+C+g58MiXXWMq+UhZA14rx3wO
-jBeq50oycMzsVONTTOeJdc1ojxqKzlLs5OpfkkyshmN2xqsSM0+i4qa0pn83S7g=
-=JV2T
------END PGP SIGNATURE-----
+ 9b40584828c3f53628b096ce9eaeec0f 654 admin optional mx-system-sounds_0.16.3.dsc
+ c25b744d4bc11f6ea35e01016d35f348 140212 admin optional mx-system-sounds_0.16.3.tar.xz
+ 4d9fe4c51084add920ed0e4dd907f9f0 25456 admin optional mx-system-sounds_0.16.3_amd64.deb
