@@ -60,7 +60,7 @@ void mxsystemsounds::setup()
 {
     version = getVersion("mx-system-sounds");
     this->setWindowTitle(tr("MX System Sounds"));
-    this->adjustSize();  
+    this->adjustSize();
 }
 
 
@@ -106,4 +106,13 @@ void mxsystemsounds::on_buttonHelp_clicked()
     QString cmd = QString("mx-viewer http://www.mepiscommunity.org/user_manual_mx15/mxum.html#test '%1'").arg(tr("MX System Sounds"));
     system(cmd.toUtf8());
     this->show();
+}
+
+void mxsystemsounds::on_pushButton_playlogoutsound_clicked()
+{
+    if (ui->checkbox_eventsounds->isChecked()) {
+
+    } else {
+
+    }
 }
