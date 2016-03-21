@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-system-sounds deb admin optional arch=any
 Checksums-Sha1:
- 780053e94997caf478cc93df4c0307eba626cb63 49140 mx-system-sounds_0.16.3.tar.xz
+ c5d98c6dedf32ee8fd33fb0f5740a52f148aa7a2 72828 mx-system-sounds_0.16.3.tar.xz
 Checksums-Sha256:
- 7c4abc19fed287398f02f98145588e2e6a4b757dac3853dedd5cc3ea63cb6af7 49140 mx-system-sounds_0.16.3.tar.xz
+ 2ebad52a8248846be464bc156dffbb1e245887ce3eacf716218e21a08223b082 72828 mx-system-sounds_0.16.3.tar.xz
 Files:
- 975ce9a0afa306ded96420e2a0e5ee97 49140 mx-system-sounds_0.16.3.tar.xz
+ 26c0bc67b206fc7385b1b2ca355aea52 72828 mx-system-sounds_0.16.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJW8CUcAAoJEHCTjHgGee6YlrsIAJ+YHFY12f80YrFpujIAjBFb
-mVeez66NZ571nUO5+5sciXDqFhDGBK6O8va6FS3vNr81HrZrsm5/+/bJQ5zQarD2
-HhUEMN+IhqroCBnvrQJ/+mzPQsXKNUtSwwZX6OpmAqaxAv/fOWyEms1WFTZEXtd/
-r4jq6cRLXxe6+6ytE4ehv1VHcsM3ajGlAxRidmHmEbQGKipTU/wAb/GtS9DLRiYd
-qc9dr750Y3JedW1Waq7i2hS8tIjxEwN37E7vuN+PRmwJTTvBlvn5950Qcf4xiNVZ
-xyUsSFoOx+CTM2BFVi2zYMwLKa2vxV6lOotGlD5VQbxcgDii1grsgWtO/oSG8gA=
-=b10W
+iQEcBAEBAgAGBQJW8CadAAoJEHCTjHgGee6YWNUIANCinPfjNg4VsNtNjwYOyxeh
+0T2jqVusZC0nriNQXqUQ9bDHgQr6bDqaLA4Jjv3gFGk1PMC2WwgQHwAHMOMirKje
+rzIjBwGfiGjiHmvDsVe2UJG5m7DA6WNMQ0ZXGuNzoIdhG9BOeh8mOfx4EG9OjilD
+6ZvMvNfq3cZCGUJd8Jt3H+qu3sPF8G0v3Lumqe9WlnP8cvqt6GoX7JRdLwFNSfY1
+moBcHa8v3IR4koKqArDL+6jxXDw33AWrAPkhs3s3VjZnZNqZiLcOmkAA2obVWS6i
++fxwT5Zxgxixm4mOnOqNW83FCN7T8/capjHVYvqp0Fssl8dxn6556xxx0a8DeDM=
+=uy4L
 -----END PGP SIGNATURE-----
