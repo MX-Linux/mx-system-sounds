@@ -137,7 +137,7 @@
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="91"/>
-        <source>Program for testing code for MX Linux</source>
+        <source>Enable events sounds at the click of a button</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
