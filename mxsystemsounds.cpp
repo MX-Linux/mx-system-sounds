@@ -79,19 +79,19 @@ QString mxsystemsounds::getVersion(QString name)
 void mxsystemsounds::on_buttonApply_clicked()
 {
     if (ui->checkbox_eventsounds->isChecked()) {
-            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
-        } else {
-            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
-        }
+        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
+    } else {
+        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+    }
 
     if (ui->checkbox_inputsounds->isChecked()){
-            if (ui->checkbox_eventsounds->isChecked()){
-                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
-                 } else {
-                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
-            }
+        if (ui->checkbox_eventsounds->isChecked()){
+            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
+        } else {
+            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+        }
     } else {
-           system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+        system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
     }
 }
 
