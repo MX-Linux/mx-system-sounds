@@ -95,7 +95,7 @@
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QCheckBox" name="checkbox_loging">
+      <widget class="QCheckBox" name="checkbox_login">
        <property name="text">
         <string>Login</string>
        </property>
@@ -290,7 +290,7 @@
         <string>Quit application</string>
        </property>
        <property name="text">
-        <string>Cancel</string>
+        <string>Close</string>
        </property>
        <property name="icon">
         <iconset>

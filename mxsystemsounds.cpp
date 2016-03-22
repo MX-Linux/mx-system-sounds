@@ -27,6 +27,7 @@
 #include "ui_mxsystemsounds.h"
 
 #include <QDebug>
+#include <QDir>
 
 mxsystemsounds::mxsystemsounds(QWidget *parent) :
     QDialog(parent),
@@ -61,6 +62,29 @@ void mxsystemsounds::setup()
     version = getVersion("mx-system-sounds");
     this->setWindowTitle(tr("MX System Sounds"));
     this->adjustSize();
+//intialize variables
+    QString home_path = QDir::homePath();
+    if (runCmd("xfconf-query -c xsettings -p /Net/EnableEventSounds").str == "false") {
+        ui->checkbox_eventsounds->setChecked(false);
+    } else {
+        ui->checkbox_eventsounds->setChecked(true);
+    }
+    if (runCmd("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds").str == "false") {
+        ui->checkbox_inputsounds->setChecked(false);
+    } else {
+        ui->checkbox_inputsounds->setChecked(true);
+    }
+
+    if (runCmd("grep startup " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf |cut -d '=' -f2").str == "false") {
+        ui->checkbox_login->setChecked(false);
+    } else {
+        ui->checkbox_login->setChecked(true);
+    }
+    if (runCmd("grep logout  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf |cut -d '=' -f2").str == "false") {
+        ui->checkbox_logout->setChecked(false);
+    } else {
+        ui->checkbox_logout->setChecked(true);
+    }
 }
 
 
@@ -78,24 +102,59 @@ QString mxsystemsounds::getVersion(QString name)
 // Apply button clicked
 void mxsystemsounds::on_buttonApply_clicked()
 {
+    QString home_path = QDir::homePath();
+
+// Event Sounds Enable or Disable
     if (ui->checkbox_eventsounds->isChecked()) {
             system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
         } else {
             system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+            ui->checkbox_inputsounds->setChecked(false);
         }
 
+// Input feedback Sounds Enable or Disable
     if (ui->checkbox_inputsounds->isChecked()){
             if (ui->checkbox_eventsounds->isChecked()){
                 system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
-                 } else {
+            } else {
                 system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
             }
     } else {
            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
     }
+
+// Login Sound Enable/disable
+    if (ui->checkbox_login->isChecked()) {
+            runCmd("sed -i -r s/Hidden=.*/Hidden=false/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
+            runCmd("sed -i -r s/startup=.*/startup=true/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        } else {
+            runCmd("sed -i -r s/Hidden=.*/Hidden=true/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
+            runCmd("sed -i -r s/startup=.*/startup=false/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        }
+
+// Logout Sound Enable/disable
+    if (ui->checkbox_logout->isChecked()) {
+            runCmd("sed -i -r s/logout=.*/logout=true/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        } else {
+            runCmd("sed -i -r s/logout=.*/logout=false/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        }
+
+
+//reset defaults
+    if (ui->checkbox_reset->isChecked()) {
+            runCmd("rm -f " + home_path + "/.config/mx-sounds/startupsound.conf");
+            runCmd("rm -f " + home_path + "/.config/mx-sounds/logoutsound.conf");
+            runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s Borealis");
+    }
+
+// Set Sound Theme
+
+// Set custom login sound
+
+// Set custom logout sound
+
+
 }
-
-
 // About button clicked
 void mxsystemsounds::on_buttonAbout_clicked()
 {
