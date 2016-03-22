@@ -29,6 +29,7 @@
 #include <QDebug>
 #include <QDir>
 #include <QDirIterator>
+#include <QFileDialog>
 
 mxsystemsounds::mxsystemsounds(QWidget *parent) :
     QDialog(parent),
@@ -166,7 +167,6 @@ void mxsystemsounds::on_buttonApply_clicked()
     runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s " + soundtheme2);
 
 
-
 // Set custom login sound
 
 // Set custom logout sound
@@ -206,3 +206,10 @@ void mxsystemsounds::on_buttonHelp_clicked()
     this->show();
 }
 
+
+void mxsystemsounds::on_pushButton_customloginsound_clicked()
+{
+    this->hide();
+    QString customloginsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), QString());
+    this->show();
+}
