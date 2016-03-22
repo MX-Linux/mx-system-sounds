@@ -57,8 +57,9 @@ private slots:
     void on_buttonAbout_clicked();
     void on_buttonHelp_clicked();
 
-    //void on_pushButton_playlogoutsound_clicked();
-    //void on_checkbox_eventsounds_clicked();
+    void on_pushButton_playlogoutsound_clicked();
+
+    void on_checkbox_eventsounds_clicked();
 
 private:
     Ui::mxsystemsounds *ui;
