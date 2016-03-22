@@ -58,6 +58,8 @@ private slots:
     void on_buttonHelp_clicked();
 
 
+    void on_pushButton_customloginsound_clicked();
+
 private:
     Ui::mxsystemsounds *ui;
 };
