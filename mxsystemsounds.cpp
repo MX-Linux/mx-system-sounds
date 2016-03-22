@@ -75,11 +75,26 @@ QString mxsystemsounds::getVersion(QString name)
 //// slots ////
 
 
-// Next button clicked
+// Apply button clicked
 void mxsystemsounds::on_buttonApply_clicked()
 {
+    if (ui->checkbox_eventsounds->isChecked()) {
+            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
+        } else {
+            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+        }
 
+    if (ui->checkbox_inputsounds->isChecked()){
+            if (ui->checkbox_eventsounds->isChecked()){
+                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
+                 } else {
+                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+            }
+    } else {
+           system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+    }
 }
+
 
 // About button clicked
 void mxsystemsounds::on_buttonAbout_clicked()
@@ -108,11 +123,3 @@ void mxsystemsounds::on_buttonHelp_clicked()
     this->show();
 }
 
-void mxsystemsounds::on_pushButton_playlogoutsound_clicked()
-{
-    if (ui->checkbox_eventsounds->isChecked()) {
-
-    } else {
-
-    }
-}
