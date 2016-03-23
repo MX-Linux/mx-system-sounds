@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>402</width>
-    <height>375</height>
+    <width>520</width>
+    <height>473</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,10 +29,60 @@
    </item>
    <item row="1" column="0">
     <layout class="QGridLayout" name="gridLayout">
-     <item row="10" column="0" colspan="3">
-      <widget class="Line" name="line">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Event Sounds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="pushButton_3_displaylogoutsound">
+       <property name="text">
+        <string>Logout Sound</string>
+       </property>
+       <property name="icon">
+        <iconset theme="audio-x-generic">
+         <normaloff/>
+        </iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="checkbox_login">
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="pushButton_playlogoutsound">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset theme="media-playback-start">
+         <normaloff/>
+        </iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Session Sounds</string>
        </property>
       </widget>
      </item>
@@ -46,6 +96,27 @@
        </property>
        <property name="text">
         <string>Custom Sounds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Login Sound</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QCheckBox" name="checkbox_reset_login">
+       <property name="text">
+        <string>Default</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="checkbox_logout">
+       <property name="text">
+        <string>Logout</string>
        </property>
       </widget>
      </item>
@@ -63,7 +134,14 @@
        </property>
       </widget>
      </item>
-     <item row="8" column="2" alignment="Qt::AlignLeft">
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Logout Sound</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
       <widget class="QPushButton" name="pushButton_2_playloginsound">
        <property name="text">
         <string/>
@@ -72,107 +150,6 @@
         <iconset theme="media-playback-start">
          <normaloff/>
         </iconset>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="2" alignment="Qt::AlignLeft">
-      <widget class="QPushButton" name="pushButton_playlogoutsound">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset theme="media-playback-start">
-         <normaloff/>
-        </iconset>
-       </property>
-      </widget>
-     </item>
-     <item row="11" column="0">
-      <widget class="QCheckBox" name="checkbox_reset">
-       <property name="text">
-        <string>Reset Defaults</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
-      <widget class="QCheckBox" name="checkbox_login">
-       <property name="text">
-        <string>Login</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>Event Sounds</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Login Sound</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="QCheckBox" name="checkbox_logout">
-       <property name="text">
-        <string>Logout</string>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="0">
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>Logout Sound</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="label_4">
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>Session Sounds</string>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="1">
-      <widget class="QPushButton" name="pushButton_3_displaylogoutsound">
-       <property name="text">
-        <string>Logout Sound</string>
-       </property>
-       <property name="icon">
-        <iconset theme="audio-x-generic">
-         <normaloff/>
-        </iconset>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="1">
-      <widget class="QComboBox" name="comboBox_theme">
-       <item>
-        <property name="text">
-         <string>Borealis</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Theme</string>
        </property>
       </widget>
      </item>
@@ -188,6 +165,43 @@
         <iconset theme="audio-x-generic">
          <normaloff/>
         </iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QCheckBox" name="checkbox_reset_logout">
+       <property name="text">
+        <string>Default</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Theme</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="comboBox_theme">
+       <item>
+        <property name="text">
+         <string>Borealis</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QCheckBox" name="checkbox_reset_theme">
+       <property name="text">
+        <string>Default</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
