@@ -67,6 +67,40 @@ void mxsystemsounds::setup()
 
     //intialize variables
     QString home_path = QDir::homePath();
+    QString soundtheme = (runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName").str);
+    QString defaultloginsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-login").str);
+    QString defaultlogoutsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-logout").str);
+    QString currentlogin;
+    QString currentlogout;
+    QFileInfo file_info(home_path + "/mx-sounds/startupsound.conf");
+                if (file_info.exists()) {
+                    QString currentlogin = (runCmd("cat " + home_path + "/mx-sounds/startupsound.conf").str);
+                    QFileInfo file_info(currentlogin);
+                    ui->pushButton_customloginsound->setText(file_info.baseName());
+                } else {
+                    QFileInfo file_info(defaultloginsound);
+                    ui->pushButton_customloginsound->setText(file_info.baseName());
+                    currentlogin = defaultloginsound;
+                }
+                qDebug() << " default login is ";
+                qDebug() << defaultloginsound;
+                qDebug() << " current login is ";
+                qDebug() << currentlogin;
+
+    QFileInfo file_info2(home_path + "/mx-sounds/logoutsound.conf");
+               if (file_info2.exists()) {
+                   QString currentlogout = (runCmd("cat " + home_path + "/mx-sounds/logoutsound.conf").str);
+                   QFileInfo file_info2(currentlogout);
+                   ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
+               } else {
+                   QFileInfo file_info2(defaultlogoutsound);
+                   ui->pushButton_3_displaylogoutsound->setText(file_info2.baseName());
+                   currentlogout = defaultlogoutsound;
+               }
+               qDebug() << " default logout is ";
+               qDebug() << defaultlogoutsound;
+               qDebug() << " current logout is ";
+               qDebug() << currentlogout;
 
     //initial event sound setting
     if (runCmd("xfconf-query -c xsettings -p /Net/EnableEventSounds").str == "false") {
@@ -95,8 +129,8 @@ void mxsystemsounds::setup()
     } else {
         ui->checkbox_logout->setChecked(true);
     }
+
     //inital sound theme dialog setting
-    QString soundtheme = (runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName").str);
     ui->comboBox_theme->clear();
     QStringList theme_list;
     QStringList filter("index.theme");
@@ -169,16 +203,32 @@ void mxsystemsounds::on_buttonApply_clicked()
 
 // Set custom login sound
 
+ //   qDebug() <<"custom login sound is";
+  //  qDebug() << customloginsound;
+
+
 // Set custom logout sound
 
 //reset defaults
-        if (ui->checkbox_reset->isChecked()) {
-                runCmd("rm -f " + home_path + "/.config/mx-sounds/startupsound.conf");
-                runCmd("rm -f " + home_path + "/.config/mx-sounds/logoutsound.conf");
+
+    //reset theme
+        if (ui->checkbox_reset_theme->isChecked()) {
                 runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s Borealis");
                 ui->comboBox_theme->setCurrentText("Borealis");
         }
+
+    //reset login sound
+        if (ui->checkbox_reset_login->isChecked()) {
+        runCmd("rm -f " + home_path + "/.config/mx-sounds/startupsound.conf");
+        }
+
+    //reset logout sound
+        if (ui->checkbox_reset_logout->isChecked()) {
+        runCmd("rm -f " + home_path + "/.config/mx-sounds/logoutsound.conf");
+        }
 }
+
+
 // About button clicked
 void mxsystemsounds::on_buttonAbout_clicked()
 {
@@ -211,5 +261,16 @@ void mxsystemsounds::on_pushButton_customloginsound_clicked()
 {
     this->hide();
     QString customloginsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), QString());
+    QFileInfo file_info(customloginsound);
+    ui->pushButton_customloginsound->setText(file_info.baseName());
+    this->show();
+}
+
+void mxsystemsounds::on_pushButton_3_displaylogoutsound_clicked()
+{
+    this->hide();
+    QString customlogoutsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), QString());
+    QFileInfo file_info(customlogoutsound);
+    ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
     this->show();
 }
