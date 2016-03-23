@@ -73,34 +73,34 @@ void mxsystemsounds::setup()
     QString currentlogin;
     QString currentlogout;
     QFileInfo file_info(home_path + "/mx-sounds/startupsound.conf");
-                if (file_info.exists()) {
-                    QString currentlogin = (runCmd("cat " + home_path + "/mx-sounds/startupsound.conf").str);
-                    QFileInfo file_info(currentlogin);
-                    ui->pushButton_customloginsound->setText(file_info.baseName());
-                } else {
-                    QFileInfo file_info(defaultloginsound);
-                    ui->pushButton_customloginsound->setText(file_info.baseName());
-                    currentlogin = defaultloginsound;
-                }
-                qDebug() << " default login is ";
-                qDebug() << defaultloginsound;
-                qDebug() << " current login is ";
-                qDebug() << currentlogin;
+    if (file_info.exists()) {
+        QString currentlogin = (runCmd("cat " + home_path + "/mx-sounds/startupsound.conf").str);
+        QFileInfo file_info(currentlogin);
+        ui->pushButton_customloginsound->setText(file_info.baseName());
+    } else {
+        QFileInfo file_info(defaultloginsound);
+        ui->pushButton_customloginsound->setText(file_info.baseName());
+        currentlogin = defaultloginsound;
+    }
+    qDebug() << " default login is ";
+    qDebug() << defaultloginsound;
+    qDebug() << " current login is ";
+    qDebug() << currentlogin;
 
     QFileInfo file_info2(home_path + "/mx-sounds/logoutsound.conf");
-               if (file_info2.exists()) {
-                   QString currentlogout = (runCmd("cat " + home_path + "/mx-sounds/logoutsound.conf").str);
-                   QFileInfo file_info2(currentlogout);
-                   ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
-               } else {
-                   QFileInfo file_info2(defaultlogoutsound);
-                   ui->pushButton_3_displaylogoutsound->setText(file_info2.baseName());
-                   currentlogout = defaultlogoutsound;
-               }
-               qDebug() << " default logout is ";
-               qDebug() << defaultlogoutsound;
-               qDebug() << " current logout is ";
-               qDebug() << currentlogout;
+    if (file_info2.exists()) {
+        QString currentlogout = (runCmd("cat " + home_path + "/mx-sounds/logoutsound.conf").str);
+        QFileInfo file_info2(currentlogout);
+        ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
+    } else {
+        QFileInfo file_info2(defaultlogoutsound);
+        ui->pushButton_3_displaylogoutsound->setText(file_info2.baseName());
+        currentlogout = defaultlogoutsound;
+    }
+    qDebug() << " default logout is ";
+    qDebug() << defaultlogoutsound;
+    qDebug() << " current logout is ";
+    qDebug() << currentlogout;
 
     //initial event sound setting
     if (runCmd("xfconf-query -c xsettings -p /Net/EnableEventSounds").str == "false") {
@@ -136,10 +136,10 @@ void mxsystemsounds::setup()
     QStringList filter("index.theme");
     QDirIterator it("/usr/share/sounds", filter, QDir::Files, QDirIterator::Subdirectories);
     while (it.hasNext()) {
-            QFileInfo file_info(it.next());
-            QDir dir = file_info.absoluteDir();
-            theme_list << dir.dirName();
-        }
+        QFileInfo file_info(it.next());
+        QDir dir = file_info.absoluteDir();
+        theme_list << dir.dirName();
+    }
     ui->comboBox_theme->addItems(theme_list);
     ui->comboBox_theme->setCurrentText(soundtheme);
 }
@@ -161,71 +161,76 @@ void mxsystemsounds::on_buttonApply_clicked()
 {
     QString home_path = QDir::homePath();
 
-// Event Sounds Enable or Disable
+    // Event Sounds Enable or Disable
     if (ui->checkbox_eventsounds->isChecked()) {
-            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
-        } else {
-            system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
-            ui->checkbox_inputsounds->setChecked(false);
-        }
-
-// Input feedback Sounds Enable or Disable
-    if (ui->checkbox_inputsounds->isChecked()){
-            if (ui->checkbox_eventsounds->isChecked()){
-                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
-            } else {
-                system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
-            }
+        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
     } else {
-           system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+        ui->checkbox_inputsounds->setChecked(false);
     }
 
-// Login Sound Enable/disable
+    // Input feedback Sounds Enable or Disable
+    if (ui->checkbox_inputsounds->isChecked()){
+        if (ui->checkbox_eventsounds->isChecked()){
+            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
+        } else {
+            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+        }
+    } else {
+        system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+    }
+
+    // Login Sound Enable/disable
     if (ui->checkbox_login->isChecked()) {
-            runCmd("sed -i -r s/Hidden=.*/Hidden=false/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
-            runCmd("sed -i -r s/startup=.*/startup=true/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        } else {
-            runCmd("sed -i -r s/Hidden=.*/Hidden=true/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
-            runCmd("sed -i -r s/startup=.*/startup=false/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        }
+        runCmd("sed -i -r s/Hidden=.*/Hidden=false/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
+        runCmd("sed -i -r s/startup=.*/startup=true/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+    } else {
+        runCmd("sed -i -r s/Hidden=.*/Hidden=true/ " + home_path + "/.config/autostart/zstartup-sound.desktop");
+        runCmd("sed -i -r s/startup=.*/startup=false/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+    }
 
-// Logout Sound Enable/disable
+    // Logout Sound Enable/disable
     if (ui->checkbox_logout->isChecked()) {
-            runCmd("sed -i -r s/logout=.*/logout=true/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        } else {
-            runCmd("sed -i -r s/logout=.*/logout=false/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        }
+        runCmd("sed -i -r s/logout=.*/logout=true/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+    } else {
+        runCmd("sed -i -r s/logout=.*/logout=false/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+    }
 
-// Set Sound Theme
+    // Set Sound Theme
     QString soundtheme2 = QString(ui->comboBox_theme->currentText());
     runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s " + soundtheme2);
 
 
-// Set custom login sound
+    // Set custom login sound
 
- //   qDebug() <<"custom login sound is";
-  //  qDebug() << customloginsound;
+    //   qDebug() <<"custom login sound is";
+    //  qDebug() << customloginsound;
 
 
-// Set custom logout sound
+    // Set custom logout sound
 
-//reset defaults
+    //reset defaults
 
     //reset theme
-        if (ui->checkbox_reset_theme->isChecked()) {
-                runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s Borealis");
-                ui->comboBox_theme->setCurrentText("Borealis");
-        }
+    if (ui->checkbox_reset_theme->isChecked()) {
+        runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName -s Borealis");
+        ui->comboBox_theme->setCurrentText("Borealis");
+    }
 
     //reset login sound
-        if (ui->checkbox_reset_login->isChecked()) {
+    if (ui->checkbox_reset_login->isChecked()) {
         runCmd("rm -f " + home_path + "/.config/mx-sounds/startupsound.conf");
-        }
+    }
 
     //reset logout sound
-        if (ui->checkbox_reset_logout->isChecked()) {
+    if (ui->checkbox_reset_logout->isChecked()) {
         runCmd("rm -f " + home_path + "/.config/mx-sounds/logoutsound.conf");
-        }
+    }
+
+    //reset checkboxes
+    ui->checkbox_reset_theme->setChecked(false);
+    ui->checkbox_reset_login->setChecked(false);
+    ui->checkbox_reset_logout->setChecked(false);
 }
 
 
