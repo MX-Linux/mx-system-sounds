@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>520</width>
+    <width>576</width>
     <height>473</height>
    </rect>
   </property>
@@ -14,10 +14,13 @@
    <string>MX System Sounds</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
-   <item row="0" column="0">
-    <spacer name="verticalSpacer_2">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
      </property>
      <property name="sizeHint" stdset="0">
       <size>
@@ -27,22 +30,40 @@
      </property>
     </spacer>
    </item>
-   <item row="1" column="0">
+   <item row="1" column="0" colspan="2">
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0">
-      <widget class="QLabel" name="label">
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
+     <item row="2" column="0" colspan="3">
+      <widget class="QCheckBox" name="checkbox_inputsounds">
        <property name="text">
-        <string>Event Sounds</string>
+        <string>XFCE Input Feedback Sounds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QCheckBox" name="checkbox_eventsounds">
+       <property name="text">
+        <string>XFCE Event Sounds</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QCheckBox" name="checkbox_login">
+       <property name="text">
+        <string>Login</string>
        </property>
       </widget>
      </item>
      <item row="9" column="1">
+      <widget class="QToolButton" name="toolButton_2">
+       <property name="text">
+        <string>...</string>
+       </property>
+       <property name="icon">
+        <iconset theme="media-playback-start"/>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
       <widget class="QPushButton" name="pushButton_3_displaylogoutsound">
        <property name="text">
         <string>Logout Sound</string>
@@ -54,22 +75,37 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QCheckBox" name="checkbox_login">
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>Login</string>
+        <string>Theme</string>
        </property>
       </widget>
      </item>
-     <item row="9" column="2">
-      <widget class="QPushButton" name="pushButton_playlogoutsound">
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_3">
        <property name="text">
-        <string/>
+        <string>Login Sound</string>
        </property>
-       <property name="icon">
-        <iconset theme="media-playback-start">
-         <normaloff/>
-        </iconset>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QCheckBox" name="checkbox_logout">
+       <property name="text">
+        <string>Logout</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Event Sounds</string>
        </property>
       </widget>
      </item>
@@ -86,6 +122,13 @@
        </property>
       </widget>
      </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Logout Sound</string>
+       </property>
+      </widget>
+     </item>
      <item row="6" column="0">
       <widget class="QLabel" name="label_7">
        <property name="font">
@@ -99,61 +142,17 @@
        </property>
       </widget>
      </item>
-     <item row="8" column="0">
-      <widget class="QLabel" name="label_3">
+     <item row="8" column="1">
+      <widget class="QToolButton" name="toolButton">
        <property name="text">
-        <string>Login Sound</string>
+        <string>...</string>
        </property>
-      </widget>
-     </item>
-     <item row="8" column="3">
-      <widget class="QCheckBox" name="checkbox_reset_login">
-       <property name="text">
-        <string>Default</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="QCheckBox" name="checkbox_logout">
-       <property name="text">
-        <string>Logout</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QCheckBox" name="checkbox_eventsounds">
-       <property name="text">
-        <string>XFCE Event Sounds</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="QCheckBox" name="checkbox_inputsounds">
-       <property name="text">
-        <string>XFCE Input Feedback Sounds</string>
-       </property>
-      </widget>
-     </item>
-     <item row="9" column="0">
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>Logout Sound</string>
+       <property name="icon">
+        <iconset theme="media-playback-start"/>
        </property>
       </widget>
      </item>
      <item row="8" column="2">
-      <widget class="QPushButton" name="pushButton_2_playloginsound">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset theme="media-playback-start">
-         <normaloff/>
-        </iconset>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="1">
       <widget class="QPushButton" name="pushButton_customloginsound">
        <property name="layoutDirection">
         <enum>Qt::LeftToRight</enum>
@@ -168,6 +167,22 @@
        </property>
       </widget>
      </item>
+     <item row="10" column="0" colspan="4">
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QComboBox" name="comboBox_theme">
+       <item>
+        <property name="text">
+         <string>Borealis</string>
+        </property>
+       </item>
+      </widget>
+     </item>
      <item row="9" column="3">
       <widget class="QCheckBox" name="checkbox_reset_logout">
        <property name="text">
@@ -175,20 +190,11 @@
        </property>
       </widget>
      </item>
-     <item row="7" column="0">
-      <widget class="QLabel" name="label_2">
+     <item row="8" column="3">
+      <widget class="QCheckBox" name="checkbox_reset_login">
        <property name="text">
-        <string>Theme</string>
+        <string>Default</string>
        </property>
-      </widget>
-     </item>
-     <item row="7" column="1">
-      <widget class="QComboBox" name="comboBox_theme">
-       <item>
-        <property name="text">
-         <string>Borealis</string>
-        </property>
-       </item>
       </widget>
      </item>
      <item row="7" column="3">
@@ -198,22 +204,12 @@
        </property>
       </widget>
      </item>
-     <item row="10" column="0">
-      <widget class="Line" name="line">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-     </item>
     </layout>
    </item>
    <item row="2" column="0">
-    <spacer name="verticalSpacer">
+    <spacer name="verticalSpacer_2">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeType">
-      <enum>QSizePolicy::Expanding</enum>
      </property>
      <property name="sizeHint" stdset="0">
       <size>
@@ -223,7 +219,7 @@
      </property>
     </spacer>
    </item>
-   <item row="3" column="0">
+   <item row="3" column="0" colspan="2">
     <layout class="QGridLayout" name="buttonBar" columnstretch="0,0,0,0,0,0,0">
      <property name="sizeConstraint">
       <enum>QLayout::SetDefaultConstraint</enum>
