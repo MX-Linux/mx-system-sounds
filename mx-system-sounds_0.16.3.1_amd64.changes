@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 26 Mar 2016 10:16:37 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 0.16.3.1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin_oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (0.16.3.1) UNRELEASED; urgency=medium
+ .
+   *  working ui,mostly
+   * known issue- file chooser sometimes closes when pressing Open
+Checksums-Sha1:
+ 37fe75d764807dc5b270eec019c01308a6944b42 662 mx-system-sounds_0.16.3.1.dsc
+ 37cfd09ac3a4011fe5cb5ec89712687006bebadc 195148 mx-system-sounds_0.16.3.1.tar.xz
+ 152ef1daf271ed9538090ab3aeb77894f4b0b1b3 40340 mx-system-sounds_0.16.3.1_amd64.deb
+Checksums-Sha256:
+ ff15e0cd4dabc0bfac420b31d714eb2ae7774b7111d927f787ea27c5ada5609c 662 mx-system-sounds_0.16.3.1.dsc
+ e97f625c69995ecc8b4ae6d681fceb252ed507e43bf97f7903a739571a0576ef 195148 mx-system-sounds_0.16.3.1.tar.xz
+ d22cca577c9503e1e7f6974645b8807d54ee8344c10978509480ff59eb8b53a6 40340 mx-system-sounds_0.16.3.1_amd64.deb
+Files:
+ 33d5f0ecb25b92fa9ba094a3ea0c8770 662 admin optional mx-system-sounds_0.16.3.1.dsc
+ 1d5dfc47f02096212cb0cd98976b97ac 195148 admin optional mx-system-sounds_0.16.3.1.tar.xz
+ 27e50b3a908112c8c2dee18c8dc66d4c 40340 admin optional mx-system-sounds_0.16.3.1_amd64.deb
