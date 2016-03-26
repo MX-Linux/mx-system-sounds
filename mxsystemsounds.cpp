@@ -280,7 +280,7 @@ void mxsystemsounds::on_pushButton_customloginsound_clicked()
 {
 
     // select a user defined login sound
-    this->hide(); //hides main ui
+ //   this->hide(); //hides main ui
     QString home_path = QDir::homePath();
     customloginsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), home_path, tr("Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)"));
     QFileInfo file_info(customloginsound);
@@ -296,13 +296,12 @@ void mxsystemsounds::on_pushButton_customloginsound_clicked()
     qDebug() << " current login is";
     qDebug() << currentlogin;
 
-    this->show(); //brings main ui back
+   // this->show(); //brings main ui back
 }
 
 void mxsystemsounds::on_pushButton_3_displaylogoutsound_clicked()
 {
     //choose a user defined logout sound.
-    this->hide(); //hides main ui
     QString home_path = QDir::homePath();
     customlogoutsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), home_path, tr("Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)"));
     QFileInfo file_info(customlogoutsound);
@@ -318,7 +317,6 @@ void mxsystemsounds::on_pushButton_3_displaylogoutsound_clicked()
     qDebug() << " current logout is ";
     qDebug() << currentlogout;
     qDebug() << theme_logout_flag;
-    this->show(); //bring main ui back
 }
 
 void mxsystemsounds::on_toolButton_clicked()
