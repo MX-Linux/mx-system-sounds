@@ -254,26 +254,8 @@
     </spacer>
    </item>
    <item row="3" column="0" colspan="2">
-    <layout class="QGridLayout" name="buttonBar" columnstretch="0,0,0,0,0,0,0">
-     <property name="sizeConstraint">
-      <enum>QLayout::SetDefaultConstraint</enum>
-     </property>
-     <property name="leftMargin">
-      <number>0</number>
-     </property>
-     <property name="topMargin">
-      <number>0</number>
-     </property>
-     <property name="rightMargin">
-      <number>0</number>
-     </property>
-     <property name="bottomMargin">
-      <number>0</number>
-     </property>
-     <property name="spacing">
-      <number>5</number>
-     </property>
-     <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
       <widget class="QPushButton" name="buttonAbout">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -299,7 +281,7 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
+     <item>
       <widget class="QPushButton" name="buttonHelp">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -322,33 +304,52 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="6">
-      <widget class="QPushButton" name="buttonCancel">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
        </property>
-       <property name="toolTip">
-        <string>Quit application</string>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="maximumSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
        </property>
        <property name="text">
-        <string>Close</string>
+        <string/>
        </property>
-       <property name="icon">
-        <iconset>
-         <normaloff>icons/gtk-cancel.png</normaloff>icons/gtk-cancel.png</iconset>
+       <property name="pixmap">
+        <pixmap>../../../usr/share/mx-system-sounds/icons/mxfcelogo.png</pixmap>
        </property>
-       <property name="shortcut">
-        <string>Alt+N</string>
-       </property>
-       <property name="autoDefault">
+       <property name="scaledContents">
         <bool>true</bool>
        </property>
       </widget>
      </item>
-     <item row="0" column="4">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QPushButton" name="buttonApply">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
@@ -370,6 +371,32 @@
         <bool>true</bool>
        </property>
        <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buttonCancel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Quit application</string>
+       </property>
+       <property name="text">
+        <string>Close</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/gtk-cancel.png</normaloff>icons/gtk-cancel.png</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Alt+N</string>
+       </property>
+       <property name="autoDefault">
         <bool>true</bool>
        </property>
       </widget>
