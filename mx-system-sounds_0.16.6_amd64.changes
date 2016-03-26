@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sat, 26 Mar 2016 16:03:00 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 0.16.6
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin_oracle <dolphin@mx1>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (0.16.6) UNRELEASED; urgency=medium
+ .
+   *  working ui,mostly
+   * fixed file dialog box issue
+   * fixed playback with files with spaces
+   * added mx logo icon
+   *
+   *
+Checksums-Sha1:
+ 09e6f946490606c89f842f6ecf24b44a6e18db1e 651 mx-system-sounds_0.16.6.dsc
+ 3c0a835fd9c1d81f5834c6c2f0b7eb1b500b62f7 98852 mx-system-sounds_0.16.6.tar.xz
+ d812f56bdef90d5a1485c4af82da3e68808e9afd 41104 mx-system-sounds_0.16.6_amd64.deb
+Checksums-Sha256:
+ 8ff532b53fad447cf1d81374f9201240429e69a3050747b672f101ce8f31651f 651 mx-system-sounds_0.16.6.dsc
+ 4a0c698e8519d12a61e745417a9cc7fe1694c0620234bb6121228d7efc08c0a6 98852 mx-system-sounds_0.16.6.tar.xz
+ 1630e6df1bd48b82db53314bab2227cd88b55e5f7d813139e18866d7e3d247bc 41104 mx-system-sounds_0.16.6_amd64.deb
+Files:
+ be8d1dd960c44846f84cb67d333e889e 651 admin optional mx-system-sounds_0.16.6.dsc
+ 01f509bc0694148db00501681e9735d9 98852 admin optional mx-system-sounds_0.16.6.tar.xz
+ c6c55a84b90c1aad714ed3bdb151b44e 41104 admin optional mx-system-sounds_0.16.6_amd64.deb
