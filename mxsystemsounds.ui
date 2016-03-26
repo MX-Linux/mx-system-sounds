@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MX System Sounds</string>
   </property>
+  <property name="windowIcon">
+   <iconset theme="audio-speakers"/>
+  </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="1">
     <spacer name="verticalSpacer">

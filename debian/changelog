@@ -1,6 +1,8 @@
-mx-system-sounds (0.16.3.1) UNRELEASED; urgency=medium
+mx-system-sounds (0.16.4) UNRELEASED; urgency=medium
 
   *  working ui,mostly
-  * known issue- file chooser sometimes closes when pressing Open
+  * fixed file dialog box issue
+  * -
+  * 
 
- -- dolphin_oracle <dolphinoracle@gmail.com>  Sat, 26 Mar 2016 10:16:37 -0400
+ -- dolphin_oracle <dolphin@mx1>  Sat, 26 Mar 2016 12:22:17 -0400
