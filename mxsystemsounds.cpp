@@ -358,7 +358,7 @@ void mxsystemsounds::on_toolButton_clicked()
     qDebug() << " current login is ";
     qDebug() << currentlogin;
     runCmd("pkill play");
-    QString cmd = QString("play "+ currentlogin + " &");
+    QString cmd = QString("play \""+ currentlogin + "\" &");
     system(cmd.toUtf8());
 }
 
@@ -368,7 +368,7 @@ void mxsystemsounds::on_toolButton_2_clicked()
     qDebug() << " current logout is ";
     qDebug() << currentlogout;
     runCmd("pkill play");
-    QString cmd = QString("play "+ currentlogout + " &");
+    QString cmd = QString("play \""+ currentlogout + "\" &");
     system(cmd.toUtf8());
 }
 
@@ -470,5 +470,7 @@ void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
         qDebug() << currentlogout;
     }
 }
+
+
 
 

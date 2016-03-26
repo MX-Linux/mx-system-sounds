@@ -6,15 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>379</width>
-    <height>473</height>
+    <width>534</width>
+    <height>478</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MX System Sounds</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="audio-speakers"/>
+   <iconset theme="audio-speakers">
+    <normaloff/>
+   </iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="1">
@@ -271,29 +273,6 @@
      <property name="spacing">
       <number>5</number>
      </property>
-     <item row="0" column="1">
-      <widget class="QPushButton" name="buttonHelp">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="toolTip">
-        <string>Display help </string>
-       </property>
-       <property name="text">
-        <string>Help</string>
-       </property>
-       <property name="icon">
-        <iconset>
-         <normaloff>icons/gnome-help.png</normaloff>icons/gnome-help.png</iconset>
-       </property>
-       <property name="shortcut">
-        <string>Alt+H</string>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="buttonAbout">
        <property name="sizePolicy">
@@ -317,6 +296,29 @@
        </property>
        <property name="autoDefault">
         <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="buttonHelp">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="toolTip">
+        <string>Display help </string>
+       </property>
+       <property name="text">
+        <string>Help</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/gnome-help.png</normaloff>icons/gnome-help.png</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Alt+H</string>
        </property>
       </widget>
      </item>
