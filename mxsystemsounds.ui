@@ -271,7 +271,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>icons/accessories-text-editor.png</normaloff>icons/accessories-text-editor.png</iconset>
+         <normaloff>../../../usr/share/mx-system-sounds/icons/accessories-text-editor.png</normaloff>../../../usr/share/mx-system-sounds/icons/accessories-text-editor.png</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -297,7 +297,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>icons/gnome-help.png</normaloff>icons/gnome-help.png</iconset>
+         <normaloff>../../../usr/share/mx-system-sounds/icons/gnome-help.png</normaloff>../../../usr/share/mx-system-sounds/icons/gnome-help.png</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+H</string>
@@ -362,7 +362,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>icons/dialog-ok.png</normaloff>icons/dialog-ok.png</iconset>
+         <normaloff>../../../usr/share/mx-system-sounds/icons/dialog-ok.png</normaloff>../../../usr/share/mx-system-sounds/icons/dialog-ok.png</iconset>
        </property>
        <property name="shortcut">
         <string/>
@@ -391,7 +391,7 @@
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>icons/gtk-cancel.png</normaloff>icons/gtk-cancel.png</iconset>
+         <normaloff>../../../usr/share/mx-system-sounds/icons/gtk-cancel.png</normaloff>../../../usr/share/mx-system-sounds/icons/gtk-cancel.png</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
