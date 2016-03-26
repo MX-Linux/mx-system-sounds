@@ -205,7 +205,7 @@
      <item row="7" column="5">
       <widget class="QToolButton" name="toolButton_4">
        <property name="toolTip">
-        <string>Use Default</string>
+        <string>Theme Default</string>
        </property>
        <property name="text">
         <string>Theme Default</string>

@@ -9,6 +9,6 @@ Vcs-Git: git://github.com/AdrianTM/mx-system-sounds
 
 Package: mx-system-sounds
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer
+Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer, mx-event-sounds
 Description: MX System Sounds
  MX System Sounds is a tool for selecting the system sounds in MX Linux
