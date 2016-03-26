@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MX System Sounds
+Comment=System Sounds
+Exec=mx-system-sounds
+Icon=audio-speakers
+Path=
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=System
+Name[en_US.UTF-8]=MX System Sounds
