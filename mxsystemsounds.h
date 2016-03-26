@@ -51,6 +51,16 @@ public:
     QString getVersion(QString name);
     Output runCmd(QString cmd);
     void setup();
+    QString customloginsound;
+    QString defualtloginsound;
+    QString customlogoutsound;
+    QString defualtlogoutsound;
+    QString currentlogin;
+    QString currentlogout;
+    bool loginreset;
+    bool logoutreset;
+    bool theme_login_flag;
+    bool theme_logout_flag;
 
 private slots:
     void on_buttonApply_clicked();
@@ -61,6 +71,16 @@ private slots:
     void on_pushButton_customloginsound_clicked();
 
     void on_pushButton_3_displaylogoutsound_clicked();
+
+    void on_toolButton_clicked();
+
+    void on_toolButton_2_clicked();
+
+    void on_toolButton_3_clicked();
+
+    void on_comboBox_theme_activated(const QString &arg1);
+
+    void on_toolButton_4_clicked();
 
 private:
     Ui::mxsystemsounds *ui;
