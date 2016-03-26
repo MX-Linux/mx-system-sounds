@@ -68,6 +68,8 @@ void mxsystemsounds::setup()
 
     //intialize variables
     QString home_path = QDir::homePath();
+    theme_login_flag = true;
+    theme_logout_flag = true;
     QString soundtheme = (runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName").str);
     defualtloginsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-login").str);
     defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-logout").str);
@@ -283,7 +285,7 @@ void mxsystemsounds::on_pushButton_customloginsound_clicked()
         ui->pushButton_customloginsound->setText(file_info.baseName());
         ui->pushButton_customloginsound->setToolTip(file_info.filePath());
         currentlogin = customloginsound;
-        theme_login_flag = true;
+        theme_login_flag = false;
     } else {
         currentlogin = defualtloginsound;
     }
@@ -303,13 +305,14 @@ void mxsystemsounds::on_pushButton_3_displaylogoutsound_clicked()
         ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
         ui->pushButton_3_displaylogoutsound->setToolTip(file_info.filePath());
         currentlogout = customlogoutsound;
-        theme_logout_flag = true;
+        theme_logout_flag = false;
     } else {
         currentlogout = defualtlogoutsound;
     }
 
     qDebug() << " current logout is ";
     qDebug() << currentlogout;
+    qDebug() << theme_logout_flag;
     this->show();
 }
 
@@ -339,6 +342,7 @@ void mxsystemsounds::on_toolButton_3_clicked()
         ui->pushButton_customloginsound->setToolTip("None");
         currentlogin = "None";
     }
+    theme_login_flag = true;
     loginreset = true;
     qDebug() << " current login reset box is ";
     qDebug() << currentlogin;
@@ -358,59 +362,64 @@ void mxsystemsounds::on_toolButton_4_clicked()
             ui->pushButton_3_displaylogoutsound->setToolTip("None");
             currentlogout= "None";
         }
+        theme_logout_flag = true;
         logoutreset = true;
         qDebug() << " current logout reset box is ";
         qDebug() << currentlogout;
+        qDebug() << QString(theme_logout_flag);
     }
 }
 
 void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
 {
     QString home_path = QDir::homePath();
-    QFileInfo file_info(home_path + "/.config/mx-sounds/startupsound.conf");
-    if (file_info.exists()) {
-        currentlogin = (runCmd("cat " + home_path + "/.config/mx-sounds/startupsound.conf").str);
-        QFileInfo file_info(currentlogin);
-        ui->pushButton_customloginsound->setText(file_info.baseName());
-        ui->pushButton_customloginsound->setToolTip(file_info.filePath());
-    } else {
-        defualtloginsound = (runCmd("find  /usr/share/sounds/" + arg1 + "/ |grep desktop-login").str);
-        QFileInfo file_info(defualtloginsound);
+    if (theme_login_flag) {
+        QFileInfo file_info(home_path + "/.config/mx-sounds/startupsound.conf");
         if (file_info.exists()) {
-            ui->pushButton_customloginsound->setText("Default");
+            currentlogin = (runCmd("cat " + home_path + "/.config/mx-sounds/startupsound.conf").str);
+            QFileInfo file_info(currentlogin);
+            ui->pushButton_customloginsound->setText(file_info.baseName());
             ui->pushButton_customloginsound->setToolTip(file_info.filePath());
-            currentlogin = defualtloginsound;
         } else {
-            ui->pushButton_customloginsound->setText("None");
-            ui->pushButton_customloginsound->setToolTip("None");
-            currentlogin = "None";
+            defualtloginsound = (runCmd("find  /usr/share/sounds/" + arg1 + "/ |grep desktop-login").str);
+            QFileInfo file_info(defualtloginsound);
+            if (file_info.exists()) {
+                ui->pushButton_customloginsound->setText("Default");
+                ui->pushButton_customloginsound->setToolTip(file_info.filePath());
+                currentlogin = defualtloginsound;
+            } else {
+                ui->pushButton_customloginsound->setText("None");
+                ui->pushButton_customloginsound->setToolTip("None");
+                currentlogin = "None";
+            }
         }
     }
     qDebug() << " current login theme change box is ";
     qDebug() << currentlogin;
 
-
-    QFileInfo file_info2(home_path + "/.config/mx-sounds/logoutsound.conf");
-    if (file_info2.exists()) {
-        currentlogout = (runCmd("cat " + home_path + "/.config/mx-sounds/logoutsound.conf").str);
-        QFileInfo file_info(currentlogout);
-        ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
-        ui->pushButton_3_displaylogoutsound->setToolTip(file_info.filePath());
-    } else {
-        defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + arg1 + "/ |grep desktop-logout").str);
-        QFileInfo file_info(defualtlogoutsound);
-        if (file_info.exists()) {
-            ui->pushButton_3_displaylogoutsound->setText("Default");
+    if (theme_logout_flag) {
+        QFileInfo file_info2(home_path + "/.config/mx-sounds/logoutsound.conf");
+        if (file_info2.exists()) {
+            currentlogout = (runCmd("cat " + home_path + "/.config/mx-sounds/logoutsound.conf").str);
+            QFileInfo file_info(currentlogout);
+            ui->pushButton_3_displaylogoutsound->setText(file_info.baseName());
             ui->pushButton_3_displaylogoutsound->setToolTip(file_info.filePath());
-            currentlogout = defualtlogoutsound;
         } else {
-            ui->pushButton_3_displaylogoutsound->setText("None");
-            ui->pushButton_3_displaylogoutsound->setToolTip("None");
-            currentlogout = "None";
+            defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + arg1 + "/ |grep desktop-logout").str);
+            QFileInfo file_info(defualtlogoutsound);
+            if (file_info.exists()) {
+                ui->pushButton_3_displaylogoutsound->setText("Default");
+                ui->pushButton_3_displaylogoutsound->setToolTip(file_info.filePath());
+                currentlogout = defualtlogoutsound;
+            } else {
+                ui->pushButton_3_displaylogoutsound->setText("None");
+                ui->pushButton_3_displaylogoutsound->setToolTip("None");
+                currentlogout = "None";
+            }
         }
+        qDebug() << " current logout theme change box is ";
+        qDebug() << currentlogout;
     }
-    qDebug() << " current logout theme change box is ";
-    qDebug() << currentlogout;
 }
 
 
