@@ -13,21 +13,25 @@ Description:
 Changes:
  mx-system-sounds (0.16.6) UNRELEASED; urgency=medium
  .
+   [ dolphin_oracle ]
    *  working ui,mostly
    * fixed file dialog box issue
    * fixed playback with files with spaces
    * added mx logo icon
    *
    *
+ .
+   [ Adrian ]
+   * minor code changes, syle, naming
 Checksums-Sha1:
- 4f062ee9569a8eacfbbd35de453177c5a624f01d 654 mx-system-sounds_0.16.6.dsc
- 666aef2f036bd7e1b1ef28c0c227b82f518ce175 171324 mx-system-sounds_0.16.6.tar.xz
- c1b89ce93ac6bcd1d48580ad7a21c37231e220df 41072 mx-system-sounds_0.16.6_amd64.deb
+ 8d58be07ab81403d5af2b017be9bbc1f1208c32b 651 mx-system-sounds_0.16.6.dsc
+ 1f62156de14d04cd093cc6392eff7f0b49eff5a7 25836 mx-system-sounds_0.16.6.tar.xz
+ 2c0f11df0d0c8de89f723f44fe0b800dc8d5f311 41116 mx-system-sounds_0.16.6_amd64.deb
 Checksums-Sha256:
- 2d68f709a01add02ed3f46441b262d14e24f447b1f37a7c8767cf8460abee214 654 mx-system-sounds_0.16.6.dsc
- 54d905b2e26b84e2baf13a0827c49231527f1f53e356f8a498def4214e3e5664 171324 mx-system-sounds_0.16.6.tar.xz
- af0a826b04027a3bbf0e99cf9946994827c40d60ac6a818b37ba6902f9778827 41072 mx-system-sounds_0.16.6_amd64.deb
+ 0c2377e4c86526b18618c1a1127239154889cf00cd2aab6d32360ebb29cf8956 651 mx-system-sounds_0.16.6.dsc
+ 91578f32d6e87a25b42afcb70588ad13ac15b7b3ec07d02cb3d1a245be890ad9 25836 mx-system-sounds_0.16.6.tar.xz
+ 7d73e613f4542f1795989426ed43115d9b5459ae238584b1094443bcaa595c61 41116 mx-system-sounds_0.16.6_amd64.deb
 Files:
- 6cfb51bd6356ede9e6ea7d920ea874d6 654 admin optional mx-system-sounds_0.16.6.dsc
- e1fb32334623ace572440dc50421a7c8 171324 admin optional mx-system-sounds_0.16.6.tar.xz
- c25e16ae4589f97363bb23c74114449a 41072 admin optional mx-system-sounds_0.16.6_amd64.deb
+ abfea4e39a84b4521ac3866df92feef1 651 admin optional mx-system-sounds_0.16.6.dsc
+ b3f5cb6bb63461dd5c14021688ec67fd 25836 admin optional mx-system-sounds_0.16.6.tar.xz
+ dd0da5668b06e195d92448b49e1109c2 41116 admin optional mx-system-sounds_0.16.6_amd64.deb

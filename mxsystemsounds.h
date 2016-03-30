@@ -67,20 +67,14 @@ private slots:
     void on_buttonAbout_clicked();
     void on_buttonHelp_clicked();
 
-
-    void on_pushButton_customloginsound_clicked();
-
-    void on_pushButton_3_displaylogoutsound_clicked();
-
-    void on_toolButton_clicked();
-
-    void on_toolButton_2_clicked();
-
-    void on_toolButton_3_clicked();
-
+    void on_button_login_sound_clicked();
+    void on_button_logout_sound_clicked();
+    void on_button_play_login_clicked();
+    void on_button_play_logout_clicked();
+    void on_button_reset_login_clicked();
+    void on_button_reset_logout_clicked();
     void on_comboBox_theme_activated(const QString &arg1);
 
-    void on_toolButton_4_clicked();
 
 private:
     Ui::mxsystemsounds *ui;
