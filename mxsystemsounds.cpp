@@ -74,9 +74,9 @@ void mxsystemsounds::setup()
         qDebug() << "Found Config File";
     } else {
         runCmd("mkdir " + home_path + "/.config/mx-sounds");
-        runCmd("echo true is enabled, false is disabled >>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        runCmd("echo startup=true>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        runCmd("echo logout=true>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("echo '#true is enabled, false is disabled' >>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("echo startup=false>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("echo logout=false>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
     }
 
     //move .conf files if necessary
