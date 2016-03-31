@@ -1,14 +1,14 @@
-mx-system-sounds (0.16.6) UNRELEASED; urgency=medium
+mx-system-sounds (0.16.8) UNRELEASED; urgency=medium
 
   [ dolphin_oracle ]
   *  working ui,mostly
   * fixed file dialog box issue
   * fixed playback with files with spaces
   * added mx logo icon
-  * 
+  * string change suggestions by Old Giza incorporated
   * 
 
   [ Adrian ]
   * minor code changes, syle, naming
 
- -- dolphin_oracle <dolphin@mx1>  Sat, 26 Mar 2016 16:03:00 -0400
+ -- dolphin_oracle <dolphin@littlebyte>  Thu, 31 Mar 2016 10:37:39 -0400

@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=MX System Sounds
-Comment=System Sounds
+Comment=Configure Event & Session Sounds
 Exec=mx-system-sounds
 Icon=audio-speakers
 Path=
