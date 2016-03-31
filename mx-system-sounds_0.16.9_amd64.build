@@ -1,6 +1,6 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package mx-system-sounds
-dpkg-buildpackage: source version 0.16.8
+dpkg-buildpackage: source version 0.16.9
 dpkg-buildpackage: source distribution UNRELEASED
 dpkg-buildpackage: source changed by dolphin_oracle <dolphin@littlebyte>
  dpkg-source --before-build mx-system-sounds
@@ -11,13 +11,21 @@ dh clean --parallel
    debian/rules override_dh_auto_clean
 make[1]: Entering directory '/home/dolphin/mx-system-sounds'
 dh_auto_clean
+make[2]: Entering directory '/home/dolphin/mx-system-sounds'
+rm -f moc_mxsystemsounds.cpp
+rm -f ui_mxsystemsounds.h
+rm -f main.o mxsystemsounds.o moc_mxsystemsounds.o
+rm -f *~ core *.core
+rm -f mx-system-sounds 
+rm -f Makefile
+make[2]: Leaving directory '/home/dolphin/mx-system-sounds'
 rm -f src/translations/*.qm
 make[1]: Leaving directory '/home/dolphin/mx-system-sounds'
    dh_clean -O--parallel
  dpkg-source -b mx-system-sounds
 dpkg-source: info: using source format `3.0 (native)'
-dpkg-source: info: building mx-system-sounds in mx-system-sounds_0.16.8.tar.xz
-dpkg-source: info: building mx-system-sounds in mx-system-sounds_0.16.8.dsc
+dpkg-source: info: building mx-system-sounds in mx-system-sounds_0.16.9.tar.xz
+dpkg-source: info: building mx-system-sounds in mx-system-sounds_0.16.9.dsc
  debian/rules build
 dh build --parallel 
    dh_testdir -O--parallel
@@ -97,9 +105,9 @@ dpkg-gencontrol: warning: File::FcntlLock not available; using flock which is no
    debian/rules override_dh_builddeb
 make[1]: Entering directory '/home/dolphin/mx-system-sounds'
 dh_builddeb -- -Z xz
-dpkg-deb: building package `mx-system-sounds' in `../mx-system-sounds_0.16.8_amd64.deb'.
+dpkg-deb: building package `mx-system-sounds' in `../mx-system-sounds_0.16.9_amd64.deb'.
 make[1]: Leaving directory '/home/dolphin/mx-system-sounds'
- dpkg-genchanges  >../mx-system-sounds_0.16.8_amd64.changes
+ dpkg-genchanges  >../mx-system-sounds_0.16.9_amd64.changes
 dpkg-genchanges: including full source code in upload
  dpkg-source --after-build mx-system-sounds
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
