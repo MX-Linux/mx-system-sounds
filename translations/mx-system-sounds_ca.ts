@@ -8,53 +8,53 @@
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="298"/>
         <source>MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation>MX System Sounds</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Sons dels esdeveniments </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Sons de la sessió </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Sons d&apos;esdeveniments XFCE </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation type="unfinished"/>
+        <translation>Entrada </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Sons de reacció a l&apos;entrada XFCE </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation type="unfinished"/>
+        <translation>Sortida </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Sons a mida </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation type="unfinished"/>
+        <translation>So d&apos;entrada </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -67,23 +67,23 @@
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation type="unfinished"/>
+        <translation>Tema per omissió </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation type="unfinished"/>
+        <translation>Usa per omissió </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation type="unfinished"/>
+        <translation>So de sortida </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation type="unfinished"/>
+        <translation>Borealis</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
@@ -138,7 +138,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="281"/>
         <source>About MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Quant a MX System Sounds </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="282"/>
@@ -148,7 +148,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="283"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Configura els sons de sessió i esdeveniments </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="285"/>
@@ -170,13 +170,13 @@
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Select Sound File</source>
-        <translation type="unfinished"/>
+        <translation>Selecciona el fitxer de so</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="unfinished"/>
+        <translation>Fitxers de so (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav) </translation>
     </message>
 </context>
 </TS>
