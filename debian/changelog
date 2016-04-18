@@ -1,4 +1,10 @@
-mx-system-sounds (0.16.9) UNRELEASED; urgency=medium
+mx-system-sounds (16.4mx15) mx; urgency=medium
+
+  * added translations
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 18 Apr 2016 18:30:37 -0400
+
+mx-system-sounds (0.16.9) mx; urgency=medium
 
   [ dolphin_oracle ]
   *  working ui,mostly
@@ -9,7 +15,7 @@ mx-system-sounds (0.16.9) UNRELEASED; urgency=medium
   * changed .conf settings to false by default
 
   [ Adrian ]
-  * minor code changes, syle, naming
+  * minor code changes, style, naming
 
   [ dolphin_oracle ]
   * 
