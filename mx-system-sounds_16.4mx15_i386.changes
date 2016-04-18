@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 18 Apr 2016 18:30:37 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 16.4mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.4mx15) mx; urgency=medium
+ .
+   * added translations
+Checksums-Sha1:
+ 8fb7770b2c947d31ecceed92f21c57714aa30049 46848 mx-system-sounds_16.4mx15_i386.deb
+Checksums-Sha256:
+ 9fe88c0fcffe99e2d84ac30914ff7835ffc8a07ec8b7114373b73683df7e6a6c 46848 mx-system-sounds_16.4mx15_i386.deb
+Files:
+ 63a0e4647a631f92e47bce3153c3787a 46848 admin optional mx-system-sounds_16.4mx15_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJXFWGyAAoJEHCTjHgGee6YXO4H/2HphJEFJRzp9HfV1rN1pQgb
+3+PwdeCnsb9VxRRebkecy8Exsk6WurPlR3SN/nQtFlGYlBXBlbVJuW6BsPisKA0q
+mzRNRfU7GHpregrP2xeMX4qpW6fdn46qHXt3Cb05wrfhGftEurh3IYhLNATUe2RL
+0hBKMFDAKt3pfJI5b5DWUA+SWHlUnD/ZIU72vxGOZ0+8Xf4A9OB0xh9b2rOnreXB
++/tcn8w2BlIhRzeO2MsAMu4DkIFX+n9n9d7P49HtUca/Wo1uqSIHy9+5Y3Dwqm41
+2Kl05zcLFOXXKFbqcCy1bdb7rihe3Xam6Pje+pj4MtIhvHqTdH7RIOHwSXNjsN4=
+=bahv
+-----END PGP SIGNATURE-----
