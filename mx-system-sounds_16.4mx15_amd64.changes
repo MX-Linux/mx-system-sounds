@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 1.8
 Date: Mon, 18 Apr 2016 18:30:37 -0400
 Source: mx-system-sounds
@@ -18,26 +15,14 @@ Changes:
  .
    * added translations
 Checksums-Sha1:
- 41d90acb22f1f2609c78c80275fde3c5a585a3c0 1180 mx-system-sounds_16.4mx15.dsc
- 45961e9d59b7dbb48fc17ad80dcef01a0faa6e1e 58724 mx-system-sounds_16.4mx15.tar.xz
- 7b736ff8b02fa74f71f7362543f73ad9ade2231e 46558 mx-system-sounds_16.4mx15_amd64.deb
+ 16ef248af7eeb34f1dcb2e60a900615fa3c653cb 662 mx-system-sounds_16.4mx15.dsc
+ 1aa7255a006a847899969b1223c12910e62b0db7 185912 mx-system-sounds_16.4mx15.tar.xz
+ 06a27337c537d00f9ad086f911100ab5d5833942 46448 mx-system-sounds_16.4mx15_amd64.deb
 Checksums-Sha256:
- c03a17b29bc0427a2162e7bb7eabce95e349cebd9fd49c3685c146d29e53d6dd 1180 mx-system-sounds_16.4mx15.dsc
- 544122b9682e655a912ca417daff1f1f0aef63c3c9ca7e42dcdc87a993090434 58724 mx-system-sounds_16.4mx15.tar.xz
- 2aa945537abe6d2a74718800ad728c57c8d59ca5fc37c08c5667a455b13a7905 46558 mx-system-sounds_16.4mx15_amd64.deb
+ fb68c8b2e587517e9fd5fea4738057fb0d56278070eedab5c290430af902f229 662 mx-system-sounds_16.4mx15.dsc
+ 953288a2ee4e00ad93ce5c422bbe04d64c65572a0bd4b67c3ecba2612b5f87ab 185912 mx-system-sounds_16.4mx15.tar.xz
+ efb7eb4edb39980dbd6d81819d5595c1385ca87aad34897875788dbced7c1c26 46448 mx-system-sounds_16.4mx15_amd64.deb
 Files:
- 95dbb0e402f4b3fca1b0fa1342038548 1180 admin optional mx-system-sounds_16.4mx15.dsc
- 6850b80829cd97e028749f692a214a05 58724 admin optional mx-system-sounds_16.4mx15.tar.xz
- 321d814b9b906b00d8c4d6d09ff21ffa 46558 admin optional mx-system-sounds_16.4mx15_amd64.deb
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-
-iQEcBAEBAgAGBQJXFWBbAAoJEHCTjHgGee6YonkIANQtzgmd1W6ECQ1vSeQUmvZc
-5ljNgHVEbHiBlw2xmqxObAtB/06CzJBD2+8X5bnfhUZGEh4m5Mqvb3FKyI6QKrvG
-3gQ2C0HuOG/kemGCW4Qn9AvSgnhEUicrjbrf/KzMtjR5Zq4P/CVRVhx6g3tsPH0Z
-Pz+d7Hwh+QxPr6UYviV84NHBhqVnK3veMXvjEwbUcuhet/1MTQ9uuJtnL6BQZIl8
-Dnk3KE1BjAViB8BRm7z6bNelfbIwg2epSC3hzKDen/AA+svqdbupn3o6Pt24gWfl
-k8W6WKW13Mnz7Fyy4PqBKhcb4P9hPFns34mJKLNPCO/UyMdlO5HCe83UihuEnwo=
-=S31M
------END PGP SIGNATURE-----
+ a6a17e5c672cf5141eff2dcdb8024189 662 admin optional mx-system-sounds_16.4mx15.dsc
+ d6ce9d6e20a6ecbda36f94f0b50f3500 185912 admin optional mx-system-sounds_16.4mx15.tar.xz
+ 462eeb97b3763a3f0066e3913836189b 46448 admin optional mx-system-sounds_16.4mx15_amd64.deb
