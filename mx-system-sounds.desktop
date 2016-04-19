@@ -31,6 +31,6 @@ Exec=mx-system-sounds
 Terminal=false
 Type=Application
 Icon=audio-speakers
-Categories=System
+Categories=XFCE;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
 Path=
 StartupNotify=false
