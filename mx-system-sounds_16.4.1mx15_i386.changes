@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 21 Apr 2016 14:28:15 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source i386
+Version: 16.4.1mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.4.1mx15) mx; urgency=medium
+ .
+   * change control file dependencies
+   *
+Checksums-Sha1:
+ 28d7c294d426e69a8239b8e6e4df04801e16bf74 667 mx-system-sounds_16.4.1mx15.dsc
+ 9e89fb092963aaee47b2d5fa399a577fe729c5da 35776 mx-system-sounds_16.4.1mx15.tar.xz
+ ca9a423d8b7a12d664f8f03d4be0ee2fc62c351f 48330 mx-system-sounds_16.4.1mx15_i386.deb
+Checksums-Sha256:
+ 60a2e1d49ff91d49f0aa8768f425f4698783341c46077a8807cb73cf6dad1aa4 667 mx-system-sounds_16.4.1mx15.dsc
+ 24e14aee275a3b79fd9ca12dc6a296066453020f450e9a0c6aff64326d66442e 35776 mx-system-sounds_16.4.1mx15.tar.xz
+ eb486ce52e17627742bbffe47d1970453172a40af111c658959dacd7692dcc26 48330 mx-system-sounds_16.4.1mx15_i386.deb
+Files:
+ 23a859705eea8d1b8809cde853569ad1 667 admin optional mx-system-sounds_16.4.1mx15.dsc
+ 2663b90cfbc5e79c13eacf3c242c1a67 35776 admin optional mx-system-sounds_16.4.1mx15.tar.xz
+ 13458408b2575ead4e23710a2c51348a 48330 admin optional mx-system-sounds_16.4.1mx15_i386.deb
