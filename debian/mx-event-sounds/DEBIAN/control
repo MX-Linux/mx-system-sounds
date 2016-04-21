@@ -1,0 +1,12 @@
+Package: mx-event-sounds
+Source: mx-system-sounds
+Version: 16.4.1mx15
+Architecture: all
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Installed-Size: 25
+Depends: mx-system-sounds
+Section: admin
+Priority: optional
+Description: dummy transitional package to mx-system-sounds
+ Dummy transitional package to mx-system-sounds.
+ It can be safely removed after the upgrade

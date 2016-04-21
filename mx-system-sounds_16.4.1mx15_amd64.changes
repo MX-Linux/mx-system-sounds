@@ -1,14 +1,15 @@
 Format: 1.8
 Date: Thu, 21 Apr 2016 14:28:15 -0400
 Source: mx-system-sounds
-Binary: mx-system-sounds
-Architecture: source amd64
+Binary: mx-system-sounds mx-event-sounds
+Architecture: source amd64 all
 Version: 16.4.1mx15
 Distribution: mx
 Urgency: medium
 Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Changed-By: dolphin oracle <dolphinoracle@gmail.com>
 Description:
+ mx-event-sounds - dummy transitional package to mx-system-sounds
  mx-system-sounds - MX System Sounds
 Changes:
  mx-system-sounds (16.4.1mx15) mx; urgency=medium
@@ -16,14 +17,17 @@ Changes:
    * change control file dependencies
    *
 Checksums-Sha1:
- e4ff23fe93c0ea424b5058d65bc9049ce0bb0c99 670 mx-system-sounds_16.4.1mx15.dsc
- 2d48cc065589e711e8c4d86522bca92cdecd3ebf 155804 mx-system-sounds_16.4.1mx15.tar.xz
- c661f67a58a5d48c96e6a172ffa6f99eb8612bc8 47754 mx-system-sounds_16.4.1mx15_amd64.deb
+ ec0c4c276dcf0b3d8b7959d6c8ae095bf45790c1 733 mx-system-sounds_16.4.1mx15.dsc
+ 5659c93c301fbfaa648a3ff62472c559ac366d4c 69484 mx-system-sounds_16.4.1mx15.tar.xz
+ 9bac1e99b395b026de3c5af0d15b1917c3429b60 47738 mx-system-sounds_16.4.1mx15_amd64.deb
+ aa034b4f774091c34db02124ad3dc7b88d79c4af 1582 mx-event-sounds_16.4.1mx15_all.deb
 Checksums-Sha256:
- 043b9e50dadb5faf8fb1f4cb61634bc22d7b893c08a396b8981d4f9bfa49babe 670 mx-system-sounds_16.4.1mx15.dsc
- f7214b240fbb24b8a21fd4e5e0cc4ca23f17f30da62da3e7fceb3cd32dfacb5e 155804 mx-system-sounds_16.4.1mx15.tar.xz
- 9497986ed08ef3788f0c4aa9de6230e9e48f8c77deaae9794f02478587bb7165 47754 mx-system-sounds_16.4.1mx15_amd64.deb
+ 7586f129e964b455188921a110e0e207d095e29f97816205a7910294d4dab0c0 733 mx-system-sounds_16.4.1mx15.dsc
+ baa97c3011b65af546ac7c7cd3a9f606851b97b9c3d46d4b8bf7d30e263c23e4 69484 mx-system-sounds_16.4.1mx15.tar.xz
+ 4cb817165fbda3b57aa94a8a9f120c2bbceb7bbf78334fc7b5765bdf94338bb6 47738 mx-system-sounds_16.4.1mx15_amd64.deb
+ 1f3e21b827489b7362b8b1cf8a5f0bcd796b352f9b8afe936c32076242c51ab2 1582 mx-event-sounds_16.4.1mx15_all.deb
 Files:
- ec3bb53400c8b75be114f235d56cf724 670 admin optional mx-system-sounds_16.4.1mx15.dsc
- 147df0ecb49ffd101110a0947f3cdc83 155804 admin optional mx-system-sounds_16.4.1mx15.tar.xz
- e9ee36aae5718984398b63d990059cee 47754 admin optional mx-system-sounds_16.4.1mx15_amd64.deb
+ 297a41ce665f91c5365980dd932776b5 733 admin optional mx-system-sounds_16.4.1mx15.dsc
+ 2e32c952ecec38ae5bc509154bf2bd9b 69484 admin optional mx-system-sounds_16.4.1mx15.tar.xz
+ 34e0bd7a37f9631a8c075ddee6206850 47738 admin optional mx-system-sounds_16.4.1mx15_amd64.deb
+ 73d58be78bc83ddb6e159fb45dab8deb 1582 admin optional mx-event-sounds_16.4.1mx15_all.deb
