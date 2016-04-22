@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 21 Apr 2016 14:28:15 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds mx-event-sounds
+Architecture: source i386 all
+Version: 16.4.1mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin oracle <dolphinoracle@gmail.com>
+Description:
+ mx-event-sounds - dummy transitional package to mx-system-sounds
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.4.1mx15) mx; urgency=medium
+ .
+   * change control file dependencies
+   *
+Checksums-Sha1:
+ 698d22ed156256f66ee90910870618406e9a5a21 736 mx-system-sounds_16.4.1mx15.dsc
+ f0b53fdb43dd1f846750139d182bcc3a2ddb665d 189636 mx-system-sounds_16.4.1mx15.tar.xz
+ 6662dd2859761011a979d386ef9eeed0d350bf76 48068 mx-system-sounds_16.4.1mx15_i386.deb
+ 9fd07a8fb380fa6f2b98618c560840d799f0b664 1588 mx-event-sounds_16.4.1mx15_all.deb
+Checksums-Sha256:
+ dfddafb3a391b5ffb86c7ee933ea7a9ac0d0e65d15de9fba9803a24d631d3071 736 mx-system-sounds_16.4.1mx15.dsc
+ 02a2842081bf2bf870a47ea358e00fd4454f6a4f8b55fa19bbc05fec47a1033a 189636 mx-system-sounds_16.4.1mx15.tar.xz
+ 9e8f25cbb9228c58a7c4fe99dfd24e69ac746b8fbe27bd34d00e23b1deb0e386 48068 mx-system-sounds_16.4.1mx15_i386.deb
+ 256162d5c323ffe8c26ad936fac5500605fe233e68a42bc314b656e2e8688b9a 1588 mx-event-sounds_16.4.1mx15_all.deb
+Files:
+ 57ee6f5317fde79be0d88f2bf1690a38 736 admin optional mx-system-sounds_16.4.1mx15.dsc
+ 7150582369b7a0fddc425bec4625efe5 189636 admin optional mx-system-sounds_16.4.1mx15.tar.xz
+ c4be935d104d2f6bcc3f439e3a5b808e 48068 admin optional mx-system-sounds_16.4.1mx15_i386.deb
+ 4b82dfb7b7025f05716c9a91d43f8678 1588 admin optional mx-event-sounds_16.4.1mx15_all.deb
