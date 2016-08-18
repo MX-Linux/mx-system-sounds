@@ -2,51 +2,53 @@
 
 set -e
 
-if   [ "$1" = "configure" -a "$2" = "0.1.1" ]; then
+if [ "$1" = "configure" -a "$2" = "0.1.1" ]; then
   for i in /var/lib/dpkg/diversions /var/lib/dpkg/diversions-old
     do
-      [ ! -e $i ] || sed -i '/\/etc\/X11\/Xsession.d\/52libcanberra-gtk-module_add-to-gtk-modules/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/local\/bin\/startupsound/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/local\/bin\/xfce4-session/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/local\/bin\/logoutsound/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-unminimized.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_3.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/phone-incoming-call.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/service-login.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-switch-right.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/K3b_success.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-question.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-login.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/install.sh/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_1.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/device-removed.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-warning.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-toggle-off.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/trash-empty.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/device-added.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/uninstall.sh/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/README/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/message-new-instant.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-information.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_2.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Kopete_status.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Knock.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-minimized.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-maximized.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Exit1_2.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-error.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/service-logout.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/system-ready.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/phone-outgoing-busy.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-logout.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-close.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-pressed.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-switch-left.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-toggle-on.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-unmaximized.ogg/d' $i
-      [ ! -e $i ] || sed -i '/\/usr\/share\/sounds\/Borealis\/index.theme/d' $i
-      [ ! -e $i ] || sed -i '/mx-sound-theme-borealis/d' $i
-      [ ! -e $i ] || sed -i '/mx-system-sounds/d' $i
+      if [ -f $i ]; then
+        sed -i '/\/etc\/X11\/Xsession.d\/52libcanberra-gtk-module_add-to-gtk-modules/d' $i
+        sed -i '/\/usr\/local\/bin\/startupsound/d' $i
+        sed -i '/\/usr\/local\/bin\/xfce4-session/d' $i
+        sed -i '/\/usr\/local\/bin\/logoutsound/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-unminimized.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_3.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/phone-incoming-call.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/service-login.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-switch-right.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/K3b_success.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-question.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-login.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/install.sh/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_1.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/device-removed.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-warning.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-toggle-off.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/trash-empty.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/device-added.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/uninstall.sh/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/README/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/message-new-instant.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-information.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Startup1_2.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Kopete_status.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Knock.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-minimized.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-maximized.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/Exit1_2.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/dialog-error.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/service-logout.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/system-ready.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/phone-outgoing-busy.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-logout.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-close.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-pressed.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/desktop-switch-left.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/button-toggle-on.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/stereo\/window-unmaximized.ogg/d' $i
+        sed -i '/\/usr\/share\/sounds\/Borealis\/index.theme/d' $i
+        sed -i '/mx-sound-theme-borealis/d' $i
+        sed -i '/mx-system-sounds/d' $i
+      fi
     done  
   mv -f /etc/X11/Xsession.d/52libcanberra-gtk-module_add-to-gtk-modules.distrib /etc/X11/Xsession.d/52libcanberra-gtk-module_add-to-gtk-modules 2>/dev/null
 
