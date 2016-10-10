@@ -5,7 +5,7 @@
  *
  * Authors: dolphin_oracle
  *          Adrian
- *          MX & MEPIS Community <http://forum.mepiscommunity.org>
+ *          MX Linux <http://mxlinux.org>
  *
  * This file is part of mx-system-sounds.
  *
@@ -281,7 +281,7 @@ void mxsystemsounds::on_buttonAbout_clicked()
                        tr("About MX System Sounds"), "<p align=\"center\"><b><h2>" +
                        tr("MX System Sounds") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
                        tr("Configure Event & Session Sounds") +
-                       "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p align=\"center\">" +
+                       "</h3></p><p align=\"center\"><a href=\"https://mxlinux.org/mx\">https://mxlinux.org/mx</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("Cancel"), QMessageBox::AcceptRole); // because we want to display the buttons in reverse order we use counter-intuitive roles.
     msgBox.addButton(tr("License"), QMessageBox::RejectRole);
@@ -295,7 +295,7 @@ void mxsystemsounds::on_buttonAbout_clicked()
 void mxsystemsounds::on_buttonHelp_clicked()
 {
 
-    QString cmd = QString("mx-viewer http://mepiscommunity.org/wiki/help-files/help-mx-system-sounds '%1'").arg(tr("MX System Sounds"));
+    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-system-sounds '%1'").arg(tr("MX System Sounds"));
     system(cmd.toUtf8());
 
 }
