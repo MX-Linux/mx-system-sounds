@@ -18,26 +18,26 @@ Changes:
  .
    * changed URLs
 Checksums-Sha1:
- 0f0a1560d3876902faca42b574247eac2c804973 1184 mx-system-sounds_16.10mx16.dsc
- 4ca24eec3150d74f1c8e5a7f667d295412ad6536 72000 mx-system-sounds_16.10mx16.tar.xz
- acaec84a23fa6305596c8f0a1765a1fd5721349b 47876 mx-system-sounds_16.10mx16_amd64.deb
+ 183f1c5b5d90c371a60d867e6a2b332e3fc5bab5 1184 mx-system-sounds_16.10mx16.dsc
+ bc59338ab144304ac1e011cbabcb185aa0fd23ff 35660 mx-system-sounds_16.10mx16.tar.xz
+ 4054de9ea3a006fbbe370bf734c08992f1b29608 47910 mx-system-sounds_16.10mx16_amd64.deb
 Checksums-Sha256:
- ee25c881044400811e8c74177ec586c499d5ceda66ee102dd2d13d9a18085af4 1184 mx-system-sounds_16.10mx16.dsc
- 14f28927dae8a3a9a9a7f28b7ef1fd5917f93b9f69a9306e867f82ac7ca0ce91 72000 mx-system-sounds_16.10mx16.tar.xz
- 5832262b8ddc550a07a7dc23b0d7eea8ca12c10f69aaad28ea890b1fa1c5376a 47876 mx-system-sounds_16.10mx16_amd64.deb
+ 3da769a104882af7697bd798534023c73f44dc5e996b5eb7d7dbea20c19e86d1 1184 mx-system-sounds_16.10mx16.dsc
+ 19e84e5a499990daec7b43fc54126e310c6990e2389dd45c82ffc44861334ee1 35660 mx-system-sounds_16.10mx16.tar.xz
+ ae6fb6c4dda1555e8ed5703eed7128a09c5e12ab4ce1fff812bbd718ae67d554 47910 mx-system-sounds_16.10mx16_amd64.deb
 Files:
- 3c1ba8ad2e16891787c76c83bd2c500b 1184 admin optional mx-system-sounds_16.10mx16.dsc
- ce050d0831c9066a14ac79dfa6b623be 72000 admin optional mx-system-sounds_16.10mx16.tar.xz
- 9bd03e7b696adb4df9f96e8b4c9f4c6c 47876 admin optional mx-system-sounds_16.10mx16_amd64.deb
+ 6c66264aa0aa3c7fdfe5460f785bef5a 1184 admin optional mx-system-sounds_16.10mx16.dsc
+ 5ccd25f36f815ecd7d67a7deea5a58c6 35660 admin optional mx-system-sounds_16.10mx16.tar.xz
+ 31b7cc719e7c2b1d77380db76575091c 47910 admin optional mx-system-sounds_16.10mx16_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJX+9vJAAoJEHCTjHgGee6YmYAH/3HF/y6MzCN7QsRZTXH5HHiy
-PMh2DLLp+gfV00GJjjjvoImN7j+OFlHSgbmmNbqwlrFqYFvG24uifIvFYjNwLVlB
-cTR3TYysbtUOjc84tA76tXOAMrtuB7YnO/l9aeA6TweZDGEMyic/5fKze9JbG2+T
-HT3+gceOzJwp7Ee6E1KqHZz8NCaZSIgAcl3w+FWVZpmbKB8cXnis1uUDltycKCaB
-IId7mp+5JOJy38AGZJVSjQh5xUKlRppKd8Wiy8U0AYWCk+sU3rxx5ykDYYjxaR9t
-k4yjDJYdAexUjPg98rn2tvApb9crHZhdDowGHYUdHpxyi+Ngxs4d750K/zj8K9g=
-=47b4
+iQEcBAEBAgAGBQJX++QkAAoJEHCTjHgGee6YJ8YIAKgO0HKDP4pvDKPCiatLGSnq
+ViwtLb2IGVkALRxPvOm3UWGs+4R4XcJQhTplc0HrNh/kgn01jNurIbPOSDjYJVoJ
+deBs1XLAAZtxEp5f41za7Usinu2o/9HKwo6mVqFCZTc9+HvU+jTuTpiDjqhgxN3W
+AQUNz8lPeRnwOStZcKRaC/roRi5GLl+NOmhpkGSteaRaOkBz1ueszvmh1BgGkQYv
+CqZDONm4egD+uVZliLS3/6zW5Abe1ZiOHdEoBHqhD3oua7HJFTUE/EZykS2oI4/Z
+Hx9cZ3n1B6z3ESJcEKM7BrYAMIwPQS3Ymu0pqxGQcsyNE6ac3bbrRFXs4Kx4nWw=
+=O/F1
 -----END PGP SIGNATURE-----
