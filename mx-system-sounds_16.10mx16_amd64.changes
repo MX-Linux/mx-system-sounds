@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 10 Oct 2016 14:09:05 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds mx-event-sounds
+Architecture: source amd64 all
+Version: 16.10mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-event-sounds - dummy transitional package to mx-system-sounds
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.10mx16) mx; urgency=medium
+ .
+   * changed URLs
+Checksums-Sha1:
+ d2d29f3d9ed566b9ead5520c410ee1ede5511468 1250 mx-system-sounds_16.10mx16.dsc
+ c7254e680fa2771c2d924709386d55c091a2939d 36060 mx-system-sounds_16.10mx16.tar.xz
+ b0259ab87b36434019f3fa021e8208f3e66ebed7 48394 mx-system-sounds_16.10mx16_amd64.deb
+ 0a124f0cea7eb0a94e795d62e6a775a7510855d2 1642 mx-event-sounds_16.10mx16_all.deb
+Checksums-Sha256:
+ 6dc02c2f549b3cb4f5d9a8719408f9e5da1260a9a53f99f28479ab172296b109 1250 mx-system-sounds_16.10mx16.dsc
+ 69f951e09eb4a4334e641a93a07216004444e7dcbb0970b373d24e18d7641f3e 36060 mx-system-sounds_16.10mx16.tar.xz
+ ea4a078bedaaa5a045c16a2f3ca865266b5366b4724641b33edbaaa04aceb78e 48394 mx-system-sounds_16.10mx16_amd64.deb
+ abdb71c77a432d517db2e1feb49dc302fa01dac34992aaff7a442f9f3ba3bbfc 1642 mx-event-sounds_16.10mx16_all.deb
+Files:
+ a3ceae2c5f8ea4a09bfd8aba444c31fd 1250 admin optional mx-system-sounds_16.10mx16.dsc
+ b4805f8b7f67944d54920c11a8b3d4ac 36060 admin optional mx-system-sounds_16.10mx16.tar.xz
+ 02a3c5f16f8d82623770d1eb14ac0026 48394 admin optional mx-system-sounds_16.10mx16_amd64.deb
+ 77afdf3974c13d283542b0bf9221c95e 1642 admin optional mx-event-sounds_16.10mx16_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJX+9p7AAoJEHCTjHgGee6Yv5oIAIYRZ4AferWaVeM6krNbKXIQ
+wcl3NcaNFMc7jtCmCoVluUXQD8DppE9Ab1FAXnYClF+uennQSB52XRPRC4uiay4W
+LIf+ZK/BwGgnDl7CsMCSM2ouDkNLCo1HHIXilaNpq4aCiQd21O8FZhx6z5Uinlz+
++icF+EFcNTElwVAIAhcPTbqrmRHbkoUMmVY7QqEkQPAhB8BnodmGapWQJbgsrTPi
++dnjeu5sJy0jfHU6reiX7CCyPWgWXfWfZXrzIHpbRkU7aISpqiy+5HmwPQlC4//A
+/O+AimygWFVqoD22DCAZ0Og1rInqk/rSC+sbimYXq+VyCLr9fpn7/Ycpm/pPECM=
+=Vxq9
+-----END PGP SIGNATURE-----
