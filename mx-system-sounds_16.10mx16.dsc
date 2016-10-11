@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-system-sounds deb admin optional arch=any
 Checksums-Sha1:
- bc59338ab144304ac1e011cbabcb185aa0fd23ff 35660 mx-system-sounds_16.10mx16.tar.xz
+ 03efe932113ff5377360bd947dc8a2bc3f2b4ad0 136312 mx-system-sounds_16.10mx16.tar.xz
 Checksums-Sha256:
- 19e84e5a499990daec7b43fc54126e310c6990e2389dd45c82ffc44861334ee1 35660 mx-system-sounds_16.10mx16.tar.xz
+ ea6276986b636409ab9412cff151b4bb127ee1754e15d0637b6660c2a3fa7516 136312 mx-system-sounds_16.10mx16.tar.xz
 Files:
- 5ccd25f36f815ecd7d67a7deea5a58c6 35660 mx-system-sounds_16.10mx16.tar.xz
+ 47f55a694e0197c9c73907697ca0ae55 136312 mx-system-sounds_16.10mx16.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJX++QaAAoJEHCTjHgGee6Y8dsH/ji1Xn0YR56iwstTDXpgts2M
-Phvi1OjQMgOI/1rl3CAAPp9l5DUtE3bkfvEKEXdbNhrZrG8maKkEaZBGneJ5mWF2
-SafMO4fzKtX9+R0HZcd1QDi+isofP8AVdEqD7e90m3ssGdsn47sU+S9ItDC7C16g
-I5zlI3NPN+nbJBqZ5JFa/2oqxBynHABJvhXqGX4ALZC6xH7NQ510ASY9LEGQIp28
-S+iI1fobpozfxHlh7Gc3ISScFPPxODGrWx++cs/Yc1vElBk8gh2mBGr3pa7UXbKl
-r30x6D0tTSxgD0/U4plJ4A7vyR8I/jhD89u44dHIK5MlqjbpuNVt8EF0PTF9NQg=
-=CwAj
+iQEcBAEBAgAGBQJX/OKTAAoJEHCTjHgGee6YLr0H/iO9s9Ts+DtTKiskHUvTE7st
+RLogKVnhTSZq7o1jLEQ5UBa5evWgjqjmznR+ka2UQ2klIjhfHPXtW46xlLSNQDy7
+GoziBSy7eeumk4yxEEa2WNy9tdTxHtPPC8okzsT1lJt18pSXNNs3h1wlTHdhF0wA
+QdLmcW+9YDEmUAkxGkUtbY+puWXd9W8Seep13G3p/0D82d6s+O/okvkOP0bFmpEA
+qYhkwlFwDbJhz5u7FhSswK0EaAKh6Jt0vT5OPTg0rSVLnTtSR8UkIoZNqOB9qZ0R
+cBTXPfRaM8zL/qaUtB55A+awqDjkIBfuk3oi0KPuArGIrS/NdU9CtTt6Iq4zA+I=
+=kvnG
 -----END PGP SIGNATURE-----
