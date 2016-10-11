@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 10 Oct 2016 14:09:05 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source
+Version: 16.10mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.10mx16) mx; urgency=medium
+ .
+   * changed URLs
+Checksums-Sha1:
+ 273758fa2a1dee65bb4ac9fd4f039f509073948b 1187 mx-system-sounds_16.10mx16.dsc
+ 03efe932113ff5377360bd947dc8a2bc3f2b4ad0 136312 mx-system-sounds_16.10mx16.tar.xz
+Checksums-Sha256:
+ ab3a47b67cf46462f00ad576807d83f9179d1bf38aac28f0b576af25c04fe388 1187 mx-system-sounds_16.10mx16.dsc
+ ea6276986b636409ab9412cff151b4bb127ee1754e15d0637b6660c2a3fa7516 136312 mx-system-sounds_16.10mx16.tar.xz
+Files:
+ 9095a259384d1c5fb5672e19a7282e85 1187 admin optional mx-system-sounds_16.10mx16.dsc
+ 47f55a694e0197c9c73907697ca0ae55 136312 admin optional mx-system-sounds_16.10mx16.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJX/OKWAAoJEHCTjHgGee6YoqEH+weprE0F2wDoDINeLHSg60Rm
+xTix9DDYNTZInayLqGVaoYvr+ATnjShadUD3dnHcSwfmOuOTlDa8OdsYbESWK3wg
+BLlv/fJSyk/23qT33/tj+Ap8D/T+K1lg6MeD5WRFyvQZfn2mVIRyqguOOiE0syvl
+0Nmzm/SgPuE0DCRJQ8SUcqvCxdDqdCInwRj0LvW3R8qm3VB0OchMDQg8gjhMcKT1
+g7JpvjiQUu3Ph5uABzZsBnPylx+dhPPHBDpgeTmPHcDuGDdQobX9LETpQbiFJ75Q
+vJWwIWp1wMvyn0FwvbMvriLL+sWDJoHgkXwiCfVoRHuvA85EGL3eAQEZfynmpFM=
+=bnbw
+-----END PGP SIGNATURE-----
