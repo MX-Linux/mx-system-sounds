@@ -34,3 +34,4 @@ Icon=audio-speakers
 Categories=XFCE;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;MX-Setup;
 Path=
 StartupNotify=false
+OnlyShowIn=XFCE;
