@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sat, 15 Oct 2016 13:22:15 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 16.10mx16+1
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.10mx16+1) mx; urgency=medium
+ .
+   * new desktop file
+Checksums-Sha1:
+ 79b0be6a1058985d705f4fef489224536942775c 48112 mx-system-sounds_16.10mx16+1_i386.deb
+Checksums-Sha256:
+ 5a33dee23eed02d4abfe9ea990f44cb5d3b0d89730fab7257295a72826967231 48112 mx-system-sounds_16.10mx16+1_i386.deb
+Files:
+ bd5f7afac9f9a18faeb74a004b242194 48112 admin optional mx-system-sounds_16.10mx16+1_i386.deb
