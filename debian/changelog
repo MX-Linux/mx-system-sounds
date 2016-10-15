@@ -1,3 +1,9 @@
+mx-system-sounds (16.10mx16) mx; urgency=medium
+
+  * changed URLs
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 10 Oct 2016 14:09:05 -0400
+
 mx-system-sounds (16.5mx15) mx; urgency=medium
 
   * new desktop file

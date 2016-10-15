@@ -13,9 +13,3 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer, mx-sound-theme, libcanbe
 Description: MX System Sounds
  MX System Sounds is a tool for selecting the system sounds in MX Linux
 
-Package: mx-event-sounds
-Architecture: all
-Depends: mx-system-sounds
-Description: dummy transitional package to mx-system-sounds
- Dummy transitional package to mx-system-sounds.
- It can be safely removed after the upgrade
