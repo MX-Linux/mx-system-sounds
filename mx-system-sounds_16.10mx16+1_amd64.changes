@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 15 Oct 2016 13:22:15 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 16.10mx16+1
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: dolphin oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (16.10mx16+1) mx; urgency=medium
+ .
+   * new desktop file
+Checksums-Sha1:
+ 932f9825ca5867c43869115c79c2a3b2ca188b51 671 mx-system-sounds_16.10mx16+1.dsc
+ d78e1e1dd44d565e0d0771e0540cca3cf32fef4f 35760 mx-system-sounds_16.10mx16+1.tar.xz
+ 26c888d26abe3fbc153bde3084387fffd3d4673b 48114 mx-system-sounds_16.10mx16+1_amd64.deb
+Checksums-Sha256:
+ 374ac8e0db7e9a3790b925b6051178b6d5900321b5c8bedfa413fa74352c3bf0 671 mx-system-sounds_16.10mx16+1.dsc
+ 13213042cf74538183ec1a86bfedeaed13cfcd5097858fb0590f1971f9f2740d 35760 mx-system-sounds_16.10mx16+1.tar.xz
+ fbe6198d58f88cdc5ab32b113511afd4f56db85525cbee52ddb6eb24892d592e 48114 mx-system-sounds_16.10mx16+1_amd64.deb
+Files:
+ 08f862a15395bcb700d805a083851fa6 671 admin optional mx-system-sounds_16.10mx16+1.dsc
+ 9182b4d7237d34b6af109d395495f6ee 35760 admin optional mx-system-sounds_16.10mx16+1.tar.xz
+ 7b0777aa84b17dda33b11ddeb3188082 48114 admin optional mx-system-sounds_16.10mx16+1_amd64.deb
