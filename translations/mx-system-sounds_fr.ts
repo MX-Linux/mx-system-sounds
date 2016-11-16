@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -10,7 +8,7 @@
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="298"/>
         <source>MX System Sounds</source>
-        <translation>MX Sons du système</translation>
+        <translation>Sons du système MX </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
@@ -45,7 +43,7 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>Les sons sur commande</translation>
+        <translation>Sons personnalisés</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
@@ -74,7 +72,7 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Employer le défaut</translation>
+        <translation>Utiliser thème par défaut</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
