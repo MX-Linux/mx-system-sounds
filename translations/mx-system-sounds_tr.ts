@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,92 +8,92 @@
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="298"/>
         <source>MX System Sounds</source>
-        <translation>MX Systemljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>Händelseljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>Sessionsljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Xfce händelseljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>Logga in</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>XFCE Input Feedback ljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>Logga ut</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>Anpassade ljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>Inloggningsljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
         <location filename="../mxsystemsounds.ui" line="189"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="167"/>
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation>Standardtema</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Använd standard</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>Utloggningsljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
         <source>About this application</source>
-        <translation>Om detta program</translation>
+        <translation>Uygulama hakkında</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="270"/>
         <source>About...</source>
-        <translation>Om...</translation>
+        <translation>Hakkında...</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="277"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="293"/>
         <source>Display help </source>
-        <translation>Visa hjälp</translation>
+        <translation>Yardımı görüntüle</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="296"/>
         <source>Help</source>
-        <translation>Hjälp</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="303"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="361"/>
         <source>Apply</source>
-        <translation>Genomför</translation>
+        <translation>Uygula</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Quit application</source>
-        <translation>Avsluta programmet</translation>
+        <translation>Uygulamadan çık</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="390"/>
         <source>Close</source>
-        <translation>Stäng</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="397"/>
@@ -138,17 +138,17 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="281"/>
         <source>About MX System Sounds</source>
-        <translation>Om MX Systemljud</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="282"/>
         <source>Version: </source>
-        <translation>Version</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="283"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Konfigurera ljud för händelse och session</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="285"/>
@@ -158,25 +158,25 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>License</source>
-        <translation>Licens</translation>
+        <translation>Ruhsat</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Select Sound File</source>
-        <translation>Välj ljudfil</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Ljudfiler (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

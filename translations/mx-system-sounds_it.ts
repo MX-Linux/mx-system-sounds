@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -10,7 +8,7 @@
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="298"/>
         <source>MX System Sounds</source>
-        <translation>MX Gestione Suoni</translation>
+        <translation>MX Suoni di Sistema</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
@@ -140,7 +138,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="281"/>
         <source>About MX System Sounds</source>
-        <translation>Informazioni su MX Gestione Suoni</translation>
+        <translation>Informazioni su MX Suoni di Sistema</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="282"/>
@@ -150,7 +148,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="283"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Configura Notifiche &amp; Suoni di Sessione</translation>
+        <translation>Configura Notifiche e Suoni di Sessione</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="285"/>
