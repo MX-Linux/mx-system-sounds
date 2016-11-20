@@ -188,6 +188,8 @@ void mxsystemsounds::setup()
     ui->comboBox_theme->setCurrentText(soundtheme);
     qDebug() << " current login is ";
     qDebug() << currentlogin;
+    //disable apply button unless changes
+    ui->buttonApply->setEnabled(false);
 }
 
 
@@ -270,7 +272,8 @@ void mxsystemsounds::on_buttonApply_clicked()
         runCmd("rm -f " +home_path + "/.config/mx-sounds/logoutsound.conf");
 
     }
-
+    //disable Apply button
+        ui->buttonApply->setEnabled(false);
 }
 
 // About button clicked
@@ -321,7 +324,9 @@ void mxsystemsounds::on_button_login_sound_clicked()
     qDebug() << " current login is";
     qDebug() << currentlogin;
 
-    // this->show(); //brings main ui back
+    //enable apply button
+    ui->buttonApply->setEnabled(true);
+
 }
 
 void mxsystemsounds::on_button_logout_sound_clicked()
@@ -342,6 +347,8 @@ void mxsystemsounds::on_button_logout_sound_clicked()
     qDebug() << " current logout is ";
     qDebug() << currentlogout;
     qDebug() << theme_logout_flag;
+    ui->buttonApply->setEnabled(true);
+
 }
 
 void mxsystemsounds::on_button_play_login_clicked()
@@ -384,6 +391,8 @@ void mxsystemsounds::on_button_reset_login_clicked()
     loginreset = true;
     qDebug() << " current login reset box is ";
     qDebug() << currentlogin;
+    ui->buttonApply->setEnabled(true);
+
 }
 
 void mxsystemsounds::on_button_reset_logout_clicked()
@@ -406,6 +415,7 @@ void mxsystemsounds::on_button_reset_logout_clicked()
     qDebug() << " current logout reset box is ";
     qDebug() << currentlogout;
     qDebug() << QString(theme_logout_flag);
+    ui->buttonApply->setEnabled(true);
 
 }
 
@@ -467,3 +477,26 @@ void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
 
 
 
+
+void mxsystemsounds::on_checkbox_eventsounds_clicked()
+{
+    ui->buttonApply->setEnabled(true);
+}
+
+void mxsystemsounds::on_checkbox_inputsounds_clicked()
+{
+    ui->buttonApply->setEnabled(true);
+
+}
+
+void mxsystemsounds::on_checkbox_login_clicked()
+{
+    ui->buttonApply->setEnabled(true);
+
+}
+
+void mxsystemsounds::on_checkbox_logout_clicked()
+{
+    ui->buttonApply->setEnabled(true);
+
+}
