@@ -10,8 +10,8 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-system-sounds deb admin optional arch=any
 Checksums-Sha1:
- b9174753e490ffec1debf80c54660b6311167369 33000 mx-system-sounds_16.11mx16+1.tar.xz
+ 71d3422968a221cc5ecde4d99d6d395d0d791dbf 33020 mx-system-sounds_16.11mx16+1.tar.xz
 Checksums-Sha256:
- 10ca45608e508834f3c99d9fd5413902533fe25c750de527c692384e2fa137c1 33000 mx-system-sounds_16.11mx16+1.tar.xz
+ 55a0136bec5c392c978bdb12c5888bd2ab52f33ee918a8d6d09cc1fc3f9fbeb3 33020 mx-system-sounds_16.11mx16+1.tar.xz
 Files:
- 8821e7314d218fe427778a4170693b14 33000 mx-system-sounds_16.11mx16+1.tar.xz
+ 3ec2c25f5a9735545e82d2abc58cd82d 33020 mx-system-sounds_16.11mx16+1.tar.xz

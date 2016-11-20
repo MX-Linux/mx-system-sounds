@@ -472,6 +472,7 @@ void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
         qDebug() << " current logout theme change box is ";
         qDebug() << currentlogout;
     }
+    ui->buttonApply->setEnabled(true);
 }
 
 
