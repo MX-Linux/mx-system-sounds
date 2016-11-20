@@ -76,6 +76,14 @@ private slots:
     void on_comboBox_theme_activated(const QString &arg1);
 
 
+    void on_checkbox_eventsounds_clicked();
+
+    void on_checkbox_inputsounds_clicked();
+
+    void on_checkbox_login_clicked();
+
+    void on_checkbox_logout_clicked();
+
 private:
     Ui::mxsystemsounds *ui;
 };

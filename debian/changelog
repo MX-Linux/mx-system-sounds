@@ -1,3 +1,9 @@
+mx-system-sounds (16.11mx16+1) mx; urgency=medium
+
+  * minor change to "apply" button
+
+ -- dolphin oracle <dolphinoracle@gmail.com>  Sun, 20 Nov 2016 11:56:02 -0500
+
 mx-system-sounds (16.11mx16) mx; urgency=medium
 
   * new translations
