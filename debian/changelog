@@ -1,3 +1,9 @@
+mx-system-sounds (16.11mx16) mx; urgency=medium
+
+  * new translations
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 16 Nov 2016 13:40:02 -0500
+
 mx-system-sounds (16.10mx16+1) mx; urgency=medium
 
   * new desktop file

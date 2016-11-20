@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="it">
+<TS version="2.1" language="tr">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -10,92 +10,92 @@
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="298"/>
         <source>MX System Sounds</source>
-        <translation>MX Suoni di Sistema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>Suoni delle Notifiche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>Suoni di Sessione</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Suoni delle Notifiche di XFCE</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Feedback dei suoni in ingresso di XFCE</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>Esci</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>Suoni Personali</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>Suono di Login</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
         <location filename="../mxsystemsounds.ui" line="189"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="167"/>
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation>Tema di Default</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Usa le scelte predefinite</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>Suono di uscita</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
         <source>About this application</source>
-        <translation>Informazioni riguardo questa applicazione</translation>
+        <translation>Uygulama hakkında</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="270"/>
         <source>About...</source>
-        <translation>Info...</translation>
+        <translation>Hakkında...</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="277"/>
@@ -105,12 +105,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="293"/>
         <source>Display help </source>
-        <translation>Visualizza aiuto</translation>
+        <translation>Yardımı görüntüle</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="296"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="303"/>
@@ -120,17 +120,17 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="361"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation>Uygula</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Quit application</source>
-        <translation> Chiudi l&apos;applicazione</translation>
+        <translation>Uygulamadan çık</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="390"/>
         <source>Close</source>
-        <translation>Chiudi</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="397"/>
@@ -140,17 +140,17 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="281"/>
         <source>About MX System Sounds</source>
-        <translation>Informazioni su MX Suoni di Sistema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="282"/>
         <source>Version: </source>
-        <translation>Versione:</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="283"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Configura Notifiche e Suoni di Sessione</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="285"/>
@@ -160,25 +160,25 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Cancel</source>
-        <translation>Annulla</translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>License</source>
-        <translation>Licenza</translation>
+        <translation>Ruhsat</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Select Sound File</source>
-        <translation>Seleziona il File Sonoro</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="310"/>
         <location filename="../mxsystemsounds.cpp" line="331"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Files Sonori (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
