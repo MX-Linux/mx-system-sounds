@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,42 +8,42 @@
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <location filename="../mxsystemsounds.cpp" line="301"/>
         <source>MX System Sounds</source>
-        <translation>MX_Sons do Sistema</translation>
+        <translation>MX Sistemos garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>Sons de eventos</translation>
+        <translation>Įvykių garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>Sons de sessão</translation>
+        <translation>Seanso garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Sons de eventos do XFCE</translation>
+        <translation>XFCE įvykių garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>Iniciar sessão</translation>
+        <translation>Prisijungimas</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Sons indicadores de entrada no XFCE</translation>
+        <translation>XFCE įvesties grįžtamojo ryšio garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>Sair</translation>
+        <translation>Atsijungimas</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>Personalizar sons</translation>
+        <translation>Tinkinti garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
@@ -54,7 +54,7 @@
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>Som de início de sessão</translation>
+        <translation>Prisijungimo garsas</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -67,33 +67,33 @@
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation>Tema pré-definido</translation>
+        <translation>Temos numatytasis</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Usar a pré-definição</translation>
+        <translation>Naudoti numatytąjį</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>Som de saída</translation>
+        <translation>Atsijungimo garsas</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation>Šiaurė</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
         <source>About this application</source>
-        <translation>Sobre esta aplicação</translation>
+        <translation>Apie šią programą</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="270"/>
         <source>About...</source>
-        <translation>Sobre...</translation>
+        <translation>Apie...</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="277"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="293"/>
         <source>Display help </source>
-        <translation>Mostrar a ajuda</translation>
+        <translation>Rodyti žinyną</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="296"/>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>Žinynas</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="303"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="361"/>
         <source>Apply</source>
-        <translation>Aplicar</translation>
+        <translation>Taikyti</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Quit application</source>
-        <translation>Sair da aplicação</translation>
+        <translation>Išeiti iš programos</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="390"/>
         <source>Close</source>
-        <translation>Encerrar</translation>
+        <translation>Užverti</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="397"/>
@@ -138,45 +138,45 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="284"/>
         <source>About MX System Sounds</source>
-        <translation>Sobre o MX_Sons do Sistema</translation>
+        <translation>Apie MX Sistemos garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="285"/>
         <source>Version: </source>
-        <translation>Versão:</translation>
+        <translation>Versija: </translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Configurar sons de evento e de sessão</translation>
+        <translation>Konfigūruoti įvykių ir seanso garsus</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Autorių teisės (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Atsisakyti</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="290"/>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
-        <translation>Licença</translation>
+        <translation>Licencija</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="313"/>
         <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Select Sound File</source>
-        <translation>Seleccionar ficheiro de som</translation>
+        <translation>Pasirinkite garso failą</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="313"/>
         <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Ficheiros de som (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>Garso failai (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>

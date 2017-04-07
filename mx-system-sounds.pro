@@ -36,12 +36,14 @@ HEADERS  += mxsystemsounds.h
 FORMS    += mxsystemsounds.ui
 
 TRANSLATIONS += translations/mx-system-sounds_ca.ts \
+                translations/mx-system-sounds_cs.ts \
                 translations/mx-system-sounds_de.ts \
                 translations/mx-system-sounds_el.ts \
                 translations/mx-system-sounds_es.ts \
                 translations/mx-system-sounds_fr.ts \
                 translations/mx-system-sounds_it.ts \
                 translations/mx-system-sounds_ja.ts \
+                translations/mx-system-sounds_lt.ts \
                 translations/mx-system-sounds_nl.ts \
                 translations/mx-system-sounds_pl.ts \
                 translations/mx-system-sounds_pt.ts \
