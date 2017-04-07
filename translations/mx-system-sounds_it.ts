@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -35,7 +33,7 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Feedback dei suoni in ingresso di XFCE</translation>
+        <translation>Suoni per gli Input di XFCE</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
