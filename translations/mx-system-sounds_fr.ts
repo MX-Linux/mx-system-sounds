@@ -6,41 +6,41 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
         <location filename="../mxsystemsounds.cpp" line="66"/>
-        <location filename="../mxsystemsounds.cpp" line="282"/>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
-        <location filename="../mxsystemsounds.cpp" line="298"/>
+        <location filename="../mxsystemsounds.cpp" line="285"/>
+        <location filename="../mxsystemsounds.cpp" line="292"/>
+        <location filename="../mxsystemsounds.cpp" line="301"/>
         <source>MX System Sounds</source>
-        <translation>Sons du système MX </translation>
+        <translation>MX Sons système</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>Les sons des événements</translation>
+        <translation>Sons des événements</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>Les sons des sessions</translation>
+        <translation>Sons de session</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Les sons des événements XFCE</translation>
+        <translation>Sons des événements XFCE</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>Début de session</translation>
+        <translation>A la connexion</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Les sons XFCE de la rétroaction de la saisie</translation>
+        <translation>Sons de retour de la saisie XFCE</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>Fin de session</translation>
+        <translation>A la déconnexion</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
@@ -56,7 +56,7 @@
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>Son de début de session</translation>
+        <translation>Son à la connexion</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -74,18 +74,18 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Utiliser thème par défaut</translation>
+        <translation>Utiliser le thème par défaut</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>Son de la fin de session</translation>
+        <translation>Son à la déconnexion</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation>Boréale</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
@@ -138,47 +138,47 @@
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="281"/>
+        <location filename="../mxsystemsounds.cpp" line="284"/>
         <source>About MX System Sounds</source>
-        <translation>À propos de MX Sons du système</translation>
+        <translation>À propos de MX Sons système</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="282"/>
+        <location filename="../mxsystemsounds.cpp" line="285"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="283"/>
+        <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation>Configurer les sons des événements et de la session</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="285"/>
+        <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="286"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="287"/>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="290"/>
+        <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="310"/>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="313"/>
+        <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Select Sound File</source>
-        <translation>Sélectionner le fichier des sons</translation>
+        <translation>Sélection du fichier audio</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="310"/>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="313"/>
+        <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Les fichiers des sons (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>Fichiers audio (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>

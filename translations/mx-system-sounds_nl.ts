@@ -6,9 +6,9 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
         <location filename="../mxsystemsounds.cpp" line="66"/>
-        <location filename="../mxsystemsounds.cpp" line="282"/>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
-        <location filename="../mxsystemsounds.cpp" line="298"/>
+        <location filename="../mxsystemsounds.cpp" line="285"/>
+        <location filename="../mxsystemsounds.cpp" line="292"/>
+        <location filename="../mxsystemsounds.cpp" line="301"/>
         <source>MX System Sounds</source>
         <translation>MX Systeemgeluiden</translation>
     </message>
@@ -138,45 +138,45 @@
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="281"/>
+        <location filename="../mxsystemsounds.cpp" line="284"/>
         <source>About MX System Sounds</source>
         <translation>Over MX Systeemgeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="282"/>
+        <location filename="../mxsystemsounds.cpp" line="285"/>
         <source>Version: </source>
         <translation>Versie:</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="283"/>
+        <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation>Configureer Gebeurtenis- &amp; Sessiegeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="285"/>
+        <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="286"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="287"/>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="290"/>
+        <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
         <translation>Licentie</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="310"/>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="313"/>
+        <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Select Sound File</source>
         <translation>MX Selecteer Geluidsbestand</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="310"/>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="313"/>
+        <location filename="../mxsystemsounds.cpp" line="336"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Geluidsbestanden (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
