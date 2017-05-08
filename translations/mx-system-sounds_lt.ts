@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="lt">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -156,12 +158,12 @@
         <translation>Autorių teisės (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="290"/>
         <source>Cancel</source>
         <translation>Atsisakyti</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="290"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
         <translation>Licencija</translation>

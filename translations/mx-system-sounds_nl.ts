@@ -158,12 +158,12 @@
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="290"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="290"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
         <translation>Licentie</translation>
