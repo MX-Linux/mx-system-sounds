@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -33,7 +35,7 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
@@ -54,7 +56,7 @@
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -78,12 +80,12 @@
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
@@ -148,7 +150,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="286"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
@@ -156,12 +158,12 @@
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="290"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="290"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <source>License</source>
         <translation>Ruhsat</translation>
