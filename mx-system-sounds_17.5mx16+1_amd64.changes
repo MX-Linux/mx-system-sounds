@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 10 May 2017 15:47:20 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 17.5mx16+1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (17.5mx16+1) mx; urgency=medium
+ .
+   * update icons
+Checksums-Sha1:
+ e29d5f967edd14cf8fc49c5243c13e0ab016026a 1162 mx-system-sounds_17.5mx16+1.dsc
+ a6a43ce76391f0b93a2b8e4bc2f0806cd71310ad 30012 mx-system-sounds_17.5mx16+1.tar.xz
+ c6f94d9dc596e672e501466a245b6e2757a9de10 47524 mx-system-sounds_17.5mx16+1_amd64.deb
+Checksums-Sha256:
+ 03a3586390473d56c0f553434c6789f51ea6d415355aa5d159eb7df62aa14c5a 1162 mx-system-sounds_17.5mx16+1.dsc
+ 81a69ad909b09c3cf46249117cb870f57571f8cc2e0a20438651a3dfa16e1ebb 30012 mx-system-sounds_17.5mx16+1.tar.xz
+ 65a26e3326b1a9aa4640946c68e7fb7e025f01aaa85b4d73445b59427157cfae 47524 mx-system-sounds_17.5mx16+1_amd64.deb
+Files:
+ 7512f9b962437315f7ba595a55d89ed6 1162 admin optional mx-system-sounds_17.5mx16+1.dsc
+ 4478333e3bc84b6ddfc7bca8fbd07387 30012 admin optional mx-system-sounds_17.5mx16+1.tar.xz
+ fca6287b23f8cb09f5f9bb94ae01d9c4 47524 admin optional mx-system-sounds_17.5mx16+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZE29GAAoJEHCTjHgGee6Yn84IANChKDxfQi2ZoutpVgQS939k
+HBrIDTbKraubFyy3oKur2MiX1t9DPOTVhXRZMGVsfzLZADa1SQTiLgjC/+FBeyBn
+cDCGoZh8zkVbeLl9SUhJ0udBkuyrQDYEztvLaJbyyIeOhJCJI4QLPi9vfiUxjC13
+oonvFw+EuKk0wBguavlEMse6E2iOoFU7PRgEeI525LEop/5MsfKv5XVLdsOHPPG5
+IPELEuAtI0vOzqHdPm5t9vFI//5W7QsHInk9Dc4SvWfpV1mo45V2Mpx6HAiStNpW
+/px8OXm98jL3NhAx4/zbRqXbog1DmoLnqk+rFHd713aRcpNJfZEKFQvqnMzAi+4=
+=QmTU
+-----END PGP SIGNATURE-----

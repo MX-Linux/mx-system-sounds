@@ -37,6 +37,9 @@ mxsystemsounds::mxsystemsounds(QWidget *parent) :
     ui(new Ui::mxsystemsounds)
 {
     ui->setupUi(this);
+    if (ui->buttonApply->icon().isNull()) {
+        ui->buttonApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
+    }
     setup();
 }
 
