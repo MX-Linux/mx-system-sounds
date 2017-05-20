@@ -1,3 +1,9 @@
+mx-system-sounds (17.5mx16+2) mx; urgency=medium
+
+  * changed file chooser default directory to /usr/share/sounds or the folder of the custom sound
+
+ -- dolphinoracle <dolphinoracle@gmail>  Sat, 20 May 2017 07:14:39 -0400
+
 mx-system-sounds (17.5mx16+1) mx; urgency=medium
 
   * update icons

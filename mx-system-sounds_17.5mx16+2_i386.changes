@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sat, 20 May 2017 07:14:39 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 17.5mx16+2
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: dolphinoracle <dolphinoracle@gmail>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (17.5mx16+2) mx; urgency=medium
+ .
+   * changed file chooser default directory to /usr/share/sounds or the folder of the custom sound
+Checksums-Sha1:
+ 93b6759bd73d87d2ddf1c6351598ee0e52fb0f3b 48066 mx-system-sounds_17.5mx16+2_i386.deb
+Checksums-Sha256:
+ 08b38d26e8ee223dd6e47447308f6ed7be1c45f520cdce65fe23b97e61653b35 48066 mx-system-sounds_17.5mx16+2_i386.deb
+Files:
+ a547d79603b20072909a8a7b5d41c847 48066 admin optional mx-system-sounds_17.5mx16+2_i386.deb

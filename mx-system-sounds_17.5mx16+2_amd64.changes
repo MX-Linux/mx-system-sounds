@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 20 May 2017 07:14:39 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 17.5mx16+2
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: dolphinoracle <dolphinoracle@gmail>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (17.5mx16+2) mx; urgency=medium
+ .
+   * changed file chooser default directory to /usr/share/sounds or the folder of the custom sound
+Checksums-Sha1:
+ 52da532f75623a9054b621929f5f9f42752f257e 641 mx-system-sounds_17.5mx16+2.dsc
+ 4d990abf8676bae95f8bd225b0bdb7bd2e1933d1 31704 mx-system-sounds_17.5mx16+2.tar.xz
+ 2c5b4bead6db725c9949ca9b0b8aa469a0fe266d 47790 mx-system-sounds_17.5mx16+2_amd64.deb
+Checksums-Sha256:
+ f77ba2862cfa7502ae4d890c347708a1ff71c934840da53ee5ed3c27b8ba58d5 641 mx-system-sounds_17.5mx16+2.dsc
+ 0dcff70d19936e19d738153e0b337c9a24bd3b02c4b83117369a811f0fd5f9d6 31704 mx-system-sounds_17.5mx16+2.tar.xz
+ 124e40414374f1aacd5c17cd7a2c1b43c2f430a463df898d928a42eb3300407d 47790 mx-system-sounds_17.5mx16+2_amd64.deb
+Files:
+ b10081e1c3fc5e882eb0426c33c72e11 641 admin optional mx-system-sounds_17.5mx16+2.dsc
+ b9d6f0238439c23c1cc4ed6af06b5941 31704 admin optional mx-system-sounds_17.5mx16+2.tar.xz
+ 9edcc3993dd942a48e0430fe0ad03d8f 47790 admin optional mx-system-sounds_17.5mx16+2_amd64.deb
