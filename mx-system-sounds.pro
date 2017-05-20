@@ -52,4 +52,7 @@ TRANSLATIONS += translations/mx-system-sounds_ca.ts \
                 translations/mx-system-sounds_sv.ts \
                 translations/mx-system-sounds_tr.ts
 
+RESOURCES += \
+    images.qrc
+
 

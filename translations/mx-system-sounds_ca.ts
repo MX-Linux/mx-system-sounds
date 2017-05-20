@@ -5,10 +5,10 @@
     <name>mxsystemsounds</name>
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
-        <location filename="../mxsystemsounds.cpp" line="66"/>
-        <location filename="../mxsystemsounds.cpp" line="285"/>
-        <location filename="../mxsystemsounds.cpp" line="292"/>
-        <location filename="../mxsystemsounds.cpp" line="301"/>
+        <location filename="../mxsystemsounds.cpp" line="69"/>
+        <location filename="../mxsystemsounds.cpp" line="288"/>
+        <location filename="../mxsystemsounds.cpp" line="295"/>
+        <location filename="../mxsystemsounds.cpp" line="304"/>
         <source>MX System Sounds</source>
         <translation>MX System Sounds</translation>
     </message>
@@ -98,85 +98,85 @@
         <translation>Quant a...</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="277"/>
+        <location filename="../mxsystemsounds.ui" line="276"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="293"/>
+        <location filename="../mxsystemsounds.ui" line="292"/>
         <source>Display help </source>
         <translation>Mostra l&apos;ajuda</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="296"/>
+        <location filename="../mxsystemsounds.ui" line="295"/>
         <source>Help</source>
         <translation>Ajuda </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="303"/>
+        <location filename="../mxsystemsounds.ui" line="301"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="361"/>
+        <location filename="../mxsystemsounds.ui" line="359"/>
         <source>Apply</source>
         <translation>Aplica</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="387"/>
+        <location filename="../mxsystemsounds.ui" line="384"/>
         <source>Quit application</source>
         <translation>Surt de l&apos;aplicació </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="390"/>
+        <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Close</source>
         <translation>Tanca </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="397"/>
+        <location filename="../mxsystemsounds.ui" line="393"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="284"/>
+        <location filename="../mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
         <translation>Quant a MX System Sounds </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="285"/>
+        <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
         <translation>Versió: </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="286"/>
+        <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation>Configura els sons de sessió i esdeveniments </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="288"/>
+        <location filename="../mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="293"/>
         <source>Cancel</source>
         <translation>Cancel·la </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="290"/>
         <location filename="../mxsystemsounds.cpp" line="292"/>
+        <location filename="../mxsystemsounds.cpp" line="295"/>
         <source>License</source>
         <translation>Llicència </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="313"/>
-        <location filename="../mxsystemsounds.cpp" line="336"/>
+        <location filename="../mxsystemsounds.cpp" line="316"/>
+        <location filename="../mxsystemsounds.cpp" line="339"/>
         <source>Select Sound File</source>
         <translation>Selecciona el fitxer de so</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="313"/>
-        <location filename="../mxsystemsounds.cpp" line="336"/>
+        <location filename="../mxsystemsounds.cpp" line="316"/>
+        <location filename="../mxsystemsounds.cpp" line="339"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Fitxers de so (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav) </translation>
     </message>
