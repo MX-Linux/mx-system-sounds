@@ -312,7 +312,14 @@ void mxsystemsounds::on_button_login_sound_clicked()
 
     // select a user defined login sound
     //   this->hide(); //hides main ui
-    QString home_path = QDir::homePath();
+    //QString home_path = QDir::homePath();
+    QString home_path;
+    QFileInfo sound_info(currentlogin);
+    if (sound_info.exists()) {
+        home_path = sound_info.absolutePath();
+    } else {
+        home_path = "/usr/share/sounds";
+    }
     customloginsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), home_path, tr("Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)"));
     QFileInfo file_info(customloginsound);
     if (file_info.exists()) {
@@ -335,7 +342,14 @@ void mxsystemsounds::on_button_login_sound_clicked()
 void mxsystemsounds::on_button_logout_sound_clicked()
 {
     //choose a user defined logout sound.
-    QString home_path = QDir::homePath();
+    //QString home_path = QDir::homePath();
+    QString home_path;
+    QFileInfo sound_info(currentlogout);
+    if (sound_info.exists()) {
+        home_path = sound_info.absolutePath();
+    } else {
+        home_path = "/usr/share/sounds";
+    }
     customlogoutsound = QFileDialog::getOpenFileName(this, tr("Select Sound File"), home_path, tr("Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)"));
     QFileInfo file_info(customlogoutsound);
     if (file_info.exists()) {
