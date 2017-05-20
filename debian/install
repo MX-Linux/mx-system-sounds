@@ -1,8 +1,7 @@
 mx-system-sounds 		usr/bin
-mx-system-sounds.desktop 	usr/share/applications/mx
+mx-system-sounds.desktop 	usr/share/applications
 translations/*.qm 		usr/share/mx-system-sounds/locale
 mx-system-sounds.png		usr/share/pixmaps
-icons/*                 	usr/share/mx-system-sounds/icons
 license.html            	usr/share/doc/mx-system-sounds
 bin/*				usr/local/bin
 52libcanberra-gtk-module_add-to-gtk-modules	etc/X11/Xsession.d

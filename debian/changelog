@@ -1,3 +1,15 @@
+mx-system-sounds (17.5mx16+1) mx; urgency=medium
+
+  * update icons
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 10 May 2017 15:47:20 -0400
+
+mx-system-sounds (17.5mx16) mx; urgency=medium
+
+  * new translations
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 08 May 2017 11:57:37 -0400
+
 mx-system-sounds (17.04mx16) mx; urgency=medium
 
   * refreshed translations, new debs
