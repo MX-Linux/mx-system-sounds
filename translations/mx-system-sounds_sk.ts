@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,53 +8,53 @@
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <location filename="../mxsystemsounds.cpp" line="304"/>
         <source>MX System Sounds</source>
-        <translation>MX システム音</translation>
+        <translation>MX Systémové zvuky</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>イベント音</translation>
+        <translation>Zvuky udalostí</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>セッション音</translation>
+        <translation>Zvuky relácie</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Xfce イベント音</translation>
+        <translation>Zvuky udalostí XFCE</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>ログイン</translation>
+        <translation>Zvuk pri prihlásení</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Xfce 入力フィードバック音</translation>
+        <translation>Zvuky potvrdenia akcií</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>ログアウト</translation>
+        <translation>Zvuk pri odhlásení</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>カスタム音</translation>
+        <translation>Prispôsobiť zvuky</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation>テーマ</translation>
+        <translation>Motív</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>ログイン音</translation>
+        <translation>Zvuk pri prihlásení</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -67,18 +67,18 @@
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation>テーマデフォルト</translation>
+        <translation>Predvolené motívom</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>デフォルトを使用</translation>
+        <translation>Použiť predvolené</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>ログアウト音</translation>
+        <translation>Zvuk pri odhlásení</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
@@ -88,12 +88,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
         <source>About this application</source>
-        <translation>このアプリケーションについて</translation>
+        <translation>O tejto aplikácii</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="270"/>
         <source>About...</source>
-        <translation>About...</translation>
+        <translation>O Programe</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="276"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="292"/>
         <source>Display help </source>
-        <translation>ヘルプ表示</translation>
+        <translation>Zobraziť nápovedu</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="295"/>
         <source>Help</source>
-        <translation>ヘルプ</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="301"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="359"/>
         <source>Apply</source>
-        <translation>適用</translation>
+        <translation>Použiť</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="384"/>
         <source>Quit application</source>
-        <translation>アプリケーションの終了</translation>
+        <translation>Zatvoriť aplikáciu</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Close</source>
-        <translation>閉じる</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="393"/>
@@ -138,17 +138,17 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>MX システム音について</translation>
+        <translation>O programe MX Systémové zvuky</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>Version: </translation>
+        <translation>Verzia</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>イベント・セッション音の設定</translation>
+        <translation>Konfiguruje zvuky udalostí a relácie</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="291"/>
@@ -159,24 +159,24 @@
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <source>License</source>
-        <translation>ライセンス</translation>
+        <translation>Licencia</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="293"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>Zrušiť</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
-        <translation>サウンドファイルを選択</translation>
+        <translation>Zvoliť zvukový súbor</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>サウンドファイル (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>Zvukové súbory (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>
