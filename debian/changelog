@@ -1,3 +1,9 @@
+mx-system-sounds (17.6mx16) mx; urgency=medium
+
+  * updated translations
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 02 Jun 2017 16:37:23 -0400
+
 mx-system-sounds (17.5mx16+2) mx; urgency=medium
 
   * changed file chooser default directory to /usr/share/sounds or the folder of the custom sound

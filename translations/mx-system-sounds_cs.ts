@@ -169,14 +169,14 @@
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="316"/>
-        <location filename="../mxsystemsounds.cpp" line="339"/>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
         <translation>Vyberte zvukový soubor</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="316"/>
-        <location filename="../mxsystemsounds.cpp" line="339"/>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Soubory zvuku (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
