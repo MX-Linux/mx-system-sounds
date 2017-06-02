@@ -169,14 +169,14 @@
         <translation>Licença</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="316"/>
-        <location filename="../mxsystemsounds.cpp" line="339"/>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
         <translation>Seleccionar ficheiro de som</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="316"/>
-        <location filename="../mxsystemsounds.cpp" line="339"/>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Ficheiros de som (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ro">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,82 +10,82 @@
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <location filename="../mxsystemsounds.cpp" line="304"/>
         <source>MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
         <location filename="../mxsystemsounds.ui" line="189"/>
         <source>...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="167"/>
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
         <source>Borealis</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
@@ -138,7 +140,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
@@ -148,7 +150,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="291"/>
@@ -170,13 +172,13 @@
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
