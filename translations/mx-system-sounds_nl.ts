@@ -8,7 +8,7 @@
         <location filename="../mxsystemsounds.cpp" line="69"/>
         <location filename="../mxsystemsounds.cpp" line="288"/>
         <location filename="../mxsystemsounds.cpp" line="295"/>
-        <location filename="../mxsystemsounds.cpp" line="304"/>
+        <location filename="../mxsystemsounds.cpp" line="312"/>
         <source>MX System Sounds</source>
         <translation>MX Systeemgeluiden</translation>
     </message>
@@ -169,14 +169,14 @@
         <translation>Licentie</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="323"/>
-        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="361"/>
         <source>Select Sound File</source>
         <translation>MX Selecteer Geluidsbestand</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="323"/>
-        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="331"/>
+        <location filename="../mxsystemsounds.cpp" line="361"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Geluidsbestanden (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>

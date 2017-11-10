@@ -1,3 +1,9 @@
+mx-system-sounds (17.11) mx; urgency=medium
+
+  * added FR help link
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 10 Nov 2017 11:48:14 -0500
+
 mx-system-sounds (17.6mx16) mx; urgency=medium
 
   * updated translations
