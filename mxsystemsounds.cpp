@@ -300,8 +300,16 @@ void mxsystemsounds::on_buttonAbout_clicked()
 // Help button clicked
 void mxsystemsounds::on_buttonHelp_clicked()
 {
+    QLocale locale;
+    QString lang = locale.bcp47Name();
 
-    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-system-sounds '%1'").arg(tr("MX System Sounds"));
+    QString url = "https://mxlinux.org/wiki/help-files/help-mx-system-sounds";
+
+    if (lang == "fr") {
+        url = "https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me";
+    }
+
+    QString cmd = QString("mx-viewer %1 '%2'").arg(url).arg(tr("MX System Sounds"));
     system(cmd.toUtf8());
 
 }
