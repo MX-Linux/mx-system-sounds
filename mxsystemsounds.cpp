@@ -305,7 +305,7 @@ void mxsystemsounds::on_buttonHelp_clicked()
 
     QString url = "https://mxlinux.org/wiki/help-files/help-mx-system-sounds";
 
-    if (lang == "fr") {
+    if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me";
     }
 
