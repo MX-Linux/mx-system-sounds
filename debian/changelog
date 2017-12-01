@@ -1,3 +1,10 @@
+mx-system-sounds (17.11+2) UNRELEASED; urgency=medium
+
+  * changed default button
+  * changed help function 
+
+ -- dolphin <dolphinoracle@gmail.com>  Thu, 30 Nov 2017 19:31:49 -0500
+
 mx-system-sounds (17.11+1) mx; urgency=medium
 
   * fix LANG detection

@@ -309,7 +309,7 @@ void mxsystemsounds::on_buttonHelp_clicked()
         url = "https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me";
     }
 
-    QString cmd = QString("mx-viewer %1 '%2'").arg(url).arg(tr("MX System Sounds"));
+    QString cmd = QString("mx-viewer %1 '%2' &").arg(url).arg(tr("MX System Sounds"));
     system(cmd.toUtf8());
 
 }

@@ -15,8 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset theme="audio-speakers">
-    <normaloff/>
-   </iconset>
+    <normaloff>.</normaloff>.</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="1">
@@ -141,8 +140,7 @@
        </property>
        <property name="icon">
         <iconset theme="media-playback-start">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -156,8 +154,7 @@
        </property>
        <property name="icon">
         <iconset theme="audio-x-generic">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -171,8 +168,7 @@
        </property>
        <property name="icon">
         <iconset theme="view-refresh">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -190,8 +186,7 @@
        </property>
        <property name="icon">
         <iconset theme="media-playback-start">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -202,8 +197,7 @@
        </property>
        <property name="icon">
         <iconset theme="audio-x-generic">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -217,8 +211,7 @@
        </property>
        <property name="icon">
         <iconset theme="view-refresh">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -270,7 +263,8 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset theme="help-about"/>
+        <iconset theme="help-about">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -295,7 +289,8 @@
         <string>Help</string>
        </property>
        <property name="icon">
-        <iconset theme="help-contents"/>
+        <iconset theme="help-contents">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+H</string>
@@ -359,7 +354,8 @@
         <string>Apply</string>
        </property>
        <property name="icon">
-        <iconset theme="dialog-ok"/>
+        <iconset theme="dialog-ok">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string/>
@@ -368,7 +364,7 @@
         <bool>true</bool>
        </property>
        <property name="default">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -387,12 +383,16 @@
         <string>Close</string>
        </property>
        <property name="icon">
-        <iconset theme="window-close"/>
+        <iconset theme="window-close">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
        </property>
        <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
         <bool>true</bool>
        </property>
       </widget>
