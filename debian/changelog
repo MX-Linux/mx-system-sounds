@@ -1,4 +1,4 @@
-mx-system-sounds (17.11+2) UNRELEASED; urgency=medium
+mx-system-sounds (17.11+2) mx; urgency=medium
 
   * changed default button
   * changed help function 
