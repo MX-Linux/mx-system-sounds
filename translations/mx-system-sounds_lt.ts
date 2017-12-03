@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,9 +6,9 @@
         <location filename="../mxsystemsounds.cpp" line="69"/>
         <location filename="../mxsystemsounds.cpp" line="288"/>
         <location filename="../mxsystemsounds.cpp" line="295"/>
-        <location filename="../mxsystemsounds.cpp" line="312"/>
+        <location filename="../mxsystemsounds.cpp" line="304"/>
         <source>MX System Sounds</source>
-        <translation>MX Sistemos garsai</translation>
+        <translation>MX sistemos garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
@@ -140,7 +138,7 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>Apie MX Sistemos garsai</translation>
+        <translation>Apie MX sistemos garsai</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
@@ -158,25 +156,25 @@
         <translation>Autorių teisės (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="293"/>
-        <source>Cancel</source>
-        <translation>Atsisakyti</translation>
-    </message>
-    <message>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <source>License</source>
         <translation>Licencija</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="293"/>
+        <source>Cancel</source>
+        <translation>Atsisakyti</translation>
+    </message>
+    <message>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
         <translation>Pasirinkite garso failą</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="323"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Garso failai (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
