@@ -13,127 +13,127 @@
         <translation>MX Systeemgeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="49"/>
+        <location filename="../mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
         <translation>Gebeurtenisgeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="62"/>
+        <location filename="../mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
         <translation>Sessiegeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="69"/>
+        <location filename="../mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
         <translation>XFCE Gebeurtenisgeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="76"/>
+        <location filename="../mxsystemsounds.ui" line="75"/>
         <source>Login</source>
         <translation>Aanmelden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="83"/>
+        <location filename="../mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
         <translation>XFCE invoer feedbackgeluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="90"/>
+        <location filename="../mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
         <translation>Afmelden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="119"/>
+        <location filename="../mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
         <translation>Aangepaste Geluiden</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="126"/>
+        <location filename="../mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
         <translation>Thema</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="133"/>
-        <location filename="../mxsystemsounds.ui" line="155"/>
+        <location filename="../mxsystemsounds.ui" line="132"/>
+        <location filename="../mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
         <translation>Aanmeldgeluid</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="140"/>
-        <location filename="../mxsystemsounds.ui" line="189"/>
+        <location filename="../mxsystemsounds.ui" line="139"/>
+        <location filename="../mxsystemsounds.ui" line="185"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="167"/>
-        <location filename="../mxsystemsounds.ui" line="213"/>
-        <location filename="../mxsystemsounds.ui" line="216"/>
+        <location filename="../mxsystemsounds.ui" line="164"/>
+        <location filename="../mxsystemsounds.ui" line="207"/>
+        <location filename="../mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
         <translation>Standaard Thema</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="170"/>
+        <location filename="../mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
         <translation>Gebruik Standaard</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="182"/>
-        <location filename="../mxsystemsounds.ui" line="201"/>
+        <location filename="../mxsystemsounds.ui" line="178"/>
+        <location filename="../mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
         <translation>Afmeldgeluid</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="236"/>
+        <location filename="../mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
         <translation>Borealis</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="267"/>
+        <location filename="../mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
         <translation>Over deze toepassing</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="270"/>
+        <location filename="../mxsystemsounds.ui" line="263"/>
         <source>About...</source>
         <translation>Over...</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="276"/>
+        <location filename="../mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="292"/>
+        <location filename="../mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
         <translation>Toon help</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="295"/>
+        <location filename="../mxsystemsounds.ui" line="289"/>
         <source>Help</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="301"/>
+        <location filename="../mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="359"/>
+        <location filename="../mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
         <translation>Toepassen</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="384"/>
+        <location filename="../mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
         <translation>Verlaat de applicatie</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="387"/>
+        <location filename="../mxsystemsounds.ui" line="383"/>
         <source>Close</source>
         <translation>Sluiten</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="393"/>
+        <location filename="../mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>

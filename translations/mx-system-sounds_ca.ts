@@ -13,127 +13,127 @@
         <translation>MX System Sounds</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="49"/>
+        <location filename="../mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
         <translation>Sons dels esdeveniments </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="62"/>
+        <location filename="../mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
         <translation>Sons de la sessió </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="69"/>
+        <location filename="../mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
         <translation>Sons d&apos;esdeveniments XFCE </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="76"/>
+        <location filename="../mxsystemsounds.ui" line="75"/>
         <source>Login</source>
         <translation>Entrada </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="83"/>
+        <location filename="../mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
         <translation>Sons de reacció a l&apos;entrada XFCE </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="90"/>
+        <location filename="../mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
         <translation>Sortida </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="119"/>
+        <location filename="../mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
         <translation>Sons a mida </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="126"/>
+        <location filename="../mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
         <translation>Tema </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="133"/>
-        <location filename="../mxsystemsounds.ui" line="155"/>
+        <location filename="../mxsystemsounds.ui" line="132"/>
+        <location filename="../mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
         <translation>So d&apos;entrada </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="140"/>
-        <location filename="../mxsystemsounds.ui" line="189"/>
+        <location filename="../mxsystemsounds.ui" line="139"/>
+        <location filename="../mxsystemsounds.ui" line="185"/>
         <source>...</source>
         <translation>... </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="167"/>
-        <location filename="../mxsystemsounds.ui" line="213"/>
-        <location filename="../mxsystemsounds.ui" line="216"/>
+        <location filename="../mxsystemsounds.ui" line="164"/>
+        <location filename="../mxsystemsounds.ui" line="207"/>
+        <location filename="../mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
         <translation>Tema per omissió </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="170"/>
+        <location filename="../mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
         <translation>Usa per omissió </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="182"/>
-        <location filename="../mxsystemsounds.ui" line="201"/>
+        <location filename="../mxsystemsounds.ui" line="178"/>
+        <location filename="../mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
         <translation>So de sortida </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="236"/>
+        <location filename="../mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
         <translation>Borealis</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="267"/>
+        <location filename="../mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
         <translation>Quant a aquesta aplicació </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="270"/>
+        <location filename="../mxsystemsounds.ui" line="263"/>
         <source>About...</source>
         <translation>Quant a...</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="276"/>
+        <location filename="../mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="292"/>
+        <location filename="../mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
         <translation>Mostra l&apos;ajuda</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="295"/>
+        <location filename="../mxsystemsounds.ui" line="289"/>
         <source>Help</source>
         <translation>Ajuda </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="301"/>
+        <location filename="../mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="359"/>
+        <location filename="../mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
         <translation>Aplica</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="384"/>
+        <location filename="../mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
         <translation>Surt de l&apos;aplicació </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="387"/>
+        <location filename="../mxsystemsounds.ui" line="383"/>
         <source>Close</source>
         <translation>Tanca </translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.ui" line="393"/>
+        <location filename="../mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
