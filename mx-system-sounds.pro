@@ -35,23 +35,28 @@ HEADERS  += mxsystemsounds.h
 
 FORMS    += mxsystemsounds.ui
 
-TRANSLATIONS += translations/mx-system-sounds_ca.ts \
-                translations/mx-system-sounds_cs.ts \
-                translations/mx-system-sounds_de.ts \
-                translations/mx-system-sounds_el.ts \
-                translations/mx-system-sounds_es.ts \
-                translations/mx-system-sounds_fr.ts \
-                translations/mx-system-sounds_it.ts \
-                translations/mx-system-sounds_ja.ts \
-                translations/mx-system-sounds_lt.ts \
-                translations/mx-system-sounds_nl.ts \
-                translations/mx-system-sounds_pl.ts \
-                translations/mx-system-sounds_pt.ts \
-                translations/mx-system-sounds_ro.ts \
-                translations/mx-system-sounds_ru.ts \
-                translations/mx-system-sounds_sk.ts \
-                translations/mx-system-sounds_sv.ts \
-                translations/mx-system-sounds_tr.ts
+TRANSLATIONS += translations/mx-bootrepair_am.ts \
+                translations/mx-bootrepair_ca.ts \
+                translations/mx-bootrepair_cs.ts \
+                translations/mx-bootrepair_de.ts \
+                translations/mx-bootrepair_el.ts \
+                translations/mx-bootrepair_es.ts \
+                translations/mx-bootrepair_fr.ts \
+                translations/mx-bootrepair_hu.ts \
+                translations/mx-bootrepair_it.ts \
+                translations/mx-bootrepair_ja.ts \
+                translations/mx-bootrepair_kk.ts \
+                translations/mx-bootrepair_lt.ts \
+                translations/mx-bootrepair_nl.ts \
+                translations/mx-bootrepair_pl.ts \
+                translations/mx-bootrepair_pt.ts \
+                translations/mx-bootrepair_pt_BR.ts \
+                translations/mx-bootrepair_ro.ts \
+                translations/mx-bootrepair_ru.ts \
+                translations/mx-bootrepair_sk.ts \
+                translations/mx-bootrepair_sv.ts \
+                translations/mx-bootrepair_tr.ts \
+                translations/mx-bootrepair_uk.ts
 
 RESOURCES += \
     images.qrc
