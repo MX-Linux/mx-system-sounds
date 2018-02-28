@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,53 +8,53 @@
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <location filename="../mxsystemsounds.cpp" line="304"/>
         <source>MX System Sounds</source>
-        <translation>MX Suoni di Sistema</translation>
+        <translation>MX 系統音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="49"/>
         <source>Event Sounds</source>
-        <translation>Suoni delle Notifiche</translation>
+        <translation>事件音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="62"/>
         <source>Session Sounds</source>
-        <translation>Suoni di Sessione</translation>
+        <translation>登入狀態音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="69"/>
         <source>XFCE Event Sounds</source>
-        <translation>Suoni delle Notifiche di XFCE</translation>
+        <translation>XFCE 事件音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="76"/>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>登入</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="83"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Suoni per gli Input di XFCE</translation>
+        <translation>XFCE 反應音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="90"/>
         <source>Logout</source>
-        <translation>Esci</translation>
+        <translation>登出</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="119"/>
         <source>Custom Sounds</source>
-        <translation>Suoni Personali</translation>
+        <translation>自訂音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="126"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation>音效主題</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="133"/>
         <location filename="../mxsystemsounds.ui" line="155"/>
         <source>Login Sound</source>
-        <translation>Suono di Login</translation>
+        <translation>登入音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="140"/>
@@ -67,18 +67,18 @@
         <location filename="../mxsystemsounds.ui" line="213"/>
         <location filename="../mxsystemsounds.ui" line="216"/>
         <source>Theme Default</source>
-        <translation>Tema di Default</translation>
+        <translation>主題預設音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="170"/>
         <source>Use Default</source>
-        <translation>Usa le scelte predefinite</translation>
+        <translation>使用預設音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="182"/>
         <location filename="../mxsystemsounds.ui" line="201"/>
         <source>Logout Sound</source>
-        <translation>Suono di uscita</translation>
+        <translation>登出音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="236"/>
@@ -88,12 +88,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="267"/>
         <source>About this application</source>
-        <translation>Informazioni su questa applicazione</translation>
+        <translation>關於本程式</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="270"/>
         <source>About...</source>
-        <translation>Info...</translation>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="276"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="292"/>
         <source>Display help </source>
-        <translation>Visualizza la guida</translation>
+        <translation>顯示說明</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="295"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="301"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="../mxsystemsounds.ui" line="359"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation>使用</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="384"/>
         <source>Quit application</source>
-        <translation> Chiudi l&apos;applicazione</translation>
+        <translation>退出程式</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="387"/>
         <source>Close</source>
-        <translation>Chiudi</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.ui" line="393"/>
@@ -138,45 +138,45 @@
     <message>
         <location filename="../mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>Informazioni su MX Suoni di Sistema</translation>
+        <translation>關於 MX 系統音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>Versione:</translation>
+        <translation>版本：</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Configura Notifiche e Suoni di Sessione</translation>
+        <translation>設定系統事件與登入狀態音效</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>版權所有 (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="292"/>
         <location filename="../mxsystemsounds.cpp" line="295"/>
         <source>License</source>
-        <translation>Licenza</translation>
+        <translation>授權條款</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="293"/>
         <source>Cancel</source>
-        <translation>Annulla</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Select Sound File</source>
-        <translation>Seleziona il File Sonoro</translation>
+        <translation>選擇音效檔</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="323"/>
         <location filename="../mxsystemsounds.cpp" line="353"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Files Sonori (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>音效檔案（*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav）</translation>
     </message>
 </context>
 </TS>
