@@ -56,7 +56,8 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_sk.ts \
                 translations/mx-system-sounds_sv.ts \
                 translations/mx-system-sounds_tr.ts \
-                translations/mx-system-sounds_uk.ts
+                translations/mx-system-sounds_uk.ts \
+                translations/mx-system-sounds_zh_TW.ts
 
 RESOURCES += \
     images.qrc
