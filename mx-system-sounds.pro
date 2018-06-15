@@ -41,7 +41,10 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_de.ts \
                 translations/mx-system-sounds_el.ts \
                 translations/mx-system-sounds_es.ts \
+                translations/mx-system-sounds_fi.ts \
                 translations/mx-system-sounds_fr.ts \
+                translations/mx-system-sounds_hi.ts \
+                translations/mx-system-sounds_hr.ts \
                 translations/mx-system-sounds_hu.ts \
                 translations/mx-system-sounds_it.ts \
                 translations/mx-system-sounds_ja.ts \
