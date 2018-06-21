@@ -199,8 +199,7 @@ void mxsystemsounds::setup()
 // Get version of the program
 QString mxsystemsounds::getVersion(QString name)
 {
-    QString cmdstr = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return runCmd(cmdstr).str;
+    return runCmd("dpkg-query -f '${Version}' -W " + name).str;
 }
 
 
