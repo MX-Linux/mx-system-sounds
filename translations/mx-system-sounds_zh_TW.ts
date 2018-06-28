@@ -5,10 +5,10 @@
     <name>mxsystemsounds</name>
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
-        <location filename="../mxsystemsounds.cpp" line="69"/>
+        <location filename="../mxsystemsounds.cpp" line="70"/>
         <location filename="../mxsystemsounds.cpp" line="288"/>
-        <location filename="../mxsystemsounds.cpp" line="295"/>
-        <location filename="../mxsystemsounds.cpp" line="312"/>
+        <location filename="../mxsystemsounds.cpp" line="300"/>
+        <location filename="../mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
         <translation>MX 系統音效</translation>
     </message>
@@ -159,24 +159,34 @@
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="292"/>
-        <location filename="../mxsystemsounds.cpp" line="295"/>
+        <location filename="../mxsystemsounds.cpp" line="300"/>
         <source>License</source>
         <translation>授權條款</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="293"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="309"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
         <translation>選擇音效檔</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>音效檔案（*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav）</translation>
     </message>
