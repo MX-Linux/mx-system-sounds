@@ -5,10 +5,10 @@
     <name>mxsystemsounds</name>
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
-        <location filename="../mxsystemsounds.cpp" line="69"/>
+        <location filename="../mxsystemsounds.cpp" line="70"/>
         <location filename="../mxsystemsounds.cpp" line="288"/>
-        <location filename="../mxsystemsounds.cpp" line="295"/>
-        <location filename="../mxsystemsounds.cpp" line="312"/>
+        <location filename="../mxsystemsounds.cpp" line="300"/>
+        <location filename="../mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
         <translation>MX_Sons do Sistema</translation>
     </message>
@@ -159,24 +159,34 @@
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="292"/>
-        <location filename="../mxsystemsounds.cpp" line="295"/>
+        <location filename="../mxsystemsounds.cpp" line="300"/>
         <source>License</source>
         <translation>Licença</translation>
     </message>
     <message>
         <location filename="../mxsystemsounds.cpp" line="293"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="309"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
         <translation>Seleccionar ficheiro de som</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="331"/>
-        <location filename="../mxsystemsounds.cpp" line="361"/>
+        <location filename="../mxsystemsounds.cpp" line="353"/>
+        <location filename="../mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation>Ficheiros de som (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>

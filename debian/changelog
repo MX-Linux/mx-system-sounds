@@ -1,3 +1,9 @@
+mx-system-sounds (18.6.1) mx; urgency=medium
+
+  * added changelog button
+
+ -- Adrian <adrian@mxlinux.org>  Thu, 28 Jun 2018 16:59:06 -0400
+
 mx-system-sounds (18.6) mx; urgency=medium
 
   * new translations

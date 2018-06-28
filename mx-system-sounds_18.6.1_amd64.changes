@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 28 Jun 2018 16:59:06 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 18.6.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (18.6.1) mx; urgency=medium
+ .
+   * added changelog button
+Checksums-Sha1:
+ 9cae6a18c924d1cbbceacc6c17991de8d56c29f6 1203 mx-system-sounds_18.6.1.dsc
+ 8f276f05256a3e7742287edb4b2740628f4877f7 32932 mx-system-sounds_18.6.1.tar.xz
+ 2e90f07725e8369f4ee3c22cadbe3527c685d602 51898 mx-system-sounds_18.6.1_amd64.deb
+Checksums-Sha256:
+ 0fadc421af7f5319f52a5dec3fa98780f3395d8d0d2a6c2be461b829b7aa6a2a 1203 mx-system-sounds_18.6.1.dsc
+ 503e9d37847694b6f87c3f878800f77bce191db4ce6229083aa2ebe6c6523857 32932 mx-system-sounds_18.6.1.tar.xz
+ 20981c53133f7abc86a8cff6f92384cd41a072825af503316c857169d338d286 51898 mx-system-sounds_18.6.1_amd64.deb
+Files:
+ 2d195a82027bd377db3b77806daab2f4 1203 admin optional mx-system-sounds_18.6.1.dsc
+ c5eb2dd3f3bb16dc40d30091a0a44ecb 32932 admin optional mx-system-sounds_18.6.1.tar.xz
+ 82e42f5b333bc512cbcfb567a1c3bc94 51898 admin optional mx-system-sounds_18.6.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAls1TbATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumNMRB/9tuRuyZ31Q2TJIj+hsgpg/2RI6kz4G
+wb9Csp1hwl8uLKjy/DqqlttKzfYbPYpoq6AoO0KnVE1ASVWY4ZO/YSDDnbSTdWRp
+0jBP5O8KAhb1Ryg2LNVFyfsRIngGl2BHt8ePUvzpBG3AKINBo5SpOeQVwJ3QN079
+Ql75txm/IJ4ZXTby0EY3LV+5MSmT2048uFpkyR1j/ED/+FQaWhrG/4erNAC+o7lS
+QkK7JJbzqu0aRaP9d+IpD14FEGdjC1KK3XYlysRNChV9KW5e5BsdXodqJZWpFHDz
+a+moTt8d79Ri1BlOiT7E1yYEWSUSh3L4onctJqoNzqXblZ/9kZ8Lg+gu
+=wtpU
+-----END PGP SIGNATURE-----
