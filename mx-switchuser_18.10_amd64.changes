@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 14 Oct 2018 20:15:38 -0400
+Source: mx-switchuser
+Binary: mx-switchuser
+Architecture: source all
+Version: 18.10
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-switchuser - Tools to switch users without logging out.
+Changes:
+ mx-switchuser (18.10) mx; urgency=medium
+ .
+   * Updated translations
+Checksums-Sha1:
+ 4c7c3479c790582841a71b7a015a3d69110528a4 1211 mx-switchuser_18.10.dsc
+ 1c17504f30f84edc2a46fef3af89a03cf5c32c9b 12076 mx-switchuser_18.10.tar.xz
+ d6852727537cf8d26061ba4dae40e91a47494175 7998 mx-switchuser_18.10_all.deb
+Checksums-Sha256:
+ b25aae6042e37350de46a862a1d0db49cf0e026d32ea5137073fe0125b33fe6a 1211 mx-switchuser_18.10.dsc
+ 507b53b656fce6078f882cea458c8dc635dc7fff2f476cc41999d72394f97a7a 12076 mx-switchuser_18.10.tar.xz
+ 2ee186f6838dc66504b9a1aa9a811d9c4f0aa5b903eac12739fb61ce621f5fc4 7998 mx-switchuser_18.10_all.deb
+Files:
+ 6400ec251eebe1e46d90743d27bc6e00 1211 system required mx-switchuser_18.10.dsc
+ 6558ad5e362a2f32053c276a314f67b6 12076 system required mx-switchuser_18.10.tar.xz
+ 7cb9660df9528445902ea19f1b951a20 7998 system required mx-switchuser_18.10_all.deb
+Original-Maintainer: anticapitalista <antiX@operamail.com>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlvD3kQTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumBt5CACKJpcmElytV2L8E0VrCSWMKl/Zn8+z
+NEXmOTWQgxvP0tFv95Bq9L37DDmB5pHvSNLOp747+/kTNT62xzJPwQvf3mkblpqP
++kOcHHApCr0KREi4kIjcXr6oUDLB53F5Ua6Ex9iaOEzhReEd/f8L4/0SpAsOlvjD
+76G7bke3GeNE+9THEauR1ArbwZ/IwMJl3V3h07mMXTSGRTZlUIO+SH/KYDh3kF5y
+yLapTenMJVhjd5b5VpTxjUwQ/2mw13FKl56N9u4qlcMM6x82zJE97Ea4pBqRDVqP
+71NlagWbkaZApjOSzEZIHOsIJP38r6iKJOHdnddwpWf6EczBx/RIa6Wu
+=GqXJ
+-----END PGP SIGNATURE-----
