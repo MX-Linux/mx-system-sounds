@@ -38,6 +38,7 @@ FORMS    += mxsystemsounds.ui
 TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_ca.ts \
                 translations/mx-system-sounds_cs.ts \
+                translations/mx-system-sounds_da.ts \
                 translations/mx-system-sounds_de.ts \
                 translations/mx-system-sounds_el.ts \
                 translations/mx-system-sounds_es.ts \
@@ -46,6 +47,7 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_hi.ts \
                 translations/mx-system-sounds_hr.ts \
                 translations/mx-system-sounds_hu.ts \
+                translations/mx-system-sounds_is.ts \
                 translations/mx-system-sounds_it.ts \
                 translations/mx-system-sounds_ja.ts \
                 translations/mx-system-sounds_kk.ts \
@@ -57,6 +59,7 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_ro.ts \
                 translations/mx-system-sounds_ru.ts \
                 translations/mx-system-sounds_sk.ts \
+                translations/mx-system-sounds_sq.ts \
                 translations/mx-system-sounds_sv.ts \
                 translations/mx-system-sounds_tr.ts \
                 translations/mx-system-sounds_uk.ts \

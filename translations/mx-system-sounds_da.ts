@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -8,53 +8,53 @@
         <location filename="mxsystemsounds.cpp" line="300"/>
         <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation>MX Systémové zvuky</translation>
+        <translation>MX Systemlyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation>Zvuky udalostí</translation>
+        <translation>Hændelseslyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation>Zvuky relácie</translation>
+        <translation>Sessionslyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation>Zvuky udalostí XFCE</translation>
+        <translation>XFCE Hændelseslyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation>Zvuk pri prihlásení</translation>
+        <translation>Log ind</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Zvuky potvrdenia akcií</translation>
+        <translation>XFCE Inputfeedback-lyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation>Zvuk pri odhlásení</translation>
+        <translation>Log ud</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation>Prispôsobiť zvuky</translation>
+        <translation>Tilpassede lyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation>Motív</translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="132"/>
         <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation>Zvuk pri prihlásení</translation>
+        <translation>Log ind-lyd</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="139"/>
@@ -67,18 +67,18 @@
         <location filename="mxsystemsounds.ui" line="207"/>
         <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation>Predvolené motívom</translation>
+        <translation>Standard for tema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation>Použiť predvolené</translation>
+        <translation>Brug standard</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="178"/>
         <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation>Zvuk pri odhlásení</translation>
+        <translation>Log ud-lyd</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="229"/>
@@ -88,12 +88,12 @@
     <message>
         <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation>O tejto aplikácii</translation>
+        <translation>Om programmet</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation>O Programe</translation>
+        <translation>Om...</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="270"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation>Zobraziť nápovedu</translation>
+        <translation>Vis hjælp</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>Hjælp</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="296"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation>Použiť</translation>
+        <translation>Anvend</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation>Zatvoriť aplikáciu</translation>
+        <translation>Afslut programmet</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation>Zatvoriť</translation>
+        <translation>Luk</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="390"/>
@@ -138,55 +138,55 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>O programe MX Systémové zvuky</translation>
+        <translation>Om MX Systemlyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>Verzia</translation>
+        <translation>Version: </translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Konfiguruje zvuky udalostí a relácie</translation>
+        <translation>Konfigurer hændelses- og sessionslyde</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Ophavsret (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="292"/>
         <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation>Licens</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="293"/>
         <source>Changelog</source>
-        <translation>História zmien</translation>
+        <translation>Ændringslog</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation>&amp;Zatvoriť</translation>
+        <translation>&amp;Luk</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="353"/>
         <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation>Zvoliť zvukový súbor</translation>
+        <translation>Vælg lydfil</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="353"/>
         <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Zvukové súbory (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>Lydfiler (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>
