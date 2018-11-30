@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 30 Nov 2018 14:54:31 -0500
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 18.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (18.11) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 39d297ab21fbe7a65d43e8d1703cdba9891490c2 1199 mx-system-sounds_18.11.dsc
+ 30ce8d3764ea5fe16ecc03d99198065d8bc95bee 33872 mx-system-sounds_18.11.tar.xz
+ f2464c34e129af3679e66d35880594d361f82f65 11223 mx-system-sounds_18.11_amd64.buildinfo
+ 32a2cf6d4fe249209df842142bbe45900f12d551 53010 mx-system-sounds_18.11_amd64.deb
+Checksums-Sha256:
+ 9a66ea2b8bdc7d94ae051bbf9515f85d03ffc4791d89ce45f084dd46451c4c6d 1199 mx-system-sounds_18.11.dsc
+ f58b3668aa1a783858cc67011d5dd47c2625384d042f2a99c4fcbaf2e1e6bf65 33872 mx-system-sounds_18.11.tar.xz
+ e9f16ad42f7932f0b31bfe91d81959a0d013d186c86b734e3b3b62372ecee044 11223 mx-system-sounds_18.11_amd64.buildinfo
+ 302a4e77699b6152bd7ba4a4fd77992f36dd1b28f2362ccd8ca7802661ef1fed 53010 mx-system-sounds_18.11_amd64.deb
+Files:
+ d9722e86ffdeec8bb061c57b67e1463c 1199 admin optional mx-system-sounds_18.11.dsc
+ 84e81b0cead9d5097ff1d0d981c5873c 33872 admin optional mx-system-sounds_18.11.tar.xz
+ f9ca206721d48c4c1993b54fcf7106f5 11223 admin optional mx-system-sounds_18.11_amd64.buildinfo
+ 7806d4662bde38f1f2e338b3177a5ec6 53010 admin optional mx-system-sounds_18.11_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlwBlkUTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumKFOB/40RDTcsuXZD91j3YGZ5Qo2ALpBQyM3
+ocMLLZgy82rfy6hBEg4jFGNfflmaZivIMx8c6jdybAcOnwh4LbsmA/BNf28Stub6
+xqFAwcpACyurG1Uty2jOaERcm+GBYUZumUurDoueXyVKmVTxx/QNV2LMXHkXjn5Z
+0OdzsPLYKziL3Dyd3FySmvDZujJlnShQioR5I+l//d/COkreTiLCNjgMIJHZwYPQ
+vPGFvSkMPgJf1TcbvTRS9i+6udsxwwwyVBFcqkwYFaxHbNLvictghWDBEYeQZaDM
+T3GbQu/XnwmfcNb8mBi0JxnNhPGPTbTXA8E0qUYCrnYZPJxeWKH6TYnB
+=+wBe
+-----END PGP SIGNATURE-----
