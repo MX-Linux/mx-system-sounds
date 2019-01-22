@@ -36,22 +36,33 @@ HEADERS  += mxsystemsounds.h
 FORMS    += mxsystemsounds.ui
 
 TRANSLATIONS += translations/mx-system-sounds_am.ts \
+                translations/mx-system-sounds_ar.ts \
+                translations/mx-system-sounds_bg.ts \
                 translations/mx-system-sounds_ca.ts \
                 translations/mx-system-sounds_cs.ts \
                 translations/mx-system-sounds_da.ts \
                 translations/mx-system-sounds_de.ts \
                 translations/mx-system-sounds_el.ts \
                 translations/mx-system-sounds_es.ts \
+                translations/mx-system-sounds_et.ts \
+                translations/mx-system-sounds_eu.ts \
+                translations/mx-system-sounds_fa.ts \
                 translations/mx-system-sounds_fi.ts \
                 translations/mx-system-sounds_fr.ts \
+                translations/mx-system-sounds_he_IL.ts \
                 translations/mx-system-sounds_hi.ts \
                 translations/mx-system-sounds_hr.ts \
                 translations/mx-system-sounds_hu.ts \
+                translations/mx-system-sounds_id.ts \
                 translations/mx-system-sounds_is.ts \
                 translations/mx-system-sounds_it.ts \
                 translations/mx-system-sounds_ja.ts \
+                translations/mx-system-sounds_ja_JP.ts \
                 translations/mx-system-sounds_kk.ts \
+                translations/mx-system-sounds_ko.ts \
                 translations/mx-system-sounds_lt.ts \
+                translations/mx-system-sounds_mk.ts \
+                translations/mx-system-sounds_nb.ts \
                 translations/mx-system-sounds_nl.ts \
                 translations/mx-system-sounds_pl.ts \
                 translations/mx-system-sounds_pt.ts \
@@ -59,10 +70,13 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_ro.ts \
                 translations/mx-system-sounds_ru.ts \
                 translations/mx-system-sounds_sk.ts \
+                translations/mx-system-sounds_sl.ts \
                 translations/mx-system-sounds_sq.ts \
+                translations/mx-system-sounds_sr.ts \
                 translations/mx-system-sounds_sv.ts \
                 translations/mx-system-sounds_tr.ts \
                 translations/mx-system-sounds_uk.ts \
+                translations/mx-system-sounds_zh_CN.ts \
                 translations/mx-system-sounds_zh_TW.ts
 
 RESOURCES += \

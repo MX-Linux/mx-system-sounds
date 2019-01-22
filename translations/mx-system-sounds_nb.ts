@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hi" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.1">
 <context>
     <name>mxsystemsounds</name>
     <message>
@@ -48,7 +48,7 @@
     <message>
         <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation>थीम</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="132"/>
@@ -88,12 +88,12 @@
     <message>
         <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation>इस अनुप्रयोग के बारे में</translation>
+        <translation>Om applikasjonen</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation>बारे में...</translation>
+        <translation>Om...</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="270"/>
@@ -103,12 +103,12 @@
     <message>
         <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation>मदद देखें</translation>
+        <translation>Vis hjelp</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation>सहायता</translation>
+        <translation>Hjelp</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="296"/>
@@ -118,17 +118,17 @@
     <message>
         <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation>लागू करें</translation>
+        <translation>Bruk</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation>अनुप्रयोग बंद करें</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation>बंद करें</translation>
+        <translation>Lukk</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="390"/>
@@ -143,7 +143,7 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>संस्करण :</translation>
+        <translation>Versjon:</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="289"/>
@@ -153,28 +153,28 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>प्रतिलिप्याधिकार (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="292"/>
         <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation>लाइसेंस</translation>
+        <translation>Lisens</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="293"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Changelog</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation>रद्द</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Lukk</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="353"/>
