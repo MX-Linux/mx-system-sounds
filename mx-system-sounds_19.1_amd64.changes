@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 23 Jan 2019 16:35:28 -0500
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 19.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (19.1) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 1c4f9de807ff542c84ec807915cecdea1bd607bf 1195 mx-system-sounds_19.1.dsc
+ 19f191901b6da98dd12b09b35386805881a0da75 35200 mx-system-sounds_19.1.tar.xz
+ 86ac4f9658254dbd6e1b0cc341e3ca85d26d4bf4 380802 mx-system-sounds-dbgsym_19.1_amd64.deb
+ 7b2bfc9df64ca7c0663e8d087d82a67f0feaf03c 11647 mx-system-sounds_19.1_amd64.buildinfo
+ 17f98cec65d374abb01431e46f0cfab151d98a93 54602 mx-system-sounds_19.1_amd64.deb
+Checksums-Sha256:
+ ec1e149338bbd30325e25e66038860a773a460dd4f76e002adc2b1b7bc65239b 1195 mx-system-sounds_19.1.dsc
+ a754643df3eac2ba84dcf3e5a12a3ce39dc30aaaca63f6a50c6a20249437b396 35200 mx-system-sounds_19.1.tar.xz
+ c6c38db701248287dfeb48f68d5aa2dcba8723aa6dd98a4229fa1082407ade32 380802 mx-system-sounds-dbgsym_19.1_amd64.deb
+ c325712c559a0bf6bbb7bc4e38f1f6d2311b84edb1734a1c8de0e205c11cc9e2 11647 mx-system-sounds_19.1_amd64.buildinfo
+ 36e41799f0f6c5fa6ec326a274c14d886f0f0bbea7e48d2a261441780e129a3f 54602 mx-system-sounds_19.1_amd64.deb
+Files:
+ 84db00a4e0b862649f997acb68d6119e 1195 admin optional mx-system-sounds_19.1.dsc
+ 31f4169c410ec7c840916e7f9fa73134 35200 admin optional mx-system-sounds_19.1.tar.xz
+ 6b39d7fd13cd0ce0537ea9b745b179b0 380802 debug optional mx-system-sounds-dbgsym_19.1_amd64.deb
+ 5bed66ad58186129cd363594540290ab 11647 admin optional mx-system-sounds_19.1_amd64.buildinfo
+ 2e957bda36eea70a36994019d23fef5c 54602 admin optional mx-system-sounds_19.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlxI3qwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumFbHB/9b3dCNmsOjOBakIUaiXiFTgEXNcURZ
+cNPHnbCJ0r/+NQblKxLyP5XflQlLCJ5v0ILLckTjimDpfJ9Ri1f1fiFfMcAM7QwG
+Vn0zvXiuh84ugxIB2PMgjA/BoPLkXABNlJmf2saAeXjVa0P29HuBAguX4BOvVTz5
+sv3YxbYXiEwSYeRgdgbopi+WJsqgw0h6PowcKIhGN58TlXDikT+P0NeI34JfHnVB
+3H3J6L88lxIuGt8cUgCsrRVZll/9JWdxqwvtV6GC7bxbhjCKr/hs98/55XBVCG7g
+iZ5KXcdkx+lJ0KZioI+f6QXo1few7fAZ4CIegnEeEJj68PYJqYePOhcR
+=S7xM
+-----END PGP SIGNATURE-----
