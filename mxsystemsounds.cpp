@@ -26,6 +26,7 @@
 
 #include "mxsystemsounds.h"
 #include "ui_mxsystemsounds.h"
+#include "version.h"
 
 #include <QDebug>
 #include <QDir>
@@ -37,6 +38,7 @@ mxsystemsounds::mxsystemsounds(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::mxsystemsounds)
 {
+    qDebug() << "Program Version:" << VERSION;
     ui->setupUi(this);
     if (ui->buttonApply->icon().isNull()) {
         ui->buttonApply->setIcon(QIcon(":/icons/dialog-ok.svg"));
@@ -66,7 +68,6 @@ Output mxsystemsounds::runCmd(QString cmd)
 // setup versious items first time program runs
 void mxsystemsounds::setup()
 {
-    version = getVersion("mx-system-sounds");
     this->setWindowTitle(tr("MX System Sounds"));
     this->adjustSize();
 
@@ -196,17 +197,6 @@ void mxsystemsounds::setup()
     ui->buttonApply->setEnabled(false);
 }
 
-
-// Get version of the program
-QString mxsystemsounds::getVersion(QString name)
-{
-    return runCmd("dpkg-query -f '${Version}' -W " + name).str;
-}
-
-
-//// slots ////
-
-
 // Apply button clicked
 void mxsystemsounds::on_buttonApply_clicked()
 {
@@ -285,7 +275,7 @@ void mxsystemsounds::on_buttonAbout_clicked()
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX System Sounds"), "<p align=\"center\"><b><h2>" +
-                       tr("MX System Sounds") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
+                       tr("MX System Sounds") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("Configure Event & Session Sounds") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
@@ -521,10 +511,6 @@ void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
     }
     ui->buttonApply->setEnabled(true);
 }
-
-
-
-
 
 void mxsystemsounds::on_checkbox_eventsounds_clicked()
 {

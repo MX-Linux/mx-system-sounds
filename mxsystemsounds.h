@@ -47,8 +47,6 @@ public:
     explicit mxsystemsounds(QWidget *parent = 0);
     ~mxsystemsounds();
 
-    QString version;
-    QString getVersion(QString name);
     Output runCmd(QString cmd);
     void setup();
     QString customloginsound;
