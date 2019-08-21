@@ -5,10 +5,10 @@
     <name>mxsystemsounds</name>
     <message>
         <location filename="../mxsystemsounds.ui" line="14"/>
-        <location filename="../mxsystemsounds.cpp" line="70"/>
-        <location filename="../mxsystemsounds.cpp" line="288"/>
-        <location filename="../mxsystemsounds.cpp" line="300"/>
-        <location filename="../mxsystemsounds.cpp" line="334"/>
+        <location filename="../mxsystemsounds.cpp" line="72"/>
+        <location filename="../mxsystemsounds.cpp" line="279"/>
+        <location filename="../mxsystemsounds.cpp" line="291"/>
+        <location filename="../mxsystemsounds.cpp" line="325"/>
         <source>MX System Sounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -138,55 +138,55 @@
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="287"/>
+        <location filename="../mxsystemsounds.cpp" line="278"/>
         <source>About MX System Sounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="288"/>
+        <location filename="../mxsystemsounds.cpp" line="279"/>
         <source>Version: </source>
         <translation>Versjon:</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="289"/>
+        <location filename="../mxsystemsounds.cpp" line="280"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="291"/>
+        <location filename="../mxsystemsounds.cpp" line="282"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="292"/>
-        <location filename="../mxsystemsounds.cpp" line="300"/>
+        <location filename="../mxsystemsounds.cpp" line="283"/>
+        <location filename="../mxsystemsounds.cpp" line="291"/>
         <source>License</source>
         <translation>Lisens</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="293"/>
+        <location filename="../mxsystemsounds.cpp" line="284"/>
         <source>Changelog</source>
         <translation>Changelog</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="294"/>
+        <location filename="../mxsystemsounds.cpp" line="285"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="309"/>
+        <location filename="../mxsystemsounds.cpp" line="300"/>
         <source>&amp;Close</source>
         <translation>&amp;Lukk</translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="353"/>
-        <location filename="../mxsystemsounds.cpp" line="383"/>
+        <location filename="../mxsystemsounds.cpp" line="344"/>
+        <location filename="../mxsystemsounds.cpp" line="374"/>
         <source>Select Sound File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxsystemsounds.cpp" line="353"/>
-        <location filename="../mxsystemsounds.cpp" line="383"/>
+        <location filename="../mxsystemsounds.cpp" line="344"/>
+        <location filename="../mxsystemsounds.cpp" line="374"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation type="unfinished"></translation>
     </message>
