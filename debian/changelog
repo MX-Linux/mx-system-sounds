@@ -1,3 +1,9 @@
+mx-system-sounds (19.8) mx; urgency=medium
+
+  * added offline help file
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 21 Aug 2019 15:25:20 -0400
+
 mx-system-sounds (19.4) mx; urgency=medium
 
   * updated translations

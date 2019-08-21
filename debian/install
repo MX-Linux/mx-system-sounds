@@ -1,5 +1,6 @@
 52libcanberra-gtk-module_add-to-gtk-modules	etc/X11/Xsession.d
 bin/*				usr/local/bin
+help				usr/share/doc/mx-system-sounds
 license.html			usr/share/doc/mx-system-sounds
 mx-system-sounds		usr/bin
 mx-system-sounds.desktop	usr/share/applications

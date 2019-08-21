@@ -316,7 +316,7 @@ void mxsystemsounds::on_buttonHelp_clicked()
     QLocale locale;
     QString lang = locale.bcp47Name();
 
-    QString url = "https://mxlinux.org/wiki/help-files/help-mx-system-sounds";
+    QString url = "/usr/share/doc/mx-system-sounds/help/mx-system-sounds.html";
 
     if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me";
