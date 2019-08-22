@@ -1,9 +1,11 @@
-52libcanberra-gtk-module_add-to-gtk-modules	etc/X11/Xsession.d
-bin/*				usr/local/bin
-help				usr/share/doc/mx-system-sounds
-license.html			usr/share/doc/mx-system-sounds
 mx-system-sounds		usr/bin
 mx-system-sounds.desktop	usr/share/applications
-mx-system-sounds.png		usr/share/icons/hicolor/24x24/apps
-mx-system-sounds.png		usr/share/pixmaps
 translations/*.qm		usr/share/mx-system-sounds/locale
+mx-system-sounds.png		usr/share/pixmaps
+mx-system-sounds.png		usr/share/icons/hicolor/24x24/apps
+license.html			usr/share/doc/mx-system-sounds
+bin/*				usr/bin
+52libcanberra-gtk-module_add-to-gtk-modules	etc/X11/Xsession.d
+zstartup-sound.desktop /etc/xdg/autostart
+logoutsound.desktop /etc/xdg/autostart
+help/* usr/share/doc/mx-system-sounds/help
