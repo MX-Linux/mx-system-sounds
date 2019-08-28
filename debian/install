@@ -7,5 +7,5 @@ license.html			usr/share/doc/mx-system-sounds
 bin/*				usr/bin
 52libcanberra-gtk-module_add-to-gtk-modules	etc/X11/Xsession.d
 zstartup-sound.desktop /etc/xdg/autostart
-logoutsound.desktop /etc/xdg/autostart
+logoutsound-*.desktop /etc/xdg/autostart
 help/* usr/share/doc/mx-system-sounds/help
