@@ -1,0 +1,227 @@
+ dpkg-buildpackage -rfakeroot -us -uc
+dpkg-buildpackage: info: source package mx-system-sounds
+dpkg-buildpackage: info: source version 19.8.01
+dpkg-buildpackage: info: source distribution mx
+dpkg-buildpackage: info: source changed by Adrian <adrian@mxlinux.org>
+ dpkg-source --before-build 64
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean --parallel 
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+dh_auto_clean
+rm -f src/translations/*.qm
+make[1]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+   dh_clean -O--parallel
+ dpkg-source -b 64
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building mx-system-sounds in mx-system-sounds_19.8.01.tar.xz
+dpkg-source: info: building mx-system-sounds in mx-system-sounds_19.8.01.dsc
+ debian/rules build
+dh build --parallel 
+   dh_update_autotools_config -O--parallel
+   dh_auto_configure -O--parallel
+	qmake -makefile "QMAKE_CFLAGS_RELEASE=-g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2" "QMAKE_CFLAGS_DEBUG=-g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2" "QMAKE_CXXFLAGS_RELEASE=-g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2" "QMAKE_CXXFLAGS_DEBUG=-g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2" QMAKE_LFLAGS_RELEASE=-Wl,-z,relro QMAKE_LFLAGS_DEBUG=-Wl,-z,relro QMAKE_STRIP=: PREFIX=/usr
+Info: creating stash file /media/dataext/development/working/mx-system-sounds/64/.qmake.stash
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+lrelease mx-system-sounds.pro
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_am.qm'...
+    Generated 34 translation(s) (34 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ar.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_bg.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ca.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_cs.qm'...
+    Generated 34 translation(s) (34 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_da.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_de.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_el.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_es.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_et.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_eu.qm'...
+    Generated 2 translation(s) (2 finished and 0 unfinished)
+    Ignored 33 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_fa.qm'...
+    Generated 2 translation(s) (2 finished and 0 unfinished)
+    Ignored 33 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_fi.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_fr.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_he_IL.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 34 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_hi.qm'...
+    Generated 16 translation(s) (16 finished and 0 unfinished)
+    Ignored 19 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_hr.qm'...
+    Generated 17 translation(s) (17 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_hu.qm'...
+    Generated 13 translation(s) (13 finished and 0 unfinished)
+    Ignored 22 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_id.qm'...
+    Generated 7 translation(s) (7 finished and 0 unfinished)
+    Ignored 28 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_is.qm'...
+    Generated 18 translation(s) (18 finished and 0 unfinished)
+    Ignored 17 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_it.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ja.qm'...
+    Generated 34 translation(s) (34 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ja_JP.qm'...
+    Generated 8 translation(s) (8 finished and 0 unfinished)
+    Ignored 27 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_kk.qm'...
+    Generated 14 translation(s) (14 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ko.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_lt.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_mk.qm'...
+    Generated 2 translation(s) (2 finished and 0 unfinished)
+    Ignored 33 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_nb.qm'...
+    Generated 15 translation(s) (15 finished and 0 unfinished)
+    Ignored 20 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_nl.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_pl.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_pt.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_pt_BR.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ro.qm'...
+    Generated 16 translation(s) (16 finished and 0 unfinished)
+    Ignored 19 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_ru.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_sk.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_sl.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_sq.qm'...
+    Generated 13 translation(s) (13 finished and 0 unfinished)
+    Ignored 22 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_sr.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_sv.qm'...
+    Generated 35 translation(s) (35 finished and 0 unfinished)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_tr.qm'...
+    Generated 30 translation(s) (30 finished and 0 unfinished)
+    Ignored 5 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_uk.qm'...
+    Generated 17 translation(s) (17 finished and 0 unfinished)
+    Ignored 18 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_zh_CN.qm'...
+    Generated 3 translation(s) (3 finished and 0 unfinished)
+    Ignored 32 untranslated source text(s)
+Updating '/media/dataext/development/working/mx-system-sounds/64/translations/mx-system-sounds_zh_TW.qm'...
+    Generated 34 translation(s) (34 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+dh_auto_build -- QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE"
+	make -j4 QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS=DEFINES\+=NO_DEBUG_ON_CONSOLE
+make[2]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+/usr/lib/x86_64-linux-gnu/qt5/bin/uic mxsystemsounds.ui -o ui_mxsystemsounds.h
+g++ -c -m64 -pipe -g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -o main.o main.cpp
+/usr/lib/x86_64-linux-gnu/qt5/bin/rcc -name images images.qrc -o qrc_images.cpp
+/usr/lib/x86_64-linux-gnu/qt5/bin/moc -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/media/dataext/development/working/mx-system-sounds/64 -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/6 -I/usr/include/x86_64-linux-gnu/c++/6 -I/usr/include/c++/6/backward -I/usr/lib/gcc/x86_64-linux-gnu/6/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include mxsystemsounds.h -o moc_mxsystemsounds.cpp
+g++ -c -m64 -pipe -g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -o qrc_images.o qrc_images.cpp
+g++ -c -m64 -pipe -g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -o mxsystemsounds.o mxsystemsounds.cpp
+g++ -c -m64 -pipe -g -O2 -fdebug-prefix-map=/media/dataext/development/working/mx-system-sounds/64=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -o moc_mxsystemsounds.o moc_mxsystemsounds.cpp
+mxsystemsounds.cpp: In member function ‘void mxsystemsounds::on_buttonApply_clicked()’:
+mxsystemsounds.cpp:208:78: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
+                                                                              ^
+mxsystemsounds.cpp:210:79: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+                                                                               ^
+mxsystemsounds.cpp:217:90: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+             system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
+                                                                                          ^
+mxsystemsounds.cpp:219:91: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+             system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+                                                                                           ^
+mxsystemsounds.cpp:222:87: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+                                                                                       ^
+mxsystemsounds.cpp: In member function ‘void mxsystemsounds::on_buttonAbout_clicked()’:
+mxsystemsounds.cpp:291:153: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+         system("mx-viewer file:///usr/share/doc/mx-system-sounds/license.html '" + tr("MX System Sounds").toUtf8() + " " + tr("License").toUtf8() + "'");
+                                                                                                                                                         ^
+mxsystemsounds.cpp: In member function ‘void mxsystemsounds::on_buttonHelp_clicked()’:
+mxsystemsounds.cpp:326:25: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd.toUtf8());
+                         ^
+mxsystemsounds.cpp: In member function ‘void mxsystemsounds::on_button_play_login_clicked()’:
+mxsystemsounds.cpp:400:25: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd.toUtf8());
+                         ^
+mxsystemsounds.cpp: In member function ‘void mxsystemsounds::on_button_play_logout_clicked()’:
+mxsystemsounds.cpp:410:25: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+     system(cmd.toUtf8());
+                         ^
+g++ -m64 -Wl,-z,relro -o mx-system-sounds main.o mxsystemsounds.o qrc_images.o moc_mxsystemsounds.o   -L/usr/X11R6/lib64 -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
+make[2]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+make[1]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+   dh_auto_test -O--parallel
+ fakeroot debian/rules binary
+dh binary --parallel 
+   dh_testroot -O--parallel
+   dh_prep -O--parallel
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+dh_auto_install -- QMAKE=qmake-qt5 LRELEASE=lrelease-qt5 QMAKE_OPTS="DEFINES+=NO_DEBUG_ON_CONSOLE"
+make[1]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+   dh_install -O--parallel
+   dh_installdocs -O--parallel
+   dh_installchangelogs -O--parallel
+   dh_installinit -O--parallel
+   dh_icons -O--parallel
+   dh_perl -O--parallel
+   dh_link -O--parallel
+   dh_strip_nondeterminism -O--parallel
+   dh_compress -O--parallel
+   dh_fixperms -O--parallel
+   dh_missing -O--parallel
+   dh_strip -O--parallel
+   dh_makeshlibs -O--parallel
+   debian/rules override_dh_shlibdeps
+make[1]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+dpkg-shlibdeps: warning: package could avoid a useless dependency if debian/mx-system-sounds/usr/bin/mx-system-sounds was not linked against libGL.so.1 (it uses none of the library's symbols)
+make[1]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+   dh_installdeb -O--parallel
+   dh_gencontrol -O--parallel
+   dh_md5sums -O--parallel
+   debian/rules override_dh_builddeb
+make[1]: Entering directory '/media/dataext/development/working/mx-system-sounds/64'
+dh_builddeb -- -Z xz
+dpkg-deb: building package 'mx-system-sounds-dbgsym' in '../mx-system-sounds-dbgsym_19.8.01_amd64.deb'.
+dpkg-deb: building package 'mx-system-sounds' in '../mx-system-sounds_19.8.01_amd64.deb'.
+make[1]: Leaving directory '/media/dataext/development/working/mx-system-sounds/64'
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../mx-system-sounds_19.8.01_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build 64
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)

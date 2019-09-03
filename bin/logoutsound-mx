@@ -39,6 +39,4 @@ else
 	fi
 fi
 
-xfce4-session-logout
-
 exit 0
