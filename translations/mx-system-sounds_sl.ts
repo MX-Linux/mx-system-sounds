@@ -8,53 +8,53 @@
         <location filename="mxsystemsounds.cpp" line="300"/>
         <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation>MX zvoki sistema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Zvoki dogodkov</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Zvoki seje</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Zvoki XFCE dogodkov</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation type="unfinished"/>
+        <translation>Prijava</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Potrditveni zvoki za XFCE vhod</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation type="unfinished"/>
+        <translation>Odjava</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Lastni zvoki</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="132"/>
         <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation type="unfinished"/>
+        <translation>Zvok ob vpisu</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="139"/>
@@ -67,23 +67,23 @@
         <location filename="mxsystemsounds.ui" line="207"/>
         <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation type="unfinished"/>
+        <translation>Privzeta tema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation type="unfinished"/>
+        <translation>Uporabi privzeto</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="178"/>
         <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation type="unfinished"/>
+        <translation>Zvok za odjavo</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
-        <translation type="unfinished"/>
+        <translation>Borealis</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="260"/>
@@ -138,7 +138,7 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation type="unfinished"/>
+        <translation>O programu MX zvoki sistema</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="288"/>
@@ -148,7 +148,7 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished"/>
+        <translation>Konfiguriraj zvoke za dogodke in sejo</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="291"/>
@@ -180,13 +180,13 @@
         <location filename="mxsystemsounds.cpp" line="353"/>
         <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation type="unfinished"/>
+        <translation>Izberi zvočno datoteko</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="353"/>
         <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="unfinished"/>
+        <translation>Zvočne datoteke (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>
