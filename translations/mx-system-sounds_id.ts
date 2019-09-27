@@ -113,12 +113,12 @@
     <message>
         <location filename="mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
-        <translation type="unfinished"/>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation>Terapkan</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="380"/>
@@ -128,7 +128,7 @@
     <message>
         <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Tutup</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.ui" line="390"/>
@@ -143,7 +143,7 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Versi:</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="289"/>
@@ -153,18 +153,18 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="292"/>
         <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>Lisensi</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="293"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Changelog</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="294"/>
@@ -174,7 +174,7 @@
     <message>
         <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tutup</translation>
     </message>
     <message>
         <location filename="mxsystemsounds.cpp" line="353"/>

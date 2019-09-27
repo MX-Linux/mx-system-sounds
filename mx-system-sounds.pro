@@ -62,6 +62,7 @@ TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_ko.ts \
                 translations/mx-system-sounds_lt.ts \
                 translations/mx-system-sounds_mk.ts \
+                translations/mx-system-sounds_mr.ts \
                 translations/mx-system-sounds_nb.ts \
                 translations/mx-system-sounds_nl.ts \
                 translations/mx-system-sounds_pl.ts \
