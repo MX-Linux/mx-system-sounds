@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxsystemsounds.cpp
+ *  mainwindow.cpp
  **********************************************************************
  * Copyright (C) 2016 MX Authors
  *
@@ -24,8 +24,8 @@
  **********************************************************************/
 
 
-#include "mxsystemsounds.h"
-#include "ui_mxsystemsounds.h"
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include "version.h"
 
 #include <QDebug>
@@ -34,9 +34,9 @@
 #include <QFileDialog>
 #include <QTextEdit>
 
-mxsystemsounds::mxsystemsounds(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::mxsystemsounds)
+    ui(new Ui::MainWindow)
 {
     qDebug() << "Program Version:" << VERSION;
     ui->setupUi(this);
@@ -47,13 +47,13 @@ mxsystemsounds::mxsystemsounds(QWidget *parent) :
     setup();
 }
 
-mxsystemsounds::~mxsystemsounds()
+MainWindow::~MainWindow()
 {
     delete ui;
 }
 
 // util function for getting bash command output and error code
-Output mxsystemsounds::runCmd(QString cmd)
+Output MainWindow::runCmd(QString cmd)
 {
     QProcess *proc = new QProcess(this);
     QEventLoop loop;
@@ -67,7 +67,7 @@ Output mxsystemsounds::runCmd(QString cmd)
 
 
 // setup versious items first time program runs
-void mxsystemsounds::setup()
+void MainWindow::setup()
 {
     this->setWindowTitle(tr("MX System Sounds"));
     this->adjustSize();
@@ -199,7 +199,7 @@ void mxsystemsounds::setup()
 }
 
 // Apply button clicked
-void mxsystemsounds::on_buttonApply_clicked()
+void MainWindow::on_buttonApply_clicked()
 {
     QString home_path = QDir::homePath();
 
@@ -271,7 +271,7 @@ void mxsystemsounds::on_buttonApply_clicked()
 }
 
 // About button clicked
-void mxsystemsounds::on_buttonAbout_clicked()
+void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
@@ -311,7 +311,7 @@ void mxsystemsounds::on_buttonAbout_clicked()
 }
 
 // Help button clicked
-void mxsystemsounds::on_buttonHelp_clicked()
+void MainWindow::on_buttonHelp_clicked()
 {
     QLocale locale;
     QString lang = locale.bcp47Name();
@@ -328,7 +328,7 @@ void mxsystemsounds::on_buttonHelp_clicked()
 }
 
 
-void mxsystemsounds::on_button_login_sound_clicked()
+void MainWindow::on_button_login_sound_clicked()
 {
 
     // select a user defined login sound
@@ -360,7 +360,7 @@ void mxsystemsounds::on_button_login_sound_clicked()
 
 }
 
-void mxsystemsounds::on_button_logout_sound_clicked()
+void MainWindow::on_button_logout_sound_clicked()
 {
     //choose a user defined logout sound.
     //QString home_path = QDir::homePath();
@@ -389,7 +389,7 @@ void mxsystemsounds::on_button_logout_sound_clicked()
 
 }
 
-void mxsystemsounds::on_button_play_login_clicked()
+void MainWindow::on_button_play_login_clicked()
 {
 
     //play the sound currently defined in the login selection box
@@ -400,7 +400,7 @@ void mxsystemsounds::on_button_play_login_clicked()
     system(cmd.toUtf8());
 }
 
-void mxsystemsounds::on_button_play_logout_clicked()
+void MainWindow::on_button_play_logout_clicked()
 {
     // play the sound currently defined in the logout selection box
     qDebug() << " current logout is ";
@@ -410,7 +410,7 @@ void mxsystemsounds::on_button_play_logout_clicked()
     system(cmd.toUtf8());
 }
 
-void mxsystemsounds::on_button_reset_login_clicked()
+void MainWindow::on_button_reset_login_clicked()
 {
     // reset the login sound to the theme default.  if the theme doesn't have a desktop-login defined, set to "None"
 
@@ -433,7 +433,7 @@ void mxsystemsounds::on_button_reset_login_clicked()
 
 }
 
-void mxsystemsounds::on_button_reset_logout_clicked()
+void MainWindow::on_button_reset_logout_clicked()
 {
     // reset the logout sound to the theme default.  if the theme doesn't have a desktop-logout defined, set to "None"
 
@@ -457,7 +457,7 @@ void mxsystemsounds::on_button_reset_logout_clicked()
 
 }
 
-void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
+void MainWindow::on_comboBox_theme_activated(const QString &arg1)
 {
     // when changing sound theme, set new default selections, unless custom sounds indicated by "theme_login" flags are set.
     // also doesn't change selections if customsounds are previously defined in startupsound.conf or logoutsound.conf
@@ -513,24 +513,24 @@ void mxsystemsounds::on_comboBox_theme_activated(const QString &arg1)
     ui->buttonApply->setEnabled(true);
 }
 
-void mxsystemsounds::on_checkbox_eventsounds_clicked()
+void MainWindow::on_checkbox_eventsounds_clicked()
 {
     ui->buttonApply->setEnabled(true);
 }
 
-void mxsystemsounds::on_checkbox_inputsounds_clicked()
-{
-    ui->buttonApply->setEnabled(true);
-
-}
-
-void mxsystemsounds::on_checkbox_login_clicked()
+void MainWindow::on_checkbox_inputsounds_clicked()
 {
     ui->buttonApply->setEnabled(true);
 
 }
 
-void mxsystemsounds::on_checkbox_logout_clicked()
+void MainWindow::on_checkbox_login_clicked()
+{
+    ui->buttonApply->setEnabled(true);
+
+}
+
+void MainWindow::on_checkbox_logout_clicked()
 {
     ui->buttonApply->setEnabled(true);
 

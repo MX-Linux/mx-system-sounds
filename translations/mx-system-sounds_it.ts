@@ -1,192 +1,337 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="it">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.cpp" line="72"/>
+        <location filename="../mainwindow.cpp" line="279"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="325"/>
+        <source>MX System Sounds</source>
+        <translation type="unfinished">MX Suoni di Sistema</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="48"/>
+        <source>Event Sounds</source>
+        <translation type="unfinished">Suoni delle Notifiche</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="61"/>
+        <source>Session Sounds</source>
+        <translation type="unfinished">Suoni di Sessione</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="68"/>
+        <source>XFCE Event Sounds</source>
+        <translation type="unfinished">Suoni delle Notifiche di XFCE</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="75"/>
+        <source>Login</source>
+        <translation type="unfinished">Login</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="82"/>
+        <source>XFCE Input Feedback Sounds</source>
+        <translation type="unfinished">Suoni per gli Input di XFCE</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="89"/>
+        <source>Logout</source>
+        <translation type="unfinished">Esci</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="118"/>
+        <source>Custom Sounds</source>
+        <translation type="unfinished">Suoni Personali</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="125"/>
+        <source>Theme</source>
+        <translation type="unfinished">Tema</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="132"/>
+        <location filename="../mainwindow.ui" line="153"/>
+        <source>Login Sound</source>
+        <translation type="unfinished">Suono di Login</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="139"/>
+        <location filename="../mainwindow.ui" line="185"/>
+        <source>...</source>
+        <translation type="unfinished">...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="164"/>
+        <location filename="../mainwindow.ui" line="207"/>
+        <location filename="../mainwindow.ui" line="210"/>
+        <source>Theme Default</source>
+        <translation type="unfinished">Tema di Default</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="167"/>
+        <source>Use Default</source>
+        <translation type="unfinished">Usa le scelte predefinite</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="178"/>
+        <location filename="../mainwindow.ui" line="196"/>
+        <source>Logout Sound</source>
+        <translation type="unfinished">Suono di uscita</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="229"/>
+        <source>Borealis</source>
+        <translation type="unfinished">Borealis</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="260"/>
+        <source>About this application</source>
+        <translation type="unfinished">Informazioni su questa applicazione</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="263"/>
+        <source>About...</source>
+        <translation type="unfinished">Info...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="270"/>
+        <source>Alt+B</source>
+        <translation type="unfinished">Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="286"/>
+        <source>Display help </source>
+        <translation type="unfinished">Visualizza la guida</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="289"/>
+        <source>Help</source>
+        <translation type="unfinished">Aiuto</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="296"/>
+        <source>Alt+H</source>
+        <translation type="unfinished">Alt+H</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="354"/>
+        <source>Apply</source>
+        <translation type="unfinished">Applica</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="380"/>
+        <source>Quit application</source>
+        <translation type="unfinished"> Chiudi l&apos;applicazione</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="383"/>
+        <source>Close</source>
+        <translation type="unfinished">Chiudi</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="390"/>
+        <source>Alt+N</source>
+        <translation type="unfinished">Alt+N</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="278"/>
+        <source>About MX System Sounds</source>
+        <translation type="unfinished">Informazioni su MX Suoni di Sistema</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="279"/>
+        <source>Version: </source>
+        <translation type="unfinished">Versione:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="280"/>
+        <source>Configure Event &amp; Session Sounds</source>
+        <translation type="unfinished">Configura Notifiche e Suoni di Sessione</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="282"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished">Copyright (c) MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="283"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <source>License</source>
+        <translation type="unfinished">Licenza</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="284"/>
+        <source>Changelog</source>
+        <translation type="unfinished">Changelog</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="285"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Annulla</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="300"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Chiudi</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="374"/>
+        <source>Select Sound File</source>
+        <translation type="unfinished">Seleziona il File Sonoro</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="374"/>
+        <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
+        <translation type="unfinished">Files Sonori (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+    </message>
+</context>
 <context>
     <name>mxsystemsounds</name>
     <message>
-        <location filename="mxsystemsounds.ui" line="14"/>
-        <location filename="mxsystemsounds.cpp" line="70"/>
-        <location filename="mxsystemsounds.cpp" line="288"/>
-        <location filename="mxsystemsounds.cpp" line="300"/>
-        <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation>MX Suoni di Sistema</translation>
+        <translation type="vanished">MX Suoni di Sistema</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation>Suoni delle Notifiche</translation>
+        <translation type="vanished">Suoni delle Notifiche</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation>Suoni di Sessione</translation>
+        <translation type="vanished">Suoni di Sessione</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation>Suoni delle Notifiche di XFCE</translation>
+        <translation type="vanished">Suoni delle Notifiche di XFCE</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation type="vanished">Login</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>Suoni per gli Input di XFCE</translation>
+        <translation type="vanished">Suoni per gli Input di XFCE</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation>Esci</translation>
+        <translation type="vanished">Esci</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation>Suoni Personali</translation>
+        <translation type="vanished">Suoni Personali</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation type="vanished">Tema</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="132"/>
-        <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation>Suono di Login</translation>
+        <translation type="vanished">Suono di Login</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="139"/>
-        <location filename="mxsystemsounds.ui" line="185"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="164"/>
-        <location filename="mxsystemsounds.ui" line="207"/>
-        <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation>Tema di Default</translation>
+        <translation type="vanished">Tema di Default</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation>Usa le scelte predefinite</translation>
+        <translation type="vanished">Usa le scelte predefinite</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="178"/>
-        <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation>Suono di uscita</translation>
+        <translation type="vanished">Suono di uscita</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation type="vanished">Borealis</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation>Informazioni su questa applicazione</translation>
+        <translation type="vanished">Informazioni su questa applicazione</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation>Info...</translation>
+        <translation type="vanished">Info...</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation>Visualizza la guida</translation>
+        <translation type="vanished">Visualizza la guida</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation type="vanished">Aiuto</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="vanished">Alt+H</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation type="vanished">Applica</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation> Chiudi l&apos;applicazione</translation>
+        <translation type="vanished"> Chiudi l&apos;applicazione</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation>Chiudi</translation>
+        <translation type="vanished">Chiudi</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>Informazioni su MX Suoni di Sistema</translation>
+        <translation type="vanished">Informazioni su MX Suoni di Sistema</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>Versione:</translation>
+        <translation type="vanished">Versione:</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Configura Notifiche e Suoni di Sessione</translation>
+        <translation type="vanished">Configura Notifiche e Suoni di Sessione</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation type="vanished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="292"/>
-        <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation>Licenza</translation>
+        <translation type="vanished">Licenza</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="293"/>
         <source>Changelog</source>
-        <translation>Changelog</translation>
+        <translation type="vanished">Changelog</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation>Annulla</translation>
+        <translation type="vanished">Annulla</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation>&amp;Chiudi</translation>
+        <translation type="vanished">&amp;Chiudi</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="353"/>
-        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation>Seleziona il File Sonoro</translation>
+        <translation type="vanished">Seleziona il File Sonoro</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="353"/>
-        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Files Sonori (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation type="vanished">Files Sonori (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>

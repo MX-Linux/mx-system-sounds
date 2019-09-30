@@ -28,12 +28,14 @@ TARGET = mx-system-sounds
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mxsystemsounds.cpp
+SOURCES += main.cpp \
+    mainwindow.cpp
 
-HEADERS  += mxsystemsounds.h
+HEADERS  += \
+    mainwindow.h
 
-FORMS    += mxsystemsounds.ui
+FORMS    += \
+    mainwindow.ui
 
 TRANSLATIONS += translations/mx-system-sounds_am.ts \
                 translations/mx-system-sounds_ar.ts \
