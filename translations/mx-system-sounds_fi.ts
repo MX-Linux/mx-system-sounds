@@ -1,192 +1,337 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fi">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.cpp" line="72"/>
+        <location filename="../mainwindow.cpp" line="279"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="325"/>
+        <source>MX System Sounds</source>
+        <translation type="unfinished">MX Järjestelmän äänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="48"/>
+        <source>Event Sounds</source>
+        <translation type="unfinished">Tapahtumaäänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="61"/>
+        <source>Session Sounds</source>
+        <translation type="unfinished">Istunnon äänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="68"/>
+        <source>XFCE Event Sounds</source>
+        <translation type="unfinished">XFCE Tapahtumaäänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="75"/>
+        <source>Login</source>
+        <translation type="unfinished">Kirjaudu</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="82"/>
+        <source>XFCE Input Feedback Sounds</source>
+        <translation type="unfinished">XFCE Syötteen tapahtumaäänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="89"/>
+        <source>Logout</source>
+        <translation type="unfinished">Kirjaudu ulos</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="118"/>
+        <source>Custom Sounds</source>
+        <translation type="unfinished">Mukautetut äänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="125"/>
+        <source>Theme</source>
+        <translation type="unfinished">Ulkoasu</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="132"/>
+        <location filename="../mainwindow.ui" line="153"/>
+        <source>Login Sound</source>
+        <translation type="unfinished">Kirjautumisääni</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="139"/>
+        <location filename="../mainwindow.ui" line="185"/>
+        <source>...</source>
+        <translation type="unfinished">...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="164"/>
+        <location filename="../mainwindow.ui" line="207"/>
+        <location filename="../mainwindow.ui" line="210"/>
+        <source>Theme Default</source>
+        <translation type="unfinished">Teeman oletus</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="167"/>
+        <source>Use Default</source>
+        <translation type="unfinished">Käytä oletuksia</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="178"/>
+        <location filename="../mainwindow.ui" line="196"/>
+        <source>Logout Sound</source>
+        <translation type="unfinished">Poistumisääni</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="229"/>
+        <source>Borealis</source>
+        <translation type="unfinished">Borealis</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="260"/>
+        <source>About this application</source>
+        <translation type="unfinished">Tietoja tästä sovelluksesta</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="263"/>
+        <source>About...</source>
+        <translation type="unfinished">Tietoja...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="270"/>
+        <source>Alt+B</source>
+        <translation type="unfinished">Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="286"/>
+        <source>Display help </source>
+        <translation type="unfinished">Näytä ohje</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="289"/>
+        <source>Help</source>
+        <translation type="unfinished">Ohje</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="296"/>
+        <source>Alt+H</source>
+        <translation type="unfinished">Alt+H</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="354"/>
+        <source>Apply</source>
+        <translation type="unfinished">Hyväksy</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="380"/>
+        <source>Quit application</source>
+        <translation type="unfinished">Sulje sovellus</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="383"/>
+        <source>Close</source>
+        <translation type="unfinished">Sulje</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="390"/>
+        <source>Alt+N</source>
+        <translation type="unfinished">Alt+N</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="278"/>
+        <source>About MX System Sounds</source>
+        <translation type="unfinished">Tietoja MX järjestelmän äänistä</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="279"/>
+        <source>Version: </source>
+        <translation type="unfinished">Versio: </translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="280"/>
+        <source>Configure Event &amp; Session Sounds</source>
+        <translation type="unfinished">Konfiguroi tapahtumien&amp;istunnon äänet</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="282"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished">Copyright (c) MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="283"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <source>License</source>
+        <translation type="unfinished">Lisenssi</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="284"/>
+        <source>Changelog</source>
+        <translation type="unfinished">Muutosloki</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="285"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Peruuta</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="300"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Sulje</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="374"/>
+        <source>Select Sound File</source>
+        <translation type="unfinished">Valitse äänitiedosto</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="344"/>
+        <location filename="../mainwindow.cpp" line="374"/>
+        <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
+        <translation type="unfinished">Äänitiedostot (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+    </message>
+</context>
 <context>
     <name>mxsystemsounds</name>
     <message>
-        <location filename="mxsystemsounds.ui" line="14"/>
-        <location filename="mxsystemsounds.cpp" line="70"/>
-        <location filename="mxsystemsounds.cpp" line="288"/>
-        <location filename="mxsystemsounds.cpp" line="300"/>
-        <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation>MX Järjestelmän äänet</translation>
+        <translation type="vanished">MX Järjestelmän äänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation>Tapahtumaäänet</translation>
+        <translation type="vanished">Tapahtumaäänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation>Istunnon äänet</translation>
+        <translation type="vanished">Istunnon äänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation>XFCE Tapahtumaäänet</translation>
+        <translation type="vanished">XFCE Tapahtumaäänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation>Kirjaudu</translation>
+        <translation type="vanished">Kirjaudu</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>XFCE Syötteen tapahtumaäänet</translation>
+        <translation type="vanished">XFCE Syötteen tapahtumaäänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation>Kirjaudu ulos</translation>
+        <translation type="vanished">Kirjaudu ulos</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation>Mukautetut äänet</translation>
+        <translation type="vanished">Mukautetut äänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation>Ulkoasu</translation>
+        <translation type="vanished">Ulkoasu</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="132"/>
-        <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation>Kirjautumisääni</translation>
+        <translation type="vanished">Kirjautumisääni</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="139"/>
-        <location filename="mxsystemsounds.ui" line="185"/>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="164"/>
-        <location filename="mxsystemsounds.ui" line="207"/>
-        <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation>Teeman oletus</translation>
+        <translation type="vanished">Teeman oletus</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation>Käytä oletuksia</translation>
+        <translation type="vanished">Käytä oletuksia</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="178"/>
-        <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation>Poistumisääni</translation>
+        <translation type="vanished">Poistumisääni</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation type="vanished">Borealis</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation>Tietoja tästä sovelluksesta</translation>
+        <translation type="vanished">Tietoja tästä sovelluksesta</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation>Tietoja...</translation>
+        <translation type="vanished">Tietoja...</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation>Näytä ohje</translation>
+        <translation type="vanished">Näytä ohje</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation>Ohje</translation>
+        <translation type="vanished">Ohje</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="vanished">Alt+H</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation>Hyväksy</translation>
+        <translation type="vanished">Hyväksy</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation>Sulje sovellus</translation>
+        <translation type="vanished">Sulje sovellus</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation>Sulje</translation>
+        <translation type="vanished">Sulje</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation>Tietoja MX järjestelmän äänistä</translation>
+        <translation type="vanished">Tietoja MX järjestelmän äänistä</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation>Versio: </translation>
+        <translation type="vanished">Versio: </translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Konfiguroi tapahtumien&amp;istunnon äänet</translation>
+        <translation type="vanished">Konfiguroi tapahtumien&amp;istunnon äänet</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation type="vanished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="292"/>
-        <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation>Lisenssi</translation>
+        <translation type="vanished">Lisenssi</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="293"/>
         <source>Changelog</source>
-        <translation>Muutosloki</translation>
+        <translation type="vanished">Muutosloki</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation>Peruuta</translation>
+        <translation type="vanished">Peruuta</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation>&amp;Sulje</translation>
+        <translation type="vanished">&amp;Sulje</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="353"/>
-        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation>Valitse äänitiedosto</translation>
+        <translation type="vanished">Valitse äänitiedosto</translation>
     </message>
     <message>
-        <location filename="mxsystemsounds.cpp" line="353"/>
-        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Äänitiedostot (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation type="vanished">Äänitiedostot (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>

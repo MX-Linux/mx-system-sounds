@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxsystemsounds.h
+ *  mainwindow.h
  **********************************************************************
  * Copyright (C) 2016 MX Authors
  *
@@ -23,8 +23,8 @@
  **********************************************************************/
 
 
-#ifndef MXSYSTEMSOUNDS_H
-#define MXSYSTEMSOUNDS_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 #include <QMessageBox>
 #include <QProcess>
@@ -36,16 +36,16 @@ struct Output {
 };
 
 namespace Ui {
-class mxsystemsounds;
+class MainWindow;
 }
 
-class mxsystemsounds : public QDialog
+class MainWindow : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit mxsystemsounds(QWidget *parent = 0);
-    ~mxsystemsounds();
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
 
     Output runCmd(QString cmd);
     void setup();
@@ -83,7 +83,7 @@ private slots:
     void on_checkbox_logout_clicked();
 
 private:
-    Ui::mxsystemsounds *ui;
+    Ui::MainWindow *ui;
 };
 
 

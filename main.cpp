@@ -22,7 +22,7 @@
  * along with mx-system-sounds.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
-#include "mxsystemsounds.h"
+#include "mainwindow.h"
 #include <unistd.h>
 #include <QApplication>
 #include <QTranslator>
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     appTran.load(QString("mx-system-sounds_") + QLocale::system().name(), "/usr/share/mx-system-sounds/locale");
     a.installTranslator(&appTran);
 
-    mxsystemsounds w;
+    MainWindow w;
     w.show();
     return a.exec();
 }
