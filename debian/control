@@ -10,10 +10,10 @@ Package: mx-system-sounds
 Architecture: any
 Depends: libcanberra-gstreamer,
          libcanberra-gtk-module,
-         libcanberra-pulse,
          mx-sound-theme,
          mx-viewer,
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends:  libcanberra-pulse
 Description: MX System Sounds
  MX System Sounds is a tool for selecting the system sounds in MX Linux

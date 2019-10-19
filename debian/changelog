@@ -1,3 +1,9 @@
+mx-system-sounds (19.10) mx; urgency=medium
+
+  * revised control file 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 19 Oct 2019 18:18:25 -0400
+
 mx-system-sounds (19.8) mx; urgency=medium
 
   * added offline help file
