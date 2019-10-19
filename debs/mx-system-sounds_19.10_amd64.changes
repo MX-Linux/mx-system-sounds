@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 19 Oct 2019 18:18:25 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 19.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (19.10) mx; urgency=medium
+ .
+   * revised control file
+Checksums-Sha1:
+ 9381da719cb8f86c1657eff1557f9e168f64654c 637 mx-system-sounds_19.10.dsc
+ f2454261fa09cfb64c7716fd98737d33c7aa3e62 45500 mx-system-sounds_19.10.tar.xz
+ 3dde5e09fd84a9f33701484e6568b06b536d7943 461488 mx-system-sounds-dbgsym_19.10_amd64.deb
+ f878090e51cea4e0786b27f51ecf92b5072bda0c 10943 mx-system-sounds_19.10_amd64.buildinfo
+ 2f84793b534f1a1957c1544889552f00dad57cab 59022 mx-system-sounds_19.10_amd64.deb
+Checksums-Sha256:
+ b4120bf3362b8dec740c03c04f29660cd9060dcf67fefabf87a0a46dee7b2b81 637 mx-system-sounds_19.10.dsc
+ 9e809051098d8e9f74fbaffc5d3745b08cd7eb3b068c774c2b4d35df73a47491 45500 mx-system-sounds_19.10.tar.xz
+ 2f5e681e139482bcf609f7a2b7f73d7216ffad03cd1b87ad160627197737e572 461488 mx-system-sounds-dbgsym_19.10_amd64.deb
+ 6114f7d9c05a97887cb19ca4b259312d56233210cee42e3f519291a830a90828 10943 mx-system-sounds_19.10_amd64.buildinfo
+ ccfd4b1c53051c4d5cc9333e3ad1ace93f0195b5c625e742ce00ccba9fd3e084 59022 mx-system-sounds_19.10_amd64.deb
+Files:
+ b81429ee62fd6fb5cfb4b3969de378e1 637 admin optional mx-system-sounds_19.10.dsc
+ b10b224641e71f6160c6d7b363435b35 45500 admin optional mx-system-sounds_19.10.tar.xz
+ c9bd27ada4a4b2e6272ef8346cc34921 461488 debug optional mx-system-sounds-dbgsym_19.10_amd64.deb
+ 98a2299a951c2bf559734b989702df58 10943 admin optional mx-system-sounds_19.10_amd64.buildinfo
+ 7605932bba715c9e01d7f71831ef80a9 59022 admin optional mx-system-sounds_19.10_amd64.deb

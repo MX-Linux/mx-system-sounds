@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 19 Oct 2019 18:18:25 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 19.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (19.10) mx; urgency=medium
+ .
+   * revised control file
+Checksums-Sha1:
+ 233732e858e432d47383513c5d9e85668ad63ee4 452562 mx-system-sounds-dbgsym_19.10_i386.deb
+ b4fe6cc91a41940e489c51ae27c66c193a868c6a 10631 mx-system-sounds_19.10_i386.buildinfo
+ 96fb24af4322e1c9cb80bb1a040cc6c90af044fb 60950 mx-system-sounds_19.10_i386.deb
+Checksums-Sha256:
+ 275c86e85bf62bef084a4f83e5135b88024ad80a70e8692c07238ddd9ddd7e1c 452562 mx-system-sounds-dbgsym_19.10_i386.deb
+ c0c6b8934e2ed218dfd94409a38e5134bfcdade2cc6454054980d58d19881dcc 10631 mx-system-sounds_19.10_i386.buildinfo
+ 69b16f5664bc214433d6ad159c825fdba018001ef08bfb0de2937cf7ec1aea39 60950 mx-system-sounds_19.10_i386.deb
+Files:
+ e2777f1b64202141c17f5af9f4913fdf 452562 debug optional mx-system-sounds-dbgsym_19.10_i386.deb
+ 445c9879f5322ab8f2ad07830c19f85f 10631 admin optional mx-system-sounds_19.10_i386.buildinfo
+ 49da7d8274ea3babac8230d6cfd46d79 60950 admin optional mx-system-sounds_19.10_i386.deb
