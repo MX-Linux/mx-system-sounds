@@ -1,3 +1,9 @@
+mx-system-sounds (20.02.01) mx; urgency=medium
+
+  * add check for xfce 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 04 Feb 2020 20:42:27 -0500
+
 mx-system-sounds (19.10.01) mx; urgency=medium
 
   * adjust control file 
