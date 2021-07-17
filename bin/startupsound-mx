@@ -11,17 +11,26 @@
 #command to find desktop-login sound for a given theme
 #find  /usr/share/sounds/theme-name/ |grep desktop-login
 
-customsound=$(cat ~/.config/mx-sounds/startupsound.conf)
-echo custom sound is $customsound
+customsound=""
 
-startup_enabled=$(grep startup ~/.config/mx-sounds/mx-login-logout_sounds.conf|cut -d '=' -f2)
-echo sound status is $startup_enabled
+configfile="~/.config/MX-Linux/mx-system-sounds/startupsound.conf"
+conffile="~/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf"
 
-soundthemename=$(xfconf-query -c xsettings -p /Net/SoundThemeName)
-echo sound theme is $soundthemename
+if [ -e "$configfile" ]; then
 
-defaultsound=$(find  /usr/share/sounds/$soundthemename/ |grep desktop-login)
-echo default sound is $defaultsound
+	customsound=$(cat "$configfile")
+	#echo custom sound is $customsound
+
+	startup_enabled=$(grep startup "$conffile" |cut -d '=' -f2)
+	#echo sound status is $startup_enabled
+
+	soundthemename=$(xfconf-query -c xsettings -p /Net/SoundThemeName)
+	#echo sound theme is $soundthemename
+
+	defaultsound=$(find  /usr/share/sounds/$soundthemename/ |grep desktop-login)
+	#echo default sound is $defaultsound
+
+fi
 
 if [ "$customsound" = "" ]; then
 	if [ "$startup_enabled" = "true" ]; then

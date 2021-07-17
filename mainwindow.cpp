@@ -75,27 +75,14 @@ void MainWindow::setup()
     QString home_path = QDir::homePath();
 
     //setup mx-login-logout_sounds.conf if necessary
-    QFileInfo file_conf(home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+    QFileInfo file_conf(home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     if (file_conf.exists()) {
         qDebug() << "Found Config File";
     } else {
-        runCmd("mkdir " + home_path + "/.config/mx-sounds");
-        runCmd("echo '#true is enabled, false is disabled' >>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        runCmd("echo startup=false>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-        runCmd("echo logout=false>>" + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
-    }
-
-    //move .conf files if necessary
-    QFileInfo file_startup(home_path + "/.config/startupsound.conf");
-    if (file_startup.exists()) {
-        runCmd("cp " + home_path + "/.config/startupsound.conf " + home_path + "/.config/mx-sounds/startupsound.conf");
-        runCmd("rm -f " + home_path + "/.config/startupsound.conf ");
-    }
-
-    QFileInfo file_logout(home_path + "/.config/logoutsound.conf");
-    if (file_logout.exists()) {
-        runCmd("cp " + home_path + "/.config/logoutsound.conf "+ home_path + "/.config/mx-sounds/logoutsound.conf");
-        runCmd("rm -f " + home_path + "/.config/logoutsound.conf ");
+        runCmd("mkdir " + home_path + "/.config/MX-Linux/mx-system-sounds/");
+        runCmd("echo '#true is enabled, false is disabled' >>" + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
+        runCmd("echo startup=false>>" + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
+        runCmd("echo logout=false>>" + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     }
 
     //intialize variables
@@ -104,9 +91,9 @@ void MainWindow::setup()
     QString soundtheme = (runCmd("xfconf-query -c xsettings -p /Net/SoundThemeName").str);
     defualtloginsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-login").str);
     defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + soundtheme + "/ |grep desktop-logout").str);
-    QFileInfo file_info(home_path + "/.config/mx-sounds/startupsound.conf");
+    QFileInfo file_info(home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
     if (file_info.exists()) {
-        currentlogin = (runCmd("cat " + home_path + "/.config/mx-sounds/startupsound.conf").str);
+        currentlogin = (runCmd("cat " + home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf").str);
         QFileInfo file_info(currentlogin);
         ui->button_login_sound->setText(file_info.baseName());
         ui->button_login_sound->setToolTip(file_info.filePath());
@@ -129,9 +116,9 @@ void MainWindow::setup()
     qDebug() << " current login is ";
     qDebug() << currentlogin;
 
-    QFileInfo file_info2(home_path + "/.config/mx-sounds/logoutsound.conf");
+    QFileInfo file_info2(home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf");
     if (file_info2.exists()) {
-        currentlogout = (runCmd("cat " + home_path + "/.config/mx-sounds/logoutsound.conf").str);
+        currentlogout = (runCmd("cat " + home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf").str);
         QFileInfo file_info2(currentlogout);
         ui->button_logout_sound->setText(file_info2.baseName());
         ui->button_logout_sound->setToolTip(file_info2.filePath());
@@ -167,14 +154,14 @@ void MainWindow::setup()
     }
 
     //initial login sound setting
-    if (system("grep startup=false " + home_path.toUtf8() + "/.config/mx-sounds/mx-login-logout_sounds.conf") == 0) {
+    if (system("grep startup=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0) {
         ui->checkbox_login->setChecked(false);
     } else {
         ui->checkbox_login->setChecked(true);
     }
 
     //initial logout setting
-    if (system("grep logout=false " + home_path.toUtf8() + "/.config/mx-sounds/mx-login-logout_sounds.conf") == 0) {
+    if (system("grep logout=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0) {
         ui->checkbox_logout->setChecked(false);
     } else {
         ui->checkbox_logout->setChecked(true);
@@ -224,16 +211,16 @@ void MainWindow::on_buttonApply_clicked()
 
     // Login Sound Enable/disable
     if (ui->checkbox_login->isChecked()) {
-        runCmd("sed -i -r s/startup=.*/startup=true/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("sed -i -r s/startup=.*/startup=true/ " + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     } else {
-        runCmd("sed -i -r s/startup=.*/startup=false/ " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("sed -i -r s/startup=.*/startup=false/ " + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     }
 
     // Logout Sound Enable/disable
     if (ui->checkbox_logout->isChecked()) {
-        runCmd("sed -i -r s/logout=.*/logout=true/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("sed -i -r s/logout=.*/logout=true/  " + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     } else {
-        runCmd("sed -i -r s/logout=.*/logout=false/  " + home_path + "/.config/mx-sounds/mx-login-logout_sounds.conf");
+        runCmd("sed -i -r s/logout=.*/logout=false/  " + home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
     }
 
     // Set Sound Theme
@@ -249,10 +236,10 @@ void MainWindow::on_buttonApply_clicked()
     defualtloginsound = (runCmd("find  /usr/share/sounds/" + soundtheme2 + "/ |grep desktop-login").str);
     if (currentlogin != defualtloginsound) {
         if (currentlogout != "None") {
-            runCmd("echo " + currentlogin +">" + home_path + "/.config/mx-sounds/startupsound.conf");
+            runCmd("echo " + currentlogin +">" + home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
         }
     } else {
-        runCmd("rm -f " +home_path + "/.config/mx-sounds/startupsound.conf");
+        runCmd("rm -f " +home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
     }
 
 
@@ -260,10 +247,10 @@ void MainWindow::on_buttonApply_clicked()
     defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + soundtheme2 + "/ |grep desktop-logout").str);
     if (currentlogout != defualtlogoutsound) {
         if (currentlogout != "None") {
-            runCmd("echo " + currentlogout +">" + home_path + "/.config/mx-sounds/logoutsound.conf");
+            runCmd("echo " + currentlogout +">" + home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf");
         }
     } else {
-        runCmd("rm -f " +home_path + "/.config/mx-sounds/logoutsound.conf");
+        runCmd("rm -f " +home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf");
 
     }
     //disable Apply button
@@ -464,9 +451,9 @@ void MainWindow::on_comboBox_theme_activated(const QString &arg1)
 
     QString home_path = QDir::homePath();
     if (theme_login_flag) {
-        QFileInfo file_info(home_path + "/.config/mx-sounds/startupsound.conf");
+        QFileInfo file_info(home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
         if (file_info.exists()) {
-            currentlogin = (runCmd("cat " + home_path + "/.config/mx-sounds/startupsound.conf").str);
+            currentlogin = (runCmd("cat " + home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf").str);
             QFileInfo file_info(currentlogin);
             ui->button_login_sound->setText(file_info.baseName());
             ui->button_login_sound->setToolTip(file_info.filePath());
@@ -488,9 +475,9 @@ void MainWindow::on_comboBox_theme_activated(const QString &arg1)
     qDebug() << currentlogin;
 
     if (theme_logout_flag) {
-        QFileInfo file_info2(home_path + "/.config/mx-sounds/logoutsound.conf");
+        QFileInfo file_info2(home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf");
         if (file_info2.exists()) {
-            currentlogout = (runCmd("cat " + home_path + "/.config/mx-sounds/logoutsound.conf").str);
+            currentlogout = (runCmd("cat " + home_path + "/.config/MX-Linux/mx-system-sounds/logoutsound.conf").str);
             QFileInfo file_info(currentlogout);
             ui->button_logout_sound->setText(file_info.baseName());
             ui->button_logout_sound->setToolTip(file_info.filePath());
