@@ -13,8 +13,8 @@
 
 customsound=""
 
-configfile="~/.config/MX-Linux/mx-system-sounds/logoutsound.conf"
-conffile="~/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf"
+configfile="$HOME/.config/MX-Linux/mx-system-sounds/logoutsound.conf"
+conffile="$HOME/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf"
 
 if [ -e "$configfile" ]; then
 	customsound=$(cat "$configfile")
