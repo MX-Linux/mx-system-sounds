@@ -151,13 +151,13 @@ void MainWindow::setup()
         ui->checkbox_inputsounds->setChecked(true);
 
     //initial login sound setting
-    if (system("grep startup=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0) {
+    if (system("grep startup=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0)
         ui->checkbox_login->setChecked(false);
     else
         ui->checkbox_login->setChecked(true);
 
     //initial logout setting
-    if (system("grep logout=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0) {
+    if (system("grep logout=false " + home_path.toUtf8() + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf") == 0)
         ui->checkbox_logout->setChecked(false);
     else
         ui->checkbox_logout->setChecked(true);
