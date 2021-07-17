@@ -1,3 +1,9 @@
+mx-system-sounds (21.07.01) mx; urgency=medium
+
+  * update config file locations 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 16 Jul 2021 21:17:55 -0400
+
 mx-system-sounds (20.02.01) mx; urgency=medium
 
   * add check for xfce 
