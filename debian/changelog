@@ -1,3 +1,9 @@
+mx-system-sounds (21.10.01) mx; urgency=medium
+
+  *  fix startup & logout sound scripts
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 26 Oct 2021 06:53:30 -0400
+
 mx-system-sounds (21.07.01) mx; urgency=medium
 
   * update config file locations 
