@@ -48,39 +48,33 @@ public:
     ~MainWindow();
 
     Output runCmd(QString cmd);
-    void setup();
-    QString customloginsound;
-    QString defualtloginsound;
-    QString customlogoutsound;
-    QString defualtlogoutsound;
     QString currentlogin;
     QString currentlogout;
+    QString customloginsound;
+    QString customlogoutsound;
+    QString defualtloginsound;
+    QString defualtlogoutsound;
     bool loginreset;
     bool logoutreset;
     bool theme_login_flag;
     bool theme_logout_flag;
+    void setup();
 
 private slots:
-    void on_buttonApply_clicked();
     void on_buttonAbout_clicked();
+    void on_buttonApply_clicked();
     void on_buttonHelp_clicked();
-
     void on_button_login_sound_clicked();
     void on_button_logout_sound_clicked();
     void on_button_play_login_clicked();
     void on_button_play_logout_clicked();
     void on_button_reset_login_clicked();
     void on_button_reset_logout_clicked();
-    void on_comboBox_theme_activated(const QString &arg1);
-
-
     void on_checkbox_eventsounds_clicked();
-
     void on_checkbox_inputsounds_clicked();
-
     void on_checkbox_login_clicked();
-
     void on_checkbox_logout_clicked();
+    void on_comboBox_theme_activated(const QString &arg1);
 
 private:
     Ui::MainWindow *ui;
