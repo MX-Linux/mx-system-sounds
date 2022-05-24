@@ -56,7 +56,7 @@ Output MainWindow::runCmd(QString cmd)
 {
     QProcess *proc = new QProcess(this);
     QEventLoop loop;
-    proc->setReadChannelMode(QProcess::MergedChannels);
+    proc->setProcessChannelMode(QProcess::MergedChannels);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     proc->waitForFinished();
     Output out = {proc->exitCode(), proc->readAll().trimmed()};
@@ -71,7 +71,7 @@ void MainWindow::setup()
     this->setWindowTitle(tr("MX System Sounds"));
     this->adjustSize();
 
-    QString home_path = QDir::homePath();
+    const QString home_path = QDir::homePath();
 
     //setup mx-login-logout_sounds.conf if necessary
     QFileInfo file_conf(home_path + "/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf");
@@ -230,15 +230,12 @@ void MainWindow::on_buttonApply_clicked()
 
     defualtloginsound = (runCmd("find  /usr/share/sounds/" + soundtheme2 + "/ |grep desktop-login").str);
     if (currentlogin != defualtloginsound) {
-		
         if (currentlogout != "None") {
             runCmd("echo " + currentlogin +">" + home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
         }
-
     } else {
         runCmd("rm -f " +home_path + "/.config/MX-Linux/mx-system-sounds/startupsound.conf");
     }
-
 
     // Set custom logout sound
     defualtlogoutsound = (runCmd("find  /usr/share/sounds/" + soundtheme2 + "/ |grep desktop-logout").str);
@@ -262,10 +259,10 @@ void MainWindow::on_buttonAbout_clicked()
                        tr("MX System Sounds") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("Configure Event & Session Sounds") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
-                       tr("Copyright (c) MX Linux") + "<br /><br /></p>", nullptr, this);
-    QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+                       tr("Copyright (c) MX Linux") + "<br /><br /></p>");
+    auto btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    auto btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    auto btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     btnCancel->setIcon(QIcon::fromTheme("window-close"));
 
     msgBox.exec();
@@ -273,18 +270,18 @@ void MainWindow::on_buttonAbout_clicked()
     if (msgBox.clickedButton() == btnLicense) {
         system("mx-viewer file:///usr/share/doc/mx-system-sounds/license.html '" + tr("MX System Sounds").toUtf8() + " " + tr("License").toUtf8() + "'");
     } else if (msgBox.clickedButton() == btnChangelog) {
-        QDialog *changelog = new QDialog(this);
+        auto changelog = new QDialog(this);
         changelog->resize(600, 500);
 
-        QTextEdit *text = new QTextEdit;
+        auto text = new QTextEdit;
         text->setReadOnly(true);
         text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").str);
 
-        QPushButton *btnClose = new QPushButton(tr("&Close"));
+        auto btnClose = new QPushButton(tr("&Close"));
         btnClose->setIcon(QIcon::fromTheme("window-close"));
         connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
 
-        QVBoxLayout *layout = new QVBoxLayout;
+        auto layout = new QVBoxLayout;
         layout->addWidget(text);
         layout->addWidget(btnClose);
         changelog->setLayout(layout);
@@ -297,14 +294,14 @@ void MainWindow::on_buttonAbout_clicked()
 void MainWindow::on_buttonHelp_clicked()
 {
     QLocale locale;
-    QString lang = locale.bcp47Name();
+    const QString lang = locale.bcp47Name();
 
     QString url = "/usr/share/doc/mx-system-sounds/mx-system-sounds.html";
 
     if (lang.startsWith("fr"))
         url = "https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me";
 
-    QString cmd = QString("mx-viewer %1 '%2' &").arg(url).arg(tr("MX System Sounds"));
+    const QString cmd = QString("mx-viewer %1 '%2' &").arg(url, tr("MX System Sounds"));
     system(cmd.toUtf8());
 
 }
@@ -501,17 +498,14 @@ void MainWindow::on_checkbox_eventsounds_clicked()
 void MainWindow::on_checkbox_inputsounds_clicked()
 {
     ui->buttonApply->setEnabled(true);
-
 }
 
 void MainWindow::on_checkbox_login_clicked()
 {
     ui->buttonApply->setEnabled(true);
-
 }
 
 void MainWindow::on_checkbox_logout_clicked()
 {
     ui->buttonApply->setEnabled(true);
-
 }
