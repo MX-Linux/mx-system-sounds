@@ -47,7 +47,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-    Output runCmd(QString cmd);
+    Output runCmd(const QString &cmd);
     QString currentlogin;
     QString currentlogout;
     QString customloginsound;

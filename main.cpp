@@ -37,14 +37,14 @@ int main(int argc, char *argv[])
     a.setWindowIcon(QIcon("/usr/share/pixmaps/mx-system-sounds.png"));
 
     QTranslator qtTran;
-    qtTran.load(QString("qt_") + QLocale::system().name());
+    qtTran.load(QStringLiteral("qt_") + QLocale::system().name());
     a.installTranslator(&qtTran);
 
     QTranslator appTran;
-    appTran.load(QString("mx-system-sounds_") + QLocale::system().name(), "/usr/share/mx-system-sounds/locale");
+    appTran.load(QStringLiteral("mx-system-sounds_") + QLocale::system().name(), QStringLiteral("/usr/share/mx-system-sounds/locale"));
     a.installTranslator(&appTran);
 
-    if (system("echo $XDG_CURRENT_DESKTOP | grep -q XFCE") != 0){
+    if (system("echo $XDG_CURRENT_DESKTOP | grep -q XFCE") != 0) {
             QMessageBox::information(nullptr, QObject::tr("MX System Sounds"), QObject::tr("This app is Xfce-only"));
             exit(EXIT_SUCCESS);
     }
