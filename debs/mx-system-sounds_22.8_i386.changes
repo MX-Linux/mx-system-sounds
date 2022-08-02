@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 02 Aug 2022 18:59:55 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 22.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.8) mx; urgency=medium
+ .
+   * Remove mx-viewer dependency
+Checksums-Sha1:
+ c83e44d8e9e3529d9fb3f87a137f3374b4a5575b 10060 mx-system-sounds_22.8_i386.buildinfo
+ 6e9086b3987cf678fcbcb26064d2d8146458782f 63240 mx-system-sounds_22.8_i386.deb
+Checksums-Sha256:
+ 09fa95ca65057e3794af870bbe0677a1e84134ea47a2a698a677bdbfe89dafea 10060 mx-system-sounds_22.8_i386.buildinfo
+ 48440da197602265d9d9278702a28af78e39cc050e7ab11adf6e9aca50fb1698 63240 mx-system-sounds_22.8_i386.deb
+Files:
+ 923a78deb169d1d40ab34110c23080a3 10060 admin optional mx-system-sounds_22.8_i386.buildinfo
+ ab73dc34288a9ce301a6ad8a70842905 63240 admin optional mx-system-sounds_22.8_i386.deb

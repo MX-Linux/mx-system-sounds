@@ -1,3 +1,9 @@
+mx-system-sounds (22.8) mx; urgency=medium
+
+  * Remove mx-viewer dependency
+
+ -- Adrian <adrian@mxlinux.org>  Tue, 02 Aug 2022 18:59:55 -0400
+
 mx-system-sounds (21.10.01) mx; urgency=medium
 
   *  fix startup & logout sound scripts
