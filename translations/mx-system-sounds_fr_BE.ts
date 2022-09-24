@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<TS version="2.1" language="fr_BE">
 <context>
     <name>MainWindow</name>
     <message>
@@ -89,37 +89,37 @@
     <message>
         <location filename="../mainwindow.ui" line="260"/>
         <source>About this application</source>
-        <translation type="unfinished">Az alkalmazásról</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="263"/>
         <source>About...</source>
-        <translation type="unfinished">Névjegy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="270"/>
         <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="286"/>
         <source>Display help </source>
-        <translation type="unfinished">Súgó megjelenítése</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="289"/>
         <source>Help</source>
-        <translation type="unfinished">Súgó</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="296"/>
         <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="354"/>
         <source>Apply</source>
-        <translation type="unfinished">Alkamaz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="380"/>
@@ -129,12 +129,12 @@
     <message>
         <location filename="../mainwindow.ui" line="383"/>
         <source>Close</source>
-        <translation type="unfinished">Bezár</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="390"/>
         <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="254"/>
@@ -144,7 +144,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Version: </source>
-        <translation type="unfinished">Verzió:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="257"/>
@@ -154,7 +154,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="259"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="260"/>
@@ -165,22 +165,6 @@
         <location filename="../mainwindow.cpp" line="274"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="obsolete">Liszensz</translation>
-    </message>
-    <message>
-        <source>Changelog</source>
-        <translation type="obsolete">Változásbejegyzés</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">Mégsem</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;Bezár</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="289"/>
@@ -198,6 +182,27 @@
 <context>
     <name>QObject</name>
     <message>
+        <location filename="../about.cpp" line="40"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="41"/>
+        <location filename="../about.cpp" line="51"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="42"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="63"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../main.cpp" line="48"/>
         <source>MX System Sounds</source>
         <translation type="unfinished"></translation>
@@ -206,90 +211,6 @@
         <location filename="../main.cpp" line="48"/>
         <source>This app is Xfce-only</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="40"/>
-        <source>License</source>
-        <translation type="unfinished">Liszensz</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="41"/>
-        <location filename="../about.cpp" line="51"/>
-        <source>Changelog</source>
-        <translation type="unfinished">Változásbejegyzés</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="42"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Mégsem</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="63"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Bezár</translation>
-    </message>
-</context>
-<context>
-    <name>mxsystemsounds</name>
-    <message>
-        <source>About this application</source>
-        <translation type="vanished">Az alkalmazásról</translation>
-    </message>
-    <message>
-        <source>About...</source>
-        <translation type="vanished">Névjegy</translation>
-    </message>
-    <message>
-        <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
-    </message>
-    <message>
-        <source>Display help </source>
-        <translation type="vanished">Súgó megjelenítése</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation type="vanished">Súgó</translation>
-    </message>
-    <message>
-        <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation type="vanished">Alkamaz</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="vanished">Bezár</translation>
-    </message>
-    <message>
-        <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
-    </message>
-    <message>
-        <source>Version: </source>
-        <translation type="vanished">Verzió:</translation>
-    </message>
-    <message>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Liszensz</translation>
-    </message>
-    <message>
-        <source>Changelog</source>
-        <translation type="vanished">Változásbejegyzés</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Mégsem</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="vanished">&amp;Bezár</translation>
     </message>
 </context>
 </TS>

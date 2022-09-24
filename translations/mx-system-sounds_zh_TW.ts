@@ -5,10 +5,9 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="71"/>
-        <location filename="../mainwindow.cpp" line="259"/>
-        <location filename="../mainwindow.cpp" line="271"/>
-        <location filename="../mainwindow.cpp" line="304"/>
+        <location filename="../mainwindow.cpp" line="70"/>
+        <location filename="../mainwindow.cpp" line="255"/>
+        <location filename="../mainwindow.cpp" line="274"/>
         <source>MX System Sounds</source>
         <translation type="unfinished">MX 系統音效</translation>
     </message>
@@ -138,55 +137,56 @@
         <translation type="unfinished">Alt+N</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="258"/>
+        <location filename="../mainwindow.cpp" line="254"/>
         <source>About MX System Sounds</source>
         <translation type="unfinished">關於 MX 系統音效</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="259"/>
+        <location filename="../mainwindow.cpp" line="256"/>
         <source>Version: </source>
         <translation type="unfinished">版本：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="260"/>
+        <location filename="../mainwindow.cpp" line="257"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation type="unfinished">設定系統事件與登入狀態音效</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="262"/>
+        <location filename="../mainwindow.cpp" line="259"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished">版權所有 (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="263"/>
-        <location filename="../mainwindow.cpp" line="271"/>
-        <source>License</source>
-        <translation type="unfinished">授權條款</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="264"/>
-        <source>Changelog</source>
+        <location filename="../mainwindow.cpp" line="260"/>
+        <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="265"/>
+        <location filename="../mainwindow.cpp" line="274"/>
+        <source>%1 Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation type="obsolete">授權條款</translation>
+    </message>
+    <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation type="obsolete">取消</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="280"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">關閉（&amp;C）</translation>
+        <translation type="obsolete">關閉（&amp;C）</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="322"/>
-        <location filename="../mainwindow.cpp" line="351"/>
+        <location filename="../mainwindow.cpp" line="289"/>
+        <location filename="../mainwindow.cpp" line="318"/>
         <source>Select Sound File</source>
         <translation type="unfinished">選擇音效檔</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="322"/>
-        <location filename="../mainwindow.cpp" line="351"/>
+        <location filename="../mainwindow.cpp" line="289"/>
+        <location filename="../mainwindow.cpp" line="318"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation type="unfinished">音效檔案（*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav）</translation>
     </message>
@@ -202,6 +202,27 @@
         <location filename="../main.cpp" line="48"/>
         <source>This app is Xfce-only</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="40"/>
+        <source>License</source>
+        <translation type="unfinished">授權條款</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="41"/>
+        <location filename="../about.cpp" line="51"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="42"/>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="63"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">關閉（&amp;C）</translation>
     </message>
 </context>
 <context>
