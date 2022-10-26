@@ -1,367 +1,192 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="am">
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="70"/>
-        <location filename="../mainwindow.cpp" line="255"/>
-        <location filename="../mainwindow.cpp" line="274"/>
-        <source>MX System Sounds</source>
-        <translation type="unfinished">የ MX ስርአት ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="48"/>
-        <source>Event Sounds</source>
-        <translation type="unfinished">የ ሁኔታ ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="61"/>
-        <source>Session Sounds</source>
-        <translation type="unfinished">የ ክፍለ ጊዜ ድምፅ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="68"/>
-        <source>XFCE Event Sounds</source>
-        <translation type="unfinished">የ XFCE ሁኔታ ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="75"/>
-        <source>Login</source>
-        <translation type="unfinished">መግቢያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="82"/>
-        <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished">የ XFCE ማስገቢያ መልስ መቀበያ ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="89"/>
-        <source>Logout</source>
-        <translation type="unfinished">መውጫ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="118"/>
-        <source>Custom Sounds</source>
-        <translation type="unfinished">ድምፅ ማስተካከያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="125"/>
-        <source>Theme</source>
-        <translation type="unfinished">ገፅታ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="132"/>
-        <location filename="../mainwindow.ui" line="153"/>
-        <source>Login Sound</source>
-        <translation type="unfinished">የ መግቢያ ድምፅ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="139"/>
-        <location filename="../mainwindow.ui" line="185"/>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="164"/>
-        <location filename="../mainwindow.ui" line="207"/>
-        <location filename="../mainwindow.ui" line="210"/>
-        <source>Theme Default</source>
-        <translation type="unfinished">ነባር ገፅታ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="167"/>
-        <source>Use Default</source>
-        <translation type="unfinished">ነባር ይጠቀሙ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="178"/>
-        <location filename="../mainwindow.ui" line="196"/>
-        <source>Logout Sound</source>
-        <translation type="unfinished">የ መውጫ ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="229"/>
-        <source>Borealis</source>
-        <translation type="unfinished">Borealis</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="260"/>
-        <source>About this application</source>
-        <translation type="unfinished">ስለዚህ መተግበሪያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="263"/>
-        <source>About...</source>
-        <translation type="unfinished">ስለ...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="270"/>
-        <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="286"/>
-        <source>Display help </source>
-        <translation type="unfinished">እርዳታ ማሳያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="289"/>
-        <source>Help</source>
-        <translation type="unfinished">እርዳታ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="296"/>
-        <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="354"/>
-        <source>Apply</source>
-        <translation type="unfinished">መፈጸሚያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="380"/>
-        <source>Quit application</source>
-        <translation type="unfinished">መተግበሪያ ማጥፊያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="383"/>
-        <source>Close</source>
-        <translation type="unfinished">መዝጊያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="390"/>
-        <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="254"/>
-        <source>About MX System Sounds</source>
-        <translation type="unfinished">ስለ የ MX ስርአት ድምፅ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="256"/>
-        <source>Version: </source>
-        <translation type="unfinished">እትም</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="257"/>
-        <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished">ሁኔታ &amp; የ  ክፍለ ጊዜ ድምፅ ማሰናጃ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="259"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">የ ቅጂ መብት (c) MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="260"/>
-        <source>%1 License</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="274"/>
-        <source>%1 Help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="obsolete">ፍቃድ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">መሰረዣ</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">&amp;መዝጊያ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="289"/>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Select Sound File</source>
-        <translation type="unfinished">የ ድምፅ ፋይል ይምረጡ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="289"/>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="unfinished">የ ድምፅ ፋይሎች (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>MX System Sounds</source>
-        <translation type="unfinished">የ MX ስርአት ድምፅ </translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>This app is Xfce-only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="40"/>
-        <source>License</source>
-        <translation type="unfinished">ፍቃድ</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="41"/>
-        <location filename="../about.cpp" line="51"/>
-        <source>Changelog</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="42"/>
-        <source>Cancel</source>
-        <translation type="unfinished">መሰረዣ</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="63"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;መዝጊያ</translation>
-    </message>
-</context>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="am">
 <context>
     <name>mxsystemsounds</name>
     <message>
+        <location filename="mxsystemsounds.ui" line="14"/>
+        <location filename="mxsystemsounds.cpp" line="70"/>
+        <location filename="mxsystemsounds.cpp" line="288"/>
+        <location filename="mxsystemsounds.cpp" line="300"/>
+        <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation type="vanished">የ MX ስርአት ድምፅ </translation>
+        <translation>የ MX ስርአት ድምፅ </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation type="vanished">የ ሁኔታ ድምፅ </translation>
+        <translation>የ ሁኔታ ድምፅ </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation type="vanished">የ ክፍለ ጊዜ ድምፅ</translation>
+        <translation>የ ክፍለ ጊዜ ድምፅ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation type="vanished">የ XFCE ሁኔታ ድምፅ </translation>
+        <translation>የ XFCE ሁኔታ ድምፅ </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation type="vanished">መግቢያ</translation>
+        <translation>መግቢያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="vanished">የ XFCE ማስገቢያ መልስ መቀበያ ድምፅ </translation>
+        <translation>የ XFCE ማስገቢያ መልስ መቀበያ ድምፅ </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation type="vanished">መውጫ</translation>
+        <translation>መውጫ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation type="vanished">ድምፅ ማስተካከያ</translation>
+        <translation>ድምፅ ማስተካከያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation type="vanished">ገፅታ</translation>
+        <translation>ገፅታ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="132"/>
+        <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation type="vanished">የ መግቢያ ድምፅ</translation>
+        <translation>የ መግቢያ ድምፅ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="139"/>
+        <location filename="mxsystemsounds.ui" line="185"/>
         <source>...</source>
-        <translation type="vanished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="164"/>
+        <location filename="mxsystemsounds.ui" line="207"/>
+        <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation type="vanished">ነባር ገፅታ</translation>
+        <translation>ነባር ገፅታ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation type="vanished">ነባር ይጠቀሙ</translation>
+        <translation>ነባር ይጠቀሙ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="178"/>
+        <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation type="vanished">የ መውጫ ድምፅ </translation>
+        <translation>የ መውጫ ድምፅ </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
-        <translation type="vanished">Borealis</translation>
+        <translation>Borealis</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation type="vanished">ስለዚህ መተግበሪያ</translation>
+        <translation>ስለዚህ መተግበሪያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation type="vanished">ስለ...</translation>
+        <translation>ስለ...</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation type="vanished">እርዳታ ማሳያ</translation>
+        <translation>እርዳታ ማሳያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation type="vanished">እርዳታ</translation>
+        <translation>እርዳታ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation type="vanished">መፈጸሚያ</translation>
+        <translation>መፈጸሚያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation type="vanished">መተግበሪያ ማጥፊያ</translation>
+        <translation>መተግበሪያ ማጥፊያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation type="vanished">መዝጊያ</translation>
+        <translation>መዝጊያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation type="vanished">ስለ የ MX ስርአት ድምፅ</translation>
+        <translation>ስለ የ MX ስርአት ድምፅ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation type="vanished">እትም</translation>
+        <translation>እትም</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="vanished">ሁኔታ &amp; የ  ክፍለ ጊዜ ድምፅ ማሰናጃ</translation>
+        <translation>ሁኔታ &amp; የ  ክፍለ ጊዜ ድምፅ ማሰናጃ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">የ ቅጂ መብት (c) MX Linux</translation>
+        <translation>የ ቅጂ መብት (c) MX Linux</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="292"/>
+        <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation type="vanished">ፍቃድ</translation>
+        <translation>ፍቃድ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="293"/>
+        <source>Changelog</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation type="vanished">መሰረዣ</translation>
+        <translation>መሰረዣ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;መዝጊያ</translation>
+        <translation>&amp;መዝጊያ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="353"/>
+        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation type="vanished">የ ድምፅ ፋይል ይምረጡ</translation>
+        <translation>የ ድምፅ ፋይል ይምረጡ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="353"/>
+        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="vanished">የ ድምፅ ፋይሎች (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>የ ድምፅ ፋይሎች (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>

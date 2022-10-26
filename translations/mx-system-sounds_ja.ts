@@ -1,367 +1,192 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ja">
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="70"/>
-        <location filename="../mainwindow.cpp" line="255"/>
-        <location filename="../mainwindow.cpp" line="274"/>
-        <source>MX System Sounds</source>
-        <translation type="unfinished">MX システム音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="48"/>
-        <source>Event Sounds</source>
-        <translation type="unfinished">イベント音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="61"/>
-        <source>Session Sounds</source>
-        <translation type="unfinished">セッション音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="68"/>
-        <source>XFCE Event Sounds</source>
-        <translation type="unfinished">Xfce イベント音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="75"/>
-        <source>Login</source>
-        <translation type="unfinished">ログイン</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="82"/>
-        <source>XFCE Input Feedback Sounds</source>
-        <translation type="unfinished">Xfce 入力フィードバック音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="89"/>
-        <source>Logout</source>
-        <translation type="unfinished">ログアウト</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="118"/>
-        <source>Custom Sounds</source>
-        <translation type="unfinished">カスタム音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="125"/>
-        <source>Theme</source>
-        <translation type="unfinished">テーマ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="132"/>
-        <location filename="../mainwindow.ui" line="153"/>
-        <source>Login Sound</source>
-        <translation type="unfinished">ログイン音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="139"/>
-        <location filename="../mainwindow.ui" line="185"/>
-        <source>...</source>
-        <translation type="unfinished">...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="164"/>
-        <location filename="../mainwindow.ui" line="207"/>
-        <location filename="../mainwindow.ui" line="210"/>
-        <source>Theme Default</source>
-        <translation type="unfinished">テーマデフォルト</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="167"/>
-        <source>Use Default</source>
-        <translation type="unfinished">デフォルトを使用</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="178"/>
-        <location filename="../mainwindow.ui" line="196"/>
-        <source>Logout Sound</source>
-        <translation type="unfinished">ログアウト音</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="229"/>
-        <source>Borealis</source>
-        <translation type="unfinished">Borealis</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="260"/>
-        <source>About this application</source>
-        <translation type="unfinished">このアプリケーションについて</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="263"/>
-        <source>About...</source>
-        <translation type="unfinished">About...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="270"/>
-        <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="286"/>
-        <source>Display help </source>
-        <translation type="unfinished">ヘルプ表示</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="289"/>
-        <source>Help</source>
-        <translation type="unfinished">ヘルプ</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="296"/>
-        <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="354"/>
-        <source>Apply</source>
-        <translation type="unfinished">適用</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="380"/>
-        <source>Quit application</source>
-        <translation type="unfinished">アプリケーションの終了</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="383"/>
-        <source>Close</source>
-        <translation type="unfinished">閉じる</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="390"/>
-        <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="254"/>
-        <source>About MX System Sounds</source>
-        <translation type="unfinished">MX システム音について</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="256"/>
-        <source>Version: </source>
-        <translation type="unfinished">Version: </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="257"/>
-        <source>Configure Event &amp; Session Sounds</source>
-        <translation type="unfinished">イベント・セッション音の設定</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="259"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="260"/>
-        <source>%1 License</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="274"/>
-        <source>%1 Help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="obsolete">ライセンス</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="obsolete">キャンセル</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="obsolete">閉じる(&amp;C)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="289"/>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Select Sound File</source>
-        <translation type="unfinished">サウンドファイルを選択</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="289"/>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="unfinished">サウンドファイル (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>MX System Sounds</source>
-        <translation type="unfinished">MX システム音</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>This app is Xfce-only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="40"/>
-        <source>License</source>
-        <translation type="unfinished">ライセンス</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="41"/>
-        <location filename="../about.cpp" line="51"/>
-        <source>Changelog</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="42"/>
-        <source>Cancel</source>
-        <translation type="unfinished">キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="63"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">閉じる(&amp;C)</translation>
-    </message>
-</context>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ja">
 <context>
     <name>mxsystemsounds</name>
     <message>
+        <location filename="mxsystemsounds.ui" line="14"/>
+        <location filename="mxsystemsounds.cpp" line="70"/>
+        <location filename="mxsystemsounds.cpp" line="288"/>
+        <location filename="mxsystemsounds.cpp" line="300"/>
+        <location filename="mxsystemsounds.cpp" line="334"/>
         <source>MX System Sounds</source>
-        <translation type="vanished">MX システム音</translation>
+        <translation>MX システム音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation type="vanished">イベント音</translation>
+        <translation>イベント音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation type="vanished">セッション音</translation>
+        <translation>セッション音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation type="vanished">Xfce イベント音</translation>
+        <translation>Xfce イベント音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="75"/>
         <source>Login</source>
-        <translation type="vanished">ログイン</translation>
+        <translation>ログイン</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation type="vanished">Xfce 入力フィードバック音</translation>
+        <translation>Xfce 入力フィードバック音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="89"/>
         <source>Logout</source>
-        <translation type="vanished">ログアウト</translation>
+        <translation>ログアウト</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation type="vanished">カスタム音</translation>
+        <translation>カスタム音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="125"/>
         <source>Theme</source>
-        <translation type="vanished">テーマ</translation>
+        <translation>テーマ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="132"/>
+        <location filename="mxsystemsounds.ui" line="153"/>
         <source>Login Sound</source>
-        <translation type="vanished">ログイン音</translation>
+        <translation>ログイン音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="139"/>
+        <location filename="mxsystemsounds.ui" line="185"/>
         <source>...</source>
-        <translation type="vanished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="164"/>
+        <location filename="mxsystemsounds.ui" line="207"/>
+        <location filename="mxsystemsounds.ui" line="210"/>
         <source>Theme Default</source>
-        <translation type="vanished">テーマデフォルト</translation>
+        <translation>既定のテーマ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="167"/>
         <source>Use Default</source>
-        <translation type="vanished">デフォルトを使用</translation>
+        <translation>既定を使用</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="178"/>
+        <location filename="mxsystemsounds.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation type="vanished">ログアウト音</translation>
+        <translation>ログアウト音</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="229"/>
         <source>Borealis</source>
-        <translation type="vanished">Borealis</translation>
+        <translation>Borealis</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="260"/>
         <source>About this application</source>
-        <translation type="vanished">このアプリケーションについて</translation>
+        <translation>このアプリケーションについて</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="263"/>
         <source>About...</source>
-        <translation type="vanished">About...</translation>
+        <translation>情報...</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="270"/>
         <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="286"/>
         <source>Display help </source>
-        <translation type="vanished">ヘルプ表示</translation>
+        <translation>ヘルプ表示</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="289"/>
         <source>Help</source>
-        <translation type="vanished">ヘルプ</translation>
+        <translation>ヘルプ</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="296"/>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="354"/>
         <source>Apply</source>
-        <translation type="vanished">適用</translation>
+        <translation>適用</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="380"/>
         <source>Quit application</source>
-        <translation type="vanished">アプリケーションの終了</translation>
+        <translation>アプリケーションの終了</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="383"/>
         <source>Close</source>
-        <translation type="vanished">閉じる</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.ui" line="390"/>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="287"/>
         <source>About MX System Sounds</source>
-        <translation type="vanished">MX システム音について</translation>
+        <translation>MX システム音について</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="288"/>
         <source>Version: </source>
-        <translation type="vanished">Version: </translation>
+        <translation>バージョン: </translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="289"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation type="vanished">イベント・セッション音の設定</translation>
+        <translation>イベント・セッション音の設定</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="291"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="292"/>
+        <location filename="mxsystemsounds.cpp" line="300"/>
         <source>License</source>
-        <translation type="vanished">ライセンス</translation>
+        <translation>ライセンス</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="293"/>
+        <source>Changelog</source>
+        <translation>更新履歴</translation>
+    </message>
+    <message>
+        <location filename="mxsystemsounds.cpp" line="294"/>
         <source>Cancel</source>
-        <translation type="vanished">キャンセル</translation>
+        <translation>キャンセル</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="309"/>
         <source>&amp;Close</source>
-        <translation type="vanished">閉じる(&amp;C)</translation>
+        <translation>閉じる(&amp;C)</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="353"/>
+        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Select Sound File</source>
-        <translation type="vanished">サウンドファイルを選択</translation>
+        <translation>サウンドファイルを選択</translation>
     </message>
     <message>
+        <location filename="mxsystemsounds.cpp" line="353"/>
+        <location filename="mxsystemsounds.cpp" line="383"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation type="vanished">サウンドファイル (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation>サウンドファイル (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
     </message>
 </context>
 </TS>
