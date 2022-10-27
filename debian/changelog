@@ -1,3 +1,9 @@
+mx-system-sounds (22.10) mx; urgency=medium
+
+  * translations 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 26 Oct 2022 20:09:58 -0400
+
 mx-system-sounds (22.8) mx; urgency=medium
 
   * Remove mx-viewer dependency
