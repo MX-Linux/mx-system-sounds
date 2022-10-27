@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 26 Oct 2022 20:09:58 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 22.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.10) mx; urgency=medium
+ .
+   * translations
+Checksums-Sha1:
+ 89f4ef27415d5d9ab77206bdca2b0f5638eefce7 641 mx-system-sounds_22.10.dsc
+ 85aa14c7037e05dea4be06384e093dfc63c29501 232012 mx-system-sounds_22.10.tar.xz
+ 861e6375b59baebc6244b505fba955186b0b8b5d 10511 mx-system-sounds_22.10_amd64.buildinfo
+ 1516de900998e23a49b9195fd7d96b0b5ba881ea 63336 mx-system-sounds_22.10_amd64.deb
+Checksums-Sha256:
+ e4eabe5f44504fb17c7a670c98ea7efbfb6206d0a62f944afe47ae81475ffc33 641 mx-system-sounds_22.10.dsc
+ 71c68da0beec5dd38bcd0ee6e6f530aaae1263341e2c502a21606378e87b25a2 232012 mx-system-sounds_22.10.tar.xz
+ 8391dcf6d63c285199a95caf82a9528e58f2021a942fd4022cca1ecfa6d7f785 10511 mx-system-sounds_22.10_amd64.buildinfo
+ e1bbe9c3eb6a584eb1c55365ebc03364427e8a824f9fafc8755370ede98eabff 63336 mx-system-sounds_22.10_amd64.deb
+Files:
+ d2a7be75158e68e74584e002cee758e5 641 admin optional mx-system-sounds_22.10.dsc
+ 5c82fb2f0cd4f83dc91eb9963b028a7a 232012 admin optional mx-system-sounds_22.10.tar.xz
+ a630dbadff9062969b38b49942399e8e 10511 admin optional mx-system-sounds_22.10_amd64.buildinfo
+ 579e4aeec956b5061209bc87d75e0593 63336 admin optional mx-system-sounds_22.10_amd64.deb

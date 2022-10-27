@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 26 Oct 2022 20:09:58 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: armhf
+Version: 22.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.10) mx; urgency=medium
+ .
+   * translations
+Checksums-Sha1:
+ e503c9941ce151e945e8d50c65170209a58d5a09 9883 mx-system-sounds_22.10_armhf.buildinfo
+ 03acc6b4b4973a5e1e6a763b8145d5e2d5f539c9 60156 mx-system-sounds_22.10_armhf.deb
+Checksums-Sha256:
+ f38bbb50831a9d2c6dfb0de2a899a867e5d2d4cbc54459a3157d8dd33bca315b 9883 mx-system-sounds_22.10_armhf.buildinfo
+ 3dd4b4652b5577ee7c466f4d96b14de14f9093e76f2e302f4cc26996f69d9985 60156 mx-system-sounds_22.10_armhf.deb
+Files:
+ da39cf0cdba6fbfa9ecd7aa32ca617a8 9883 admin optional mx-system-sounds_22.10_armhf.buildinfo
+ cea7bfa59c6d959a45f3233f19f8edb7 60156 admin optional mx-system-sounds_22.10_armhf.deb
