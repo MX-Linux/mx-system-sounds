@@ -1,3 +1,9 @@
+mx-system-sounds (22.10.01) mx; urgency=medium
+
+  * fix string sources 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 28 Oct 2022 16:06:53 -0400
+
 mx-system-sounds (22.10) mx; urgency=medium
 
   * translations 
