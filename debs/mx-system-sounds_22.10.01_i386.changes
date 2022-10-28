@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 28 Oct 2022 16:06:53 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 22.10.01
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.10.01) mx; urgency=medium
+ .
+   * fix string sources
+Checksums-Sha1:
+ 8a39208556cefe30582d4540f324c7c813b4ad32 10224 mx-system-sounds_22.10.01_i386.buildinfo
+ 06949bcf177c42952b2f3e415c3170cdf27093f1 66204 mx-system-sounds_22.10.01_i386.deb
+Checksums-Sha256:
+ f91a442f2fcad97633b182f214b14e0c43ffc9d129f2d86680fbda4b4d5a1f21 10224 mx-system-sounds_22.10.01_i386.buildinfo
+ 403e251d74e3c4b0b929e6c07ce9ba693612dc923dddb33e49916d7a041862fd 66204 mx-system-sounds_22.10.01_i386.deb
+Files:
+ 74b26d63c1473e66df0799e01c0fe86e 10224 admin optional mx-system-sounds_22.10.01_i386.buildinfo
+ 8318e6446693c502e5328620aae420a3 66204 admin optional mx-system-sounds_22.10.01_i386.deb
