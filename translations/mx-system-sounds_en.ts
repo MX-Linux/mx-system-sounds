@@ -182,16 +182,6 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>MX System Sounds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="48"/>
-        <source>This app is Xfce-only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="40"/>
         <source>License</source>
         <translation type="unfinished"></translation>
@@ -210,6 +200,16 @@
     <message>
         <location filename="../about.cpp" line="63"/>
         <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="48"/>
+        <source>MX System Sounds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="48"/>
+        <source>This app is Xfce-only</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
