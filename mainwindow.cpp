@@ -171,6 +171,12 @@ void MainWindow::setup()
         QDir dir = file_info.absoluteDir();
         theme_list << dir.dirName();
     }
+    QDirIterator it2(home_path + "/.local/share/sounds", filter, QDir::Files, QDirIterator::Subdirectories);
+    while (it2.hasNext()) {
+        QFileInfo file_info(it2.next());
+        QDir dir = file_info.absoluteDir();
+        theme_list << dir.dirName();
+    }
     ui->comboBox_theme->addItems(theme_list);
     ui->comboBox_theme->setCurrentText(soundtheme);
     qDebug() << " current login is ";
