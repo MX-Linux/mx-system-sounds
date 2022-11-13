@@ -1,3 +1,9 @@
+mx-system-sounds (22.11.01) mx; urgency=medium
+
+  * add scanning home folder .local/share/sounds 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 13 Nov 2022 09:16:23 -0500
+
 mx-system-sounds (22.10.01) mx; urgency=medium
 
   * fix string sources 
