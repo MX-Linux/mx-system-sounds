@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 15 Nov 2022 19:30:03 -0500
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: source amd64
+Version: 22.11.02
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.11.02) mx; urgency=medium
+ .
+   * fix faulty logic
+   * add home folder sounds to search terms on_apply
+Checksums-Sha1:
+ 6318a7b488dd15e464abdbf38cb012ec9440c5d4 653 mx-system-sounds_22.11.02.dsc
+ 2f2ed70e41ece7b33ce9afac6d8adb4ba2a8e6b8 999720 mx-system-sounds_22.11.02.tar.xz
+ 355eb527735a2ec794d37881079b2c2edef6561f 10532 mx-system-sounds_22.11.02_amd64.buildinfo
+ 0b624023dd6dae943ee8ed64b5ab1beedfd9aaf8 65100 mx-system-sounds_22.11.02_amd64.deb
+Checksums-Sha256:
+ a57a2b6daaaaf65ed3cb39f5dd8e4eaab1e2d0376dac61aefbff1b13fc1cdcc8 653 mx-system-sounds_22.11.02.dsc
+ 965aaf6ba9a1acb93960cc41dbbaf222ce2238183ee36bf24e0e7c16485c25f8 999720 mx-system-sounds_22.11.02.tar.xz
+ 315f8cb294388d7d9e013df60b1c5fde8f1fa7f5d0c3ae457cc62ce2c9cffb47 10532 mx-system-sounds_22.11.02_amd64.buildinfo
+ 1e035f9dfc6b6e460e9fba681f0191f1b17ef3b463d24920a433ec36fefa23a7 65100 mx-system-sounds_22.11.02_amd64.deb
+Files:
+ 9defea2553165379ffd3b97931628a92 653 admin optional mx-system-sounds_22.11.02.dsc
+ 060b80987f6bdd6c4b77a252de89e72c 999720 admin optional mx-system-sounds_22.11.02.tar.xz
+ a5a00e3ba156000a9e05810f696a19c3 10532 admin optional mx-system-sounds_22.11.02_amd64.buildinfo
+ 9e2bccc80b6c2a8919b0d838983fc5cc 65100 admin optional mx-system-sounds_22.11.02_amd64.deb

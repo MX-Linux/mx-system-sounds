@@ -1,20 +1,17 @@
 Format: 1.0
 Source: mx-system-sounds
 Binary: mx-system-sounds
-Architecture: amd64 source
-Version: 22.11.01
+Architecture: i386
+Version: 22.11.02
 Checksums-Md5:
- 75001656c5a190ff863e172431897da9 653 mx-system-sounds_22.11.01.dsc
- 1d2069b7f1e458c12b33c9d60ece7753 64856 mx-system-sounds_22.11.01_amd64.deb
+ 3b3063daee029bb7bbdb3116d2e52653 66848 mx-system-sounds_22.11.02_i386.deb
 Checksums-Sha1:
- 4d804fb5139ba517b6a41e2c864b607a96091014 653 mx-system-sounds_22.11.01.dsc
- 96500344123366d0e747614a094fd8181e1e579c 64856 mx-system-sounds_22.11.01_amd64.deb
+ 80764d2b602a1984116a4d52f7419af569dbfeff 66848 mx-system-sounds_22.11.02_i386.deb
 Checksums-Sha256:
- 92a1ed9cdb67b6fddece122d6d00f7f96eaefb3ff163c71191b55cf36a587464 653 mx-system-sounds_22.11.01.dsc
- 4e46248f8753f819fe801fa7925273e5890b7fa8b2424a46c75d337a980beacb 64856 mx-system-sounds_22.11.01_amd64.deb
+ 1f68c6652367c47d815c684cbadef02968ed23c1f672ef5396db34ed33ce63f1 66848 mx-system-sounds_22.11.02_i386.deb
 Build-Origin: Debian
-Build-Architecture: amd64
-Build-Date: Sun, 13 Nov 2022 09:22:20 -0500
+Build-Architecture: i386
+Build-Date: Tue, 15 Nov 2022 19:36:44 -0500
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-libraries
@@ -29,7 +26,7 @@ Installed-Build-Depends:
  bash (= 5.0-4),
  binutils (= 2.31.1-16),
  binutils-common (= 2.31.1-16),
- binutils-x86-64-linux-gnu (= 2.31.1-16),
+ binutils-i686-linux-gnu (= 2.31.1-16),
  bsdmainutils (= 11.1.2+b1),
  bsdutils (= 1:2.33.1-0.1),
  build-essential (= 12.6),
@@ -165,7 +162,6 @@ Installed-Build-Depends:
  libkrb5-3 (= 1.17-3+deb10u1),
  libkrb5support0 (= 1.17-3+deb10u1),
  libllvm7 (= 1:7.0.1-8+deb10u2),
- liblsan0 (= 8.3.0-6),
  liblz4-1 (= 1.8.3-1),
  liblzma5 (= 5.2.4-1),
  libmagic-mgc (= 1:5.35-4+deb10u2),
@@ -226,14 +222,13 @@ Installed-Build-Depends:
  libssl1.1 (= 1.1.1d-0+deb10u6),
  libstdc++-8-dev (= 8.3.0-6),
  libstdc++6 (= 8.3.0-6),
- libsystemd0 (= 1:241-7~deb10u8+mx19+1),
+ libsystemd0 (= 1:241-7~deb10u5+mx19),
  libtasn1-6 (= 4.13-3),
  libtinfo6 (= 6.1+20181013-2+deb10u2),
  libtool (= 2.4.6-9),
- libtsan0 (= 8.3.0-6),
  libubsan1 (= 8.3.0-6),
  libuchardet0 (= 0.0.6-3),
- libudev1 (= 1:241-7~deb10u8+mx19+1),
+ libudev1 (= 1:241-7~deb10u5+mx19),
  libunistring2 (= 0.9.10-1),
  libuuid1 (= 2.33.1-0.1),
  libvulkan-dev (= 1.1.97-2),
@@ -344,4 +339,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1668348983"
+ SOURCE_DATE_EPOCH="1668558603"
