@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 15 Nov 2022 19:30:03 -0500
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: armhf
+Version: 22.11.02
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (22.11.02) mx; urgency=medium
+ .
+   * fix faulty logic
+   * add home folder sounds to search terms on_apply
+Checksums-Sha1:
+ a15234773254dd015dcf66a9a9334583b42e54c5 9895 mx-system-sounds_22.11.02_armhf.buildinfo
+ e9d5002366ebb4f85f5af83ff629af2032ff7159 61752 mx-system-sounds_22.11.02_armhf.deb
+Checksums-Sha256:
+ 6293117c492c57d1813985a6aa2e29b31a58bc8adf815d249f1a213d603dea94 9895 mx-system-sounds_22.11.02_armhf.buildinfo
+ b7f10e80f8a0658fae64e2ecfba62b371fdeec06e8dca2c7a6c2a48d70b99e03 61752 mx-system-sounds_22.11.02_armhf.deb
+Files:
+ 3f6da05d13798f3675a96194960f0a12 9895 admin optional mx-system-sounds_22.11.02_armhf.buildinfo
+ 356f48c65721f91014961ac85f1970f3 61752 admin optional mx-system-sounds_22.11.02_armhf.deb

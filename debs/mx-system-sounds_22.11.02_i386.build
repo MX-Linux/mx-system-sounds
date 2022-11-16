@@ -1,6 +1,6 @@
  dpkg-buildpackage -us -uc -ui -B
 dpkg-buildpackage: info: source package mx-system-sounds
-dpkg-buildpackage: info: source version 22.11.01
+dpkg-buildpackage: info: source version 22.11.02
 dpkg-buildpackage: info: source distribution mx
 dpkg-buildpackage: info: source changed by Dolphin Oracle <dolphinoracle@gmail.com>
  dpkg-source --before-build .
@@ -151,27 +151,27 @@ g++ -c -pipe -g -O2 -fdebug-prefix-map=/media/demo/dataext/development/working/m
 /usr/lib/qt5/bin/moc -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --include /media/demo/dataext/development/working/mx-system-sounds/32/moc_predefs.h -I/usr/lib/i386-linux-gnu/qt5/mkspecs/linux-g++ -I/media/demo/dataext/development/working/mx-system-sounds/32 -I/usr/include/i386-linux-gnu/qt5 -I/usr/include/i386-linux-gnu/qt5/QtWidgets -I/usr/include/i386-linux-gnu/qt5/QtGui -I/usr/include/i386-linux-gnu/qt5/QtCore -I/usr/include/c++/8 -I/usr/include/i386-linux-gnu/c++/8 -I/usr/include/c++/8/backward -I/usr/lib/gcc/i686-linux-gnu/8/include -I/usr/local/include -I/usr/lib/gcc/i686-linux-gnu/8/include-fixed -I/usr/include/i386-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
 g++ -c -pipe -g -O2 -fdebug-prefix-map=/media/demo/dataext/development/working/mx-system-sounds/32=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -std=gnu++1z -Wall -W -D_REENTRANT -fPIC -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -isystem /usr/include/i386-linux-gnu/qt5 -isystem /usr/include/i386-linux-gnu/qt5/QtWidgets -isystem /usr/include/i386-linux-gnu/qt5/QtGui -isystem /usr/include/i386-linux-gnu/qt5/QtCore -I. -isystem /usr/include/libdrm -I. -I/usr/lib/i386-linux-gnu/qt5/mkspecs/linux-g++ -o moc_mainwindow.o moc_mainwindow.cpp
 mainwindow.cpp: In member function ‘void MainWindow::on_buttonApply_clicked()’:
-mainwindow.cpp:194:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:212:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
          system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mainwindow.cpp:196:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:214:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
          system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mainwindow.cpp:203:19: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:221:19: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
              system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
              ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mainwindow.cpp:205:19: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:223:19: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
              system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
              ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-mainwindow.cpp:207:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:225:15: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
          system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 mainwindow.cpp: In member function ‘void MainWindow::on_button_play_login_clicked()’:
-mainwindow.cpp:350:11: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:375:11: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
      system(cmd.toUtf8());
      ~~~~~~^~~~~~~~~~~~~~
 mainwindow.cpp: In member function ‘void MainWindow::on_button_play_logout_clicked()’:
-mainwindow.cpp:360:11: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
+mainwindow.cpp:385:11: warning: ignoring return value of ‘int system(const char*)’, declared with attribute warn_unused_result [-Wunused-result]
      system(cmd.toUtf8());
      ~~~~~~^~~~~~~~~~~~~~
 g++ -Wl,-z,relro -o mx-system-sounds main.o about.o mainwindow.o qrc_images.o moc_mainwindow.o   -lQt5Widgets -lQt5Gui -lQt5Core -lGL -lpthread 
@@ -211,14 +211,14 @@ make[1]: Leaving directory '/media/demo/dataext/development/working/mx-system-so
    dh_gencontrol -a -O--no-automatic-dbgsym -O--parallel
    dh_md5sums -a -O--no-automatic-dbgsym -O--parallel
    dh_builddeb -a -O--no-automatic-dbgsym -O--parallel
-dpkg-deb: building package 'mx-system-sounds' in '../mx-system-sounds_22.11.01_i386.deb'.
+dpkg-deb: building package 'mx-system-sounds' in '../mx-system-sounds_22.11.02_i386.deb'.
  dpkg-genbuildinfo --build=any
- dpkg-genchanges --build=any >../mx-system-sounds_22.11.01_i386.changes
+ dpkg-genchanges --build=any >../mx-system-sounds_22.11.02_i386.changes
 dpkg-genchanges: info: binary-only arch-specific upload (source code and arch-indep packages not included)
  dpkg-source --after-build .
 dpkg-buildpackage: info: binary-only upload (no source included)
 Now signing dsc file...
- signfile dsc mx-system-sounds_22.11.01.dsc Adrian <adrian@mxlinux.org>
+ signfile dsc mx-system-sounds_22.11.02.dsc Adrian <adrian@mxlinux.org>
 gpg: skipped "Adrian <adrian@mxlinux.org>": No secret key
-gpg: /tmp/debsign.FRZ3y3jO/mx-system-sounds_22.11.01.dsc: clear-sign failed: No secret key
+gpg: /tmp/debsign.xkRRV8z5/mx-system-sounds_22.11.02.dsc: clear-sign failed: No secret key
 debsign: gpg error occurred!  Aborting....
