@@ -1,3 +1,10 @@
+mx-system-sounds (22.11.02) mx; urgency=medium
+
+  * fix faulty logic
+  * add home folder sounds to search terms on_apply 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 15 Nov 2022 19:30:03 -0500
+
 mx-system-sounds (22.11.01) mx; urgency=medium
 
   * add scanning home folder .local/share/sounds 
