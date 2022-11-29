@@ -23,13 +23,12 @@
  **********************************************************************/
 
 #include "mainwindow.h"
-#include <unistd.h>
 #include <QApplication>
-#include <QTranslator>
-#include <QLocale>
 #include <QIcon>
+#include <QLocale>
 #include <QMessageBox>
-
+#include <QTranslator>
+#include <unistd.h>
 
 int main(int argc, char *argv[])
 {
@@ -41,12 +40,13 @@ int main(int argc, char *argv[])
     a.installTranslator(&qtTran);
 
     QTranslator appTran;
-    appTran.load(QStringLiteral("mx-system-sounds_") + QLocale::system().name(), QStringLiteral("/usr/share/mx-system-sounds/locale"));
+    appTran.load(QStringLiteral("mx-system-sounds_") + QLocale::system().name(),
+                 QStringLiteral("/usr/share/mx-system-sounds/locale"));
     a.installTranslator(&appTran);
 
     if (system("echo $XDG_CURRENT_DESKTOP | grep -q XFCE") != 0) {
-            QMessageBox::information(nullptr, QObject::tr("MX System Sounds"), QObject::tr("This app is Xfce-only"));
-            exit(EXIT_SUCCESS);
+        QMessageBox::information(nullptr, QObject::tr("MX System Sounds"), QObject::tr("This app is Xfce-only"));
+        exit(EXIT_SUCCESS);
     }
 
     MainWindow w;
