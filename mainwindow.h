@@ -22,7 +22,6 @@
  * along with mx-system-sounds.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -35,7 +34,8 @@ struct Output {
     QString str;
 };
 
-namespace Ui {
+namespace Ui
+{
 class MainWindow;
 }
 
@@ -80,6 +80,4 @@ private:
     Ui::MainWindow *ui;
 };
 
-
 #endif // MXSNAPSHOT_H
-
