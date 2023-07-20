@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 20 Jul 2023 17:31:16 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: i386
+Version: 23.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (23.7) mx; urgency=medium
+ .
+   * Update translations
+Checksums-Sha1:
+ 1fad9e99110e0dafe58fed4f2bfc184303a144ed 10092 mx-system-sounds_23.7_i386.buildinfo
+ ab2cac3e0e93663161e18dd762f09a01f6b4fa52 71352 mx-system-sounds_23.7_i386.deb
+Checksums-Sha256:
+ 394ebb546a3c55c7f42a8f6be1e162463507fe2f3706dedb38d4f9c8e92b013b 10092 mx-system-sounds_23.7_i386.buildinfo
+ 5aa703af313244bd2ea8f326b31890e8d2f1bb8890796ffdad5a3467560d7fde 71352 mx-system-sounds_23.7_i386.deb
+Files:
+ fa826c79d0e10d9105b47f5b07775ca6 10092 admin optional mx-system-sounds_23.7_i386.buildinfo
+ 4942a5a3e24eb465e6176124c5c2763c 71352 admin optional mx-system-sounds_23.7_i386.deb
