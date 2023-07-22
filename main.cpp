@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
                  QStringLiteral("/usr/share/mx-system-sounds/locale"));
     QApplication::installTranslator(&appTran);
 
-    if (qgetenv("XDG_SESSION_DESKTOP") != "xfce" && qgetenv("XDG_SESSION_DESKTOP") != "XFCE") {
+    if (qgetenv("XDG_CURRENT_DESKTOP") != "xfce" && qgetenv("XDG_CURRENT_DESKTOP") != "XFCE") {
         QMessageBox::information(nullptr, QObject::tr("MX System Sounds"), QObject::tr("This app is Xfce-only"));
         exit(EXIT_SUCCESS);
     }
