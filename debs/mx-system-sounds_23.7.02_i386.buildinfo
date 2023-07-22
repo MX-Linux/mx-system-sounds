@@ -5,17 +5,17 @@ Format: 1.0
 Source: mx-system-sounds
 Binary: mx-system-sounds
 Architecture: i386
-Version: 23.7.01
+Version: 23.7.02
 Checksums-Md5:
- 6c70818365b9dc90b946e2be480e0fe9 70072 mx-system-sounds_23.7.01_i386.deb
+ 080df5642bbe325ccf223a87f3de0f6d 69904 mx-system-sounds_23.7.02_i386.deb
 Checksums-Sha1:
- 0a3eb166c4ffcfa6d6e7d30ce66d928882692a34 70072 mx-system-sounds_23.7.01_i386.deb
+ b09f099b3b9150e6a8feb1a63c6e7c3b70cc8229 69904 mx-system-sounds_23.7.02_i386.deb
 Checksums-Sha256:
- 113c5e6c1f271a29e171ab68c25f84a426866821bd2d451f7135da9e94518382 70072 mx-system-sounds_23.7.01_i386.deb
+ bdc062ce92648fca9fa4349fbadb23566c91feb87753cce8665a38411da635c4 69904 mx-system-sounds_23.7.02_i386.deb
 Build-Origin: Debian
 Build-Architecture: i386
-Build-Date: Sat, 22 Jul 2023 14:05:16 +0000
-Build-Path: /build/mx-system-sounds-23.7.01
+Build-Date: Sat, 22 Jul 2023 20:26:05 +0000
+Build-Path: /build/mx-system-sounds-23.7.02
 Installed-Build-Depends:
  autoconf (= 2.69-14),
  automake (= 1:1.16.3-2),
@@ -327,21 +327,21 @@ Environment:
  LANG="C"
  LC_ALL="C"
  MAKEFLAGS=" -j4"
- SOURCE_DATE_EPOCH="1690034503"
+ SOURCE_DATE_EPOCH="1690057035"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE9i7eqjrnCpyZ2sQYm2ih6Lm2N1wFAmS74l4ACgkQm2ih6Lm2
-N1y8jg/9FHtFH64B5jycO6aSi1hzly/oBqaEZZmS9uICWmYel2zJ3+qU8XoAdzRe
-+TViVppsiUva0UHGauz7Idu5XfEPDOiZ2LIhFTNeBtlGczC8AFWP7fCKnaQkZBxj
-jNs5+K2fNu32pzo3pWVit2peiXIulMedPhM8R5NUGoiorNLH7ftqBcJ+aK9HyWCT
-FDwhbqwL+dA0NYnNJhHXQV7nyK8S2M1ier6h4tlSNiU8235fVXdX/dMK0Kp+7lEW
-Ghab9EbF3CZ0toVIeeqh27CP/g+v/ULvAtDtcwmrISvLS0gvOkrvg4meGIIh/G+O
-7sNFnaHjPDkJLtPw5cYqB7jh+HguKz7iubThW6kBgKj2MG/QYyAp6bC64LHWjO0E
-lFBwzKyq5czyqoV+m5AoOzpV0EtArOoBJiAwAFZH9Zyw9NbOwQ9uZn0pm4cqRa2v
-XUwr5TqltmipIFIP9xbclDIoK7KVHyy1BvFN+mzPqHE9PPM9n04SpBEa2RYTIfTm
-fLsIQRo7Al/pS1umcGXp8PoOmDatCFbMZunmE2MrQfXhqxmJAqBTIa6UUW7qO2e5
-FX5gw0a6LQfhZjl+012U5BGJewEtFdZDJk7Z4SYS6VIvN9O01oPit40xMc9Naoa/
-Kqj5dmaAv3LzrBjZUsNjxymH4CJqAHixPpJsxTt76+69r2CM8EI=
-=+eEm
+iQIzBAEBCgAdFiEE9i7eqjrnCpyZ2sQYm2ih6Lm2N1wFAmS8PG0ACgkQm2ih6Lm2
+N1wLgRAA1D7DZmdGqTKGH0jakwt+/opbJLfoSZpjiJqQbKSAZc5hWDRoIClk7Z4b
+NVtwpP99k+LjZTTif2sjZnANheLwawyVcDRL4g5HLaEZN/vOVooOhwEuz0Fi1URa
+/Hc2tstGPAjLVbZVEfXGpA3CLSUiIdYbszZMiSuOpttp2D8UVkpSfd3bjrgFoSQj
+59sdAslF06PSXOeuBSh/TYYMCBkMPwUc3Cq45dPNhtM+VL31VdnmNnJwhnqx7Ish
++GdVxE8/vEuspkYMObsVxajPtKbl/Vakk/QTqndDE1uLbHhjgLvNzGMGUKeglghe
+Lyxjz+RkzmkI9jnriuu143/yrHZExjWFQySnl7WwE4BSouDSuXrRbVCC5GLd9oRd
+kxkG56vDwjqE8zSATokNm4zvxHhvBjBAdV9tr4KvuMoLvKfz3MNVb3E+tYhd0ejK
+/ElMFkjSy7n0VfQKBsNMFyEj2CZReZ/JYy/6DDdx+HLt/jHQNDi3r/G2gLchLR35
+h7JtYEg8YJJ9dRZfOJudRiMI7R6M61r+TzCiIyuA7aLoOhbxbv0sgAzWBltJE6nH
+TbVfHxkpxCc/nNesAASX21RRuaE0PF5SGsEbf4b/CFlUOLs800LIWoRv7Lvs6IQM
+kO635dhisCkiPp3PEbQ1xGGcDpZZixWbKXTwbMQJhMnQZd8ctIk=
+=d2LL
 -----END PGP SIGNATURE-----
