@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 22 Jul 2023 10:01:43 -0400
+Source: mx-system-sounds
+Binary: mx-system-sounds
+Architecture: amd64
+Version: 23.7.01
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-system-sounds - MX System Sounds
+Changes:
+ mx-system-sounds (23.7.01) mx; urgency=medium
+ .
+   * correct XFCE check at app launch
+Checksums-Sha1:
+ cd1c16e6194d98b831d5cc5e367f90db5722f56c 10454 mx-system-sounds_23.7.01_amd64.buildinfo
+ 8e74040e1453ec2170845df7b2406f94cc7be28e 68320 mx-system-sounds_23.7.01_amd64.deb
+Checksums-Sha256:
+ 9654eeabbdd3e0aab82d225cf99201e453395106dcb791874ad8d1130a876cda 10454 mx-system-sounds_23.7.01_amd64.buildinfo
+ c3debc373d4408e339689b858ca932ec07c42e3aa5fa84d6908c783c0c8d21d2 68320 mx-system-sounds_23.7.01_amd64.deb
+Files:
+ 26b8a7520db14294d39f9ad536f40083 10454 admin optional mx-system-sounds_23.7.01_amd64.buildinfo
+ 4cd8688f5bc65bbc7f5740081173e8a2 68320 admin optional mx-system-sounds_23.7.01_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE9i7eqjrnCpyZ2sQYm2ih6Lm2N1wFAmS74l4ACgkQm2ih6Lm2
+N1y5kBAApbaCCWzQALbsWAwB19ZmjzybTz2Mwy0zEfHMUV3Y4nYn9l9U6o3C+QCZ
+7UaYIhT4pMBtjBEKmkAaTiJcIyctKl/VSsQSAh3gvrXtObuDjfpX3BPjIXDE930f
+SARhMTD5NyyIfQjl8oMAqi1q4R/zDb62drDlPMvC94Xsahef0fxM8p+VksiMkMFi
+FGBdmcG5RYGvGviaQ//zuFnS2H5A3W/sO54zTwPtWQO/C9WP+H+g8U3ChMxp3FqK
+d6UN7lzkjjvlI97PYU5gLW1YaGC3i9FxjQwYzocsGq4eWes9C9h7uTOP5r18BZgh
+fKxlDvoJrsIUxpLZVXvg58TbxKh1lncMFzjS3X5gZC0aSk0QXKhnk2EATJ0cYInT
+CENgR+06r40nQrGO3yA9Y8M3mIoLwFRBb2ICUzCklzQyeqBMEs4xjVUn7nKVe81m
+7BIScnnt3A/KzTlc1mfp6EQG3D5Q50WIJ1tdFP9fSW5c7vuzaIJPqjPgDWAs2EeR
+ar0dk/TMW9IT6EP1xPp4r0/UKf99PwbiG1zRwUqv+PLEFrOT2rSFc0YD/seM/fIn
+tNfovSz1eeOULLgtpswAvmPHCjH+lx6jLFf2FriTya31dPLQbUZ+cZPe3QzARh8w
+Yms09OZ2fgO51HKJlBiqnIGQL0/+O103N2VAZxcZDLU0CrvdiTA=
+=liBR
+-----END PGP SIGNATURE-----
