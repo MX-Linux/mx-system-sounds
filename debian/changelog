@@ -1,3 +1,9 @@
+mx-system-sounds (23.7.02) mx; urgency=medium
+
+  * update language processing
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 22 Jul 2023 16:17:15 -0400
+
 mx-system-sounds (23.7.01) mx; urgency=medium
 
   * correct XFCE check at app launch
