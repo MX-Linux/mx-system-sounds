@@ -50,7 +50,6 @@ TRANSLATIONS += translations/mx-system-sounds_af.ts \
                 translations/mx-system-sounds_be.ts \
                 translations/mx-system-sounds_bg.ts \
                 translations/mx-system-sounds_bn.ts \
-                translations/mx-system-sounds_bs_BA.ts \
                 translations/mx-system-sounds_bs.ts \
                 translations/mx-system-sounds_ca.ts \
                 translations/mx-system-sounds_ceb.ts \
@@ -88,7 +87,6 @@ TRANSLATIONS += translations/mx-system-sounds_af.ts \
                 translations/mx-system-sounds_hr.ts \
                 translations/mx-system-sounds_ht.ts \
                 translations/mx-system-sounds_hu.ts \
-                translations/mx-system-sounds_hy_AM.ts \
                 translations/mx-system-sounds_hye.ts \
                 translations/mx-system-sounds_hy.ts \
                 translations/mx-system-sounds_id.ts \
