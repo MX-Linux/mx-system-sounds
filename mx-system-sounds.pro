@@ -69,7 +69,6 @@ TRANSLATIONS += translations/mx-system-sounds_af.ts \
                 translations/mx-system-sounds_et.ts \
                 translations/mx-system-sounds_eu.ts \
                 translations/mx-system-sounds_fa.ts \
-                translations/mx-system-sounds_fi_FI.ts \
                 translations/mx-system-sounds_fil_PH.ts \
                 translations/mx-system-sounds_fil.ts \
                 translations/mx-system-sounds_fi.ts \
@@ -135,7 +134,6 @@ TRANSLATIONS += translations/mx-system-sounds_af.ts \
                 translations/mx-system-sounds_pt.ts \
                 translations/mx-system-sounds_ro.ts \
                 translations/mx-system-sounds_rue.ts \
-                translations/mx-system-sounds_ru_RU.ts \
                 translations/mx-system-sounds_ru.ts \
                 translations/mx-system-sounds_rw.ts \
                 translations/mx-system-sounds_sd.ts \
