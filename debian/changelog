@@ -1,6 +1,6 @@
 mx-system-sounds (25.2.01mx23) mx; urgency=medium
 
-  * use paplay, wait for sound server before playing login
+  * wait for sound server before playing login
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Feb 2025 21:27:16 -0500
 
