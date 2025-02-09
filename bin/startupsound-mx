@@ -11,6 +11,25 @@
 #command to find desktop-login sound for a given theme
 #find  /usr/share/sounds/theme-name/ |grep desktop-login
 
+
+#check for paplay
+
+if [ ! -x /usr/bin/paplay ]; then
+	exit 1
+fi
+
+max_duration=60 # max duration to wait for wireplumber
+elapsed = 0
+
+#wait for pulseaudio or pipewire to start
+until pactl info |grep -q PulseAudio 2/dev/null ; do
+        sleep 1
+        elapsed=$((elapsed + 1))
+        if [ "elapsed" -ge "$max_duration"; then
+                exit 1
+        fi
+done
+
 customsound=""
 
 configfile="$HOME/.config/MX-Linux/mx-system-sounds/startupsound.conf"
@@ -34,16 +53,14 @@ fi
 
 if [ "$customsound" = "" ]; then
 	if [ "$startup_enabled" = "true" ]; then
-        sleep 5
-		play "$defaultsound" 
+		paplay "$defaultsound" 
 		exit 0
 	else
 		exit 0
 	fi
 else
 	if [ "$startup_enabled" = "true" ]; then
-		sleep 5
-		play "$customsound" 
+		paplay "$customsound" 
 		exit 0
 	else
 		exit 0
