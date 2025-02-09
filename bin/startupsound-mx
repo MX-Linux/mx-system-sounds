@@ -19,10 +19,10 @@ if [ ! -x /usr/bin/paplay ]; then
 fi
 
 max_duration=60 # max duration to wait for wireplumber
-elapsed = 0
+elapsed=0
 
 #wait for pulseaudio or pipewire to start
-until pactl info |grep -q PulseAudio 2/dev/null ; do
+until pactl info |grep -q PulseAudio 2>/dev/null ; do
         sleep 1
         elapsed=$((elapsed + 1))
         if [ "elapsed" -ge "$max_duration"; then

@@ -5,9 +5,9 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="68"/>
-        <location filename="../mainwindow.cpp" line="302"/>
-        <location filename="../mainwindow.cpp" line="321"/>
+        <location filename="../mainwindow.cpp" line="72"/>
+        <location filename="../mainwindow.cpp" line="310"/>
+        <location filename="../mainwindow.cpp" line="330"/>
         <source>MX System Sounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49,7 +49,7 @@
     <message>
         <location filename="../mainwindow.ui" line="122"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="129"/>
@@ -89,22 +89,22 @@
     <message>
         <location filename="../mainwindow.ui" line="257"/>
         <source>About this application</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobre esta aplicación</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="260"/>
         <source>About...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sobre...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="267"/>
         <source>Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="283"/>
         <source>Display help </source>
-        <translation type="unfinished"></translation>
+        <translation>Amosar axuda</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="286"/>
@@ -114,67 +114,67 @@
     <message>
         <location filename="../mainwindow.ui" line="293"/>
         <source>Alt+H</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="351"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
         <source>Quit application</source>
-        <translation type="unfinished"></translation>
+        <translation>Saír do aplicativo</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="380"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
         <source>Alt+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="301"/>
+        <location filename="../mainwindow.cpp" line="309"/>
         <source>About MX System Sounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="302"/>
+        <location filename="../mainwindow.cpp" line="310"/>
         <source>Version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Versión: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="303"/>
+        <location filename="../mainwindow.cpp" line="311"/>
         <source>Configure Event &amp; Session Sounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="306"/>
+        <location filename="../mainwindow.cpp" line="314"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="307"/>
+        <location filename="../mainwindow.cpp" line="315"/>
         <source>%1 License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenza de %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="321"/>
+        <location filename="../mainwindow.cpp" line="330"/>
         <source>%1 Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Axuda para %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="336"/>
-        <location filename="../mainwindow.cpp" line="365"/>
+        <location filename="../mainwindow.cpp" line="339"/>
+        <location filename="../mainwindow.cpp" line="363"/>
         <source>Select Sound File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="337"/>
-        <location filename="../mainwindow.cpp" line="366"/>
+        <location filename="../mainwindow.cpp" line="340"/>
+        <location filename="../mainwindow.cpp" line="364"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -184,23 +184,23 @@
     <message>
         <location filename="../about.cpp" line="40"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenza</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <location filename="../about.cpp" line="51"/>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Rexistro dos cambios</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="64"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cerrar</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="48"/>
