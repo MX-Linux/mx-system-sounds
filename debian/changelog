@@ -1,3 +1,10 @@
+mx-system-sounds (24.2.01) mx; urgency=medium
+
+  * wait for sound server to start
+  * use paplay to avoid sound server conflicts
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Feb 2025 21:12:50 -0500
+
 mx-system-sounds (23.7.02) mx; urgency=medium
 
   * update language processing
