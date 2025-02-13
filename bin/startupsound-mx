@@ -11,29 +11,9 @@
 #command to find desktop-login sound for a given theme
 #find  /usr/share/sounds/theme-name/ |grep desktop-login
 
-
-#check for sound server utility
-
-if [ ! -x /usr/bin/pactl ]; then
-	exit 1
-fi
-
-max_duration=60 # max duration to wait for wireplumber
-elapsed=0
-
-#wait for pulseaudio or pipewire to start
-until pactl info |grep -q PulseAudio 2>/dev/null ; do
-        sleep 1
-        elapsed=$((elapsed + 1))
-        if [ "elapsed" -ge "$max_duration"; then
-                exit 1
-        fi
-done
-
-customsound=""
-
 configfile="$HOME/.config/MX-Linux/mx-system-sounds/startupsound.conf"
 conffile="$HOME/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf"
+customsound=""
 
 if [ -e "$conffile" ]; then
 
@@ -42,17 +22,51 @@ if [ -e "$conffile" ]; then
 
 	startup_enabled=$(grep startup "$conffile" |cut -d '=' -f2)
 	#echo sound status is $startup_enabled
-
-	soundthemename=$(xfconf-query -c xsettings -p /Net/SoundThemeName)
-	#echo sound theme is $soundthemename
-
-	defaultsound=$(find  /usr/share/sounds/$soundthemename/ |grep desktop-login)
-	#echo default sound is $defaultsound
-
+    
+    #exit if doing nothing
+	if [ "$startup_enabled" != "true" ]; then
+		exit 0
+	fi
 fi
+
+#check for sound server utility
+soundserver=""
+
+if [ -x /usr/bin/pulseaudio ]; then
+	soundserver="pulseaudio"
+elif [ -x /usr/bin/wireplumber ]; then
+	soundserver="wireplumber"
+else 
+	#no soundserver, exit
+	exit 0
+fi
+
+max_duration=60 # max duration to wait for wireplumber
+elapsed=0
+
+soundserver="pulseaudio"
+
+if [ -x /usr/bin/wireplumber ]; then
+	soundserver="wireplumber"
+fi
+
+#wait for xfce4-session to start and wireplumber
+until [ $(pidof $soundserver) -gt $(pidof xfce4-session) ]  ; do
+        sleep 1
+        elapsed=$((elapsed + 1))
+        if [ "elapsed" -ge "$max_duration"; then
+                exit 1
+        fi
+done
+
+#echo "triggered $elapsed" > $HOME/triggered
 
 if [ "$customsound" = "" ]; then
 	if [ "$startup_enabled" = "true" ]; then
+	    #echo sound theme is $soundthemename
+	    soundthemename=$(xfconf-query -c xsettings -p /Net/SoundThemeName)
+		#echo default sound is $defaultsound
+		defaultsound=$(find  /usr/share/sounds/$soundthemename/ |grep desktop-login)
 		play "$defaultsound" 
 		exit 0
 	else
