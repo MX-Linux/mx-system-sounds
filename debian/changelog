@@ -1,3 +1,11 @@
+mx-system-sounds (25.2.02mx23) mx; urgency=medium
+
+  * improve soundserver checking
+  * wait for xfce4-session (possible dbus conflict)
+  * don't do anything if login sound not configured true
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 13 Feb 2025 18:41:51 -0500
+
 mx-system-sounds (25.2.01mx23) mx; urgency=medium
 
   * wait for sound server before playing login
