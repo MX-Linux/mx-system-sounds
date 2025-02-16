@@ -54,7 +54,7 @@ fi
 until [ $(pidof $soundserver) -gt $(pidof xfce4-session) ]  ; do
         sleep 1
         elapsed=$((elapsed + 1))
-        if [ "$elapsed" -ge "$max_duration"; then
+        if [ "$elapsed" -ge "$max_duration" ]; then
                 exit 1
         fi
 done
