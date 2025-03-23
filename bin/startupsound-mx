@@ -50,7 +50,7 @@ if [ -x /usr/bin/wireplumber ]; then
 	soundserver="wireplumber"
 fi
 
-INITCHECK="false"
+INITSKIP="false"
 #first init check for pure systemd, no shim
 INITCHECK=$(readlink /usr/sbin/init)
 if [[ "$INITCHECK" =~ "/lib/systemd/systemd" ]]; then
@@ -66,6 +66,7 @@ if [ "$INITSKIP" = "false" ]; then
 	fi
 fi
 
+echo $INITSKIP
 if [ "$INITSKIP" = "true" ]; then
 #wait for xfce4-session to start and wireplumber
 	until [ -n "$(pidof $soundserver)" ] && [ -n "$(pidof xfce4-session)" ]  ; do
@@ -81,7 +82,6 @@ else
 	until [ $(pidof $soundserver) -gt $(pidof xfce4-session) ]  ; do
         sleep 1
         elapsed=$((elapsed + 1))
-        echo "wait"
         if [ "$elapsed" -ge "$max_duration" ]; then
                 exit 1
         fi
