@@ -1,3 +1,10 @@
+mx-system-sounds (25.3.01mx23) mx; urgency=medium
+
+  * update checks
+  * current check can fail on systemd systems
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 23 Mar 2025 12:36:43 -0400
+
 mx-system-sounds (25.2.04mx23) mx; urgency=medium
 
   * one more bash syntax fix

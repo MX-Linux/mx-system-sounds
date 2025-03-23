@@ -41,7 +41,7 @@ else
 	exit 0
 fi
 
-max_duration=60 # max duration to wait for wireplumber
+max_duration=10 # max duration to wait for wireplumber
 elapsed=0
 
 soundserver="pulseaudio"
@@ -50,14 +50,43 @@ if [ -x /usr/bin/wireplumber ]; then
 	soundserver="wireplumber"
 fi
 
+INITCHECK="false"
+#first init check for pure systemd, no shim
+INITCHECK=$(readlink /usr/sbin/init)
+if [[ "$INITCHECK" =~ "/lib/systemd/systemd" ]]; then
+        INITSKIP="true"
+fi
+
+#second init check for system-shim configuration
+#only if init skip is still false
+if [ "$INITSKIP" = "false" ]; then
+	INITCHECK=$(/usr/bin/ps -p 1 -o cmd -h)
+	if [[ "$INITCHECK" =~ "/lib/systemd/systemd" ]]; then 
+		INITSKIP="true"
+	fi
+fi
+
+if [ "$INITSKIP" = "true" ]; then
 #wait for xfce4-session to start and wireplumber
-until [ $(pidof $soundserver) -gt $(pidof xfce4-session) ]  ; do
+	until [ -n "$(pidof $soundserver)" ] && [ -n "$(pidof xfce4-session)" ]  ; do
         sleep 1
         elapsed=$((elapsed + 1))
+        echo "play sound"
         if [ "$elapsed" -ge "$max_duration" ]; then
                 exit 1
         fi
-done
+	done
+	#slightly different under sysVinit.  Make sure wireplumber starts after xfce4-session
+else
+	until [ $(pidof $soundserver) -gt $(pidof xfce4-session) ]  ; do
+        sleep 1
+        elapsed=$((elapsed + 1))
+        echo "wait"
+        if [ "$elapsed" -ge "$max_duration" ]; then
+                exit 1
+        fi
+	done	
+fi
 
 #echo "triggered $elapsed" > $HOME/triggered
 
