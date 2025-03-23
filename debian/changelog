@@ -2,6 +2,7 @@ mx-system-sounds (25.3.01mx23) mx; urgency=medium
 
   * update checks
   * old check can fail on systemd systems
+  * ensure login sound attempts playback on timeout
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 23 Mar 2025 12:36:43 -0400
 
