@@ -1,3 +1,10 @@
+mx-system-sounds (25.3.02mx23) mx; urgency=medium
+
+  * additional adjustments to sound server check
+  * if no soundserver, or timeout, just try playing the sound anyway
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 24 Mar 2025 20:57:59 -0400
+
 mx-system-sounds (25.3.01mx23) mx; urgency=medium
 
   * update checks
