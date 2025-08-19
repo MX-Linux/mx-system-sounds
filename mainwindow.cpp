@@ -226,21 +226,21 @@ void MainWindow::on_buttonApply_clicked()
 
     // Event Sounds Enable or Disable
     if (ui->checkbox_eventsounds->isChecked()) {
-        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
+        [[maybe_unused]] int result = system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s true");
     } else {
-        system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
+        [[maybe_unused]] int result = system("xfconf-query -c xsettings -p /Net/EnableEventSounds -s false");
         ui->checkbox_inputsounds->setChecked(false);
     }
 
     // Input feedback Sounds Enable or Disable
     if (ui->checkbox_inputsounds->isChecked()) {
         if (ui->checkbox_eventsounds->isChecked()) {
-            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
+            [[maybe_unused]] int result = system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s true");
         } else {
-            system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+            [[maybe_unused]] int result = system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
         }
     } else {
-        system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
+        [[maybe_unused]] int result = system("xfconf-query -c xsettings -p /Net/EnableInputFeedbackSounds -s false");
     }
 
     // Login Sound Enable/disable
@@ -386,7 +386,7 @@ void MainWindow::on_button_play_login_clicked()
     qDebug() << currentlogin;
     runCmd(QStringLiteral("pkill play"));
     QString cmd = "play \"" + currentlogin + "\" &";
-    system(cmd.toUtf8());
+    [[maybe_unused]] int result = system(cmd.toUtf8());
 }
 
 void MainWindow::on_button_play_logout_clicked()
@@ -396,7 +396,7 @@ void MainWindow::on_button_play_logout_clicked()
     qDebug() << currentlogout;
     runCmd(QStringLiteral("pkill play"));
     QString cmd = "play \"" + currentlogout + "\" &";
-    system(cmd.toUtf8());
+    [[maybe_unused]] int result = system(cmd.toUtf8());
 }
 
 void MainWindow::on_button_reset_login_clicked()
