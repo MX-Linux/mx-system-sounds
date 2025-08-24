@@ -32,7 +32,10 @@
 #include <QTextEdit>
 
 #include "about.h"
-#include "version.h"
+
+#ifndef VERSION
+    #define VERSION "?.?.?.?"
+#endif
 
 MainWindow::MainWindow(QWidget *parent)
     : QDialog(parent),
