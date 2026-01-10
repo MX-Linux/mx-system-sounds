@@ -10,7 +10,7 @@ Homepage: https://github.com/MX-Linux/mx-system-sounds
 Package: mx-system-sounds
 Architecture: any
 Depends: libcanberra-gstreamer,
-         libcanberra-gtk-module,
+         libcanberra-gtk3-module,
          mx-sound-theme,
          mx-viewer | xdg-utils,
          ${misc:Depends},
