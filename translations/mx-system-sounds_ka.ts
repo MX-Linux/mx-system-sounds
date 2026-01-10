@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="nb">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ka">
 <context>
     <name>MainWindow</name>
     <message>
@@ -7,174 +7,174 @@
         <location filename="../mainwindow.cpp" line="255"/>
         <location filename="../mainwindow.cpp" line="274"/>
         <source>MX System Sounds</source>
-        <translation>MX Systemlyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="48"/>
         <source>Event Sounds</source>
-        <translation>Hendelseslyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="61"/>
         <source>Session Sounds</source>
-        <translation>Øktlyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="68"/>
         <source>XFCE Event Sounds</source>
-        <translation>XFCE hendelseslyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="75"/>
         <source>Login</source>
-        <translation>Innlogging</translation>
+        <translation>შესვლა</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="82"/>
         <source>XFCE Input Feedback Sounds</source>
-        <translation>XFCE lyder som respons på inndata</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="89"/>
         <source>Logout</source>
-        <translation>Utlogging</translation>
+        <translation>გასვლა</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="118"/>
         <source>Custom Sounds</source>
-        <translation>Selvvalgte lyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="125"/>
         <source>Theme</source>
-        <translation>Tema</translation>
+        <translation>თემა</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="132"/>
         <location filename="../mainwindow.ui" line="153"/>
         <source>Login Sound</source>
-        <translation>Innloggingslyd</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="139"/>
         <location filename="../mainwindow.ui" line="185"/>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="164"/>
         <location filename="../mainwindow.ui" line="207"/>
         <location filename="../mainwindow.ui" line="210"/>
         <source>Theme Default</source>
-        <translation>Forvalgt av tema</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="167"/>
         <source>Use Default</source>
-        <translation>Bruk forvalgt</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="178"/>
         <location filename="../mainwindow.ui" line="196"/>
         <source>Logout Sound</source>
-        <translation>Utloggingslyd</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="229"/>
         <source>Borealis</source>
-        <translation>Borealis</translation>
+        <translation>პოლარული ნათება</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="260"/>
         <source>About this application</source>
-        <translation>Om programmet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="263"/>
         <source>About...</source>
-        <translation>Om …</translation>
+        <translation>შესახებ...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="270"/>
         <source>Alt+B</source>
-        <translation>Alt + B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="286"/>
         <source>Display help </source>
-        <translation>Vis hjelp</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="289"/>
         <source>Help</source>
-        <translation>Hjelp</translation>
+        <translation>დახმარება</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="296"/>
         <source>Alt+H</source>
-        <translation>Alt + H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="354"/>
         <source>Apply</source>
-        <translation>Bruk</translation>
+        <translation>გადატარება</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="380"/>
         <source>Quit application</source>
-        <translation>Avslutt programmet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="383"/>
         <source>Close</source>
-        <translation>Lukk</translation>
+        <translation>დახურვა</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="390"/>
         <source>Alt+N</source>
-        <translation>Alt + N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="254"/>
         <source>About MX System Sounds</source>
-        <translation>Om MX Systemlyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="256"/>
         <source>Version: </source>
-        <translation>Versjon:</translation>
+        <translation>ვერსია:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="257"/>
         <source>Configure Event &amp; Session Sounds</source>
-        <translation>Oppsett av hendelses- og øktlyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="259"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Opphavsrett (c) MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="260"/>
         <source>%1 License</source>
-        <translation>Lisens for %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="274"/>
         <source>%1 Help</source>
-        <translation>Hjelpetekst for %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="289"/>
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Select Sound File</source>
-        <translation>Velg lydfil</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="289"/>
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Sound Files (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</source>
-        <translation>Lydfiler (*.mp3 *.m4a *.aac *.flac *.ogg *.oga *.wav)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -182,33 +182,33 @@
     <message>
         <location filename="../about.cpp" line="40"/>
         <source>License</source>
-        <translation>Lisens</translation>
+        <translation>ლიცენზია</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <location filename="../about.cpp" line="51"/>
         <source>Changelog</source>
-        <translation>Endringslogg</translation>
+        <translation>ცვლილებების ჟურნალი</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="42"/>
         <source>Cancel</source>
-        <translation>Avbryt</translation>
+        <translation>გაუქმება</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="63"/>
         <source>&amp;Close</source>
-        <translation>&amp;Lukk</translation>
+        <translation>&amp;დახურვა</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="48"/>
         <source>MX System Sounds</source>
-        <translation>MX Systemlyder</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.cpp" line="48"/>
         <source>This app is Xfce-only</source>
-        <translation>Dette programmet er kun for Xfce</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
