@@ -379,6 +379,8 @@ void MainWindow::on_buttonApply_clicked()
     if (currentlogin != defualtloginsound) {
         if (currentlogin != QLatin1String("None")) {
             writeTextFile(startupSoundPath, currentlogin + '\n');
+        } else {
+            QFile::remove(startupSoundPath);
         }
     } else {
         QFile::remove(startupSoundPath);
