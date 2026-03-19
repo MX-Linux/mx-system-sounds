@@ -30,6 +30,7 @@
 #include <QDirIterator>
 #include <QFileDialog>
 #include <QFileInfo>
+#include <QSet>
 #include <QSaveFile>
 #include <QTextEdit>
 #include <QTextStream>
@@ -68,6 +69,14 @@ QString findThemeSoundEvent(const QString &homePath, const QString &themeName, c
     }
 
     return findSoundEvent(QStringLiteral("/usr/share/sounds/") + themeName, eventName);
+}
+
+void addThemeName(QStringList &themeList, QSet<QString> &seenThemes, const QString &themeName)
+{
+    if (!themeName.isEmpty() && !seenThemes.contains(themeName)) {
+        seenThemes.insert(themeName);
+        themeList << themeName;
+    }
 }
 
 QString readTextFile(const QString &path)
@@ -289,18 +298,19 @@ void MainWindow::setup()
     // inital sound theme dialog setting
     ui->comboBox_theme->clear();
     QStringList theme_list;
+    QSet<QString> seenThemes;
     QStringList filter(QStringLiteral("index.theme"));
     QDirIterator it(QStringLiteral("/usr/share/sounds"), filter, QDir::Files, QDirIterator::Subdirectories);
     while (it.hasNext()) {
         QFileInfo file_info(it.next());
         QDir dir = file_info.absoluteDir();
-        theme_list << dir.dirName();
+        addThemeName(theme_list, seenThemes, dir.dirName());
     }
     QDirIterator it2(home_path + "/.local/share/sounds", filter, QDir::Files, QDirIterator::Subdirectories);
     while (it2.hasNext()) {
         QFileInfo file_info(it2.next());
         QDir dir = file_info.absoluteDir();
-        theme_list << dir.dirName();
+        addThemeName(theme_list, seenThemes, dir.dirName());
     }
     ui->comboBox_theme->addItems(theme_list);
     ui->comboBox_theme->setCurrentText(soundtheme);
