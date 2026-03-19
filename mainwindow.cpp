@@ -383,8 +383,9 @@ void MainWindow::on_button_play_login_clicked()
     qDebug() << " current login is ";
     qDebug() << currentlogin;
     runCmd(QStringLiteral("pkill play"));
-    QString cmd = "play \"" + currentlogin + "\" &";
-    [[maybe_unused]] int result = system(cmd.toUtf8());
+    if (currentlogin != QLatin1String("None")) {
+        QProcess::startDetached(QStringLiteral("play"), {currentlogin});
+    }
 }
 
 void MainWindow::on_button_play_logout_clicked()
@@ -393,8 +394,9 @@ void MainWindow::on_button_play_logout_clicked()
     qDebug() << " current logout is ";
     qDebug() << currentlogout;
     runCmd(QStringLiteral("pkill play"));
-    QString cmd = "play \"" + currentlogout + "\" &";
-    [[maybe_unused]] int result = system(cmd.toUtf8());
+    if (currentlogout != QLatin1String("None")) {
+        QProcess::startDetached(QStringLiteral("play"), {currentlogout});
+    }
 }
 
 void MainWindow::on_button_reset_login_clicked()
