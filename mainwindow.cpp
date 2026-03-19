@@ -323,7 +323,13 @@ void MainWindow::on_buttonAbout_clicked()
 
 void MainWindow::on_buttonHelp_clicked()
 {
+    QLocale locale;
+    const QString lang = locale.bcp47Name();
+
     QString url = QStringLiteral("/usr/share/doc/mx-system-sounds/mx-system-sounds.html");
+    if (lang.startsWith(QLatin1String("fr"))) {
+        url = QStringLiteral("/usr/share/doc/mx-system-sounds/mx-system-sounds_fr.html");
+    }
 
     displayHelpDoc(url, tr("%1 Help").arg(tr("MX System Sounds")));
 }
