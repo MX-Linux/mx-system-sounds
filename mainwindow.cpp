@@ -321,16 +321,9 @@ void MainWindow::on_buttonAbout_clicked()
 
 void MainWindow::on_buttonHelp_clicked()
 {
-    QLocale locale;
-    const QString lang = locale.bcp47Name();
-
     QString url = QStringLiteral("/usr/share/doc/mx-system-sounds/mx-system-sounds.html");
 
-    if (lang.startsWith(QLatin1String("fr"))) {
-        url = QStringLiteral("https://mxlinux.org/wiki/help-files/help-mx-sons-syst%C3%A8me");
-    }
-
-    displayDoc(url, tr("%1 Help").arg(tr("MX System Sounds")));
+    displayHelpDoc(url, tr("%1 Help").arg(tr("MX System Sounds")));
 }
 
 void MainWindow::on_button_login_sound_clicked()
