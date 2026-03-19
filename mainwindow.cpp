@@ -60,6 +60,16 @@ QString findSoundEvent(const QString &baseDir, const QString &eventName)
     return {};
 }
 
+QString findThemeSoundEvent(const QString &homePath, const QString &themeName, const QString &eventName)
+{
+    const QString localThemeDir = homePath + "/.local/share/sounds/" + themeName;
+    if (QDir(localThemeDir).exists()) {
+        return findSoundEvent(localThemeDir, eventName);
+    }
+
+    return findSoundEvent(QStringLiteral("/usr/share/sounds/") + themeName, eventName);
+}
+
 QString readTextFile(const QString &path)
 {
     QFile file(path);
@@ -174,16 +184,8 @@ void MainWindow::setup()
                              .str;
 
     // Check home directory location first
-    if (QDir(home_path + "/.local/share/sounds/" + soundtheme).exists()) {
-        defualtloginsound = findSoundEvent(home_path + "/.local/share/sounds/" + soundtheme, QStringLiteral("desktop-login"));
-        defualtlogoutsound
-            = findSoundEvent(home_path + "/.local/share/sounds/" + soundtheme, QStringLiteral("desktop-logout"));
-    } else {
-        // check system level location second
-        defualtloginsound = findSoundEvent(QStringLiteral("/usr/share/sounds/") + soundtheme, QStringLiteral("desktop-login"));
-        defualtlogoutsound
-            = findSoundEvent(QStringLiteral("/usr/share/sounds/") + soundtheme, QStringLiteral("desktop-logout"));
-    }
+    defualtloginsound = findThemeSoundEvent(home_path, soundtheme, QStringLiteral("desktop-login"));
+    defualtlogoutsound = findThemeSoundEvent(home_path, soundtheme, QStringLiteral("desktop-logout"));
 
     // Check for custom sounds
     QFileInfo file_info(startupSoundPath);
@@ -372,16 +374,7 @@ void MainWindow::on_buttonApply_clicked()
     qDebug() << currentlogin;
 
     // Check home directory location first for defaults first
-    if (QDir(home_path + "/.local/share/sounds/" + soundtheme2).exists()) {
-        defualtloginsound
-            = findSoundEvent(home_path + "/.local/share/sounds/" + soundtheme2, QStringLiteral("desktop-login"));
-        // defualtlogoutsound = runCmd(home_path + "/.local/share/sounds" + soundtheme2 + "/ |grep
-        // desktop-logout").str;
-    } else {
-        // If not present, check system location second
-        defualtloginsound = findSoundEvent(QStringLiteral("/usr/share/sounds/") + soundtheme2, QStringLiteral("desktop-login"));
-        // defualtlogoutsound = runCmd("find /usr/share/sounds/" + soundtheme2 + "/ |grep desktop-logout").str;
-    }
+    defualtloginsound = findThemeSoundEvent(home_path, soundtheme2, QStringLiteral("desktop-login"));
     // Set login sound
     if (currentlogin != defualtloginsound) {
         if (currentlogin != QLatin1String("None")) {
@@ -506,7 +499,7 @@ void MainWindow::on_button_reset_login_clicked()
     // Reset the login sound to the theme default.  if the theme doesn't have a desktop-login defined, set to "None"
 
     defualtloginsound
-        = findSoundEvent(QStringLiteral("/usr/share/sounds/") + ui->comboBox_theme->currentText(), QStringLiteral("desktop-login"));
+        = findThemeSoundEvent(QDir::homePath(), ui->comboBox_theme->currentText(), QStringLiteral("desktop-login"));
     QFileInfo file_info(defualtloginsound);
     if (file_info.exists()) {
         ui->button_login_sound->setText(QStringLiteral("Default"));
@@ -529,8 +522,7 @@ void MainWindow::on_button_reset_logout_clicked()
     // Reset the logout sound to the theme default.  if the theme doesn't have a desktop-logout defined, set to "None"
 
     defualtlogoutsound
-        = findSoundEvent(QStringLiteral("/usr/share/sounds/") + ui->comboBox_theme->currentText(),
-                         QStringLiteral("desktop-logout"));
+        = findThemeSoundEvent(QDir::homePath(), ui->comboBox_theme->currentText(), QStringLiteral("desktop-logout"));
     QFileInfo file_info(defualtlogoutsound);
     if (file_info.exists()) {
         ui->button_logout_sound->setText(QStringLiteral("Default"));
@@ -566,7 +558,7 @@ void MainWindow::on_comboBox_theme_activated(const QString &arg1)
             ui->button_login_sound->setText(file_info.baseName());
             ui->button_login_sound->setToolTip(file_info.filePath());
         } else {
-            defualtloginsound = findSoundEvent(QStringLiteral("/usr/share/sounds/") + arg1, QStringLiteral("desktop-login"));
+            defualtloginsound = findThemeSoundEvent(home_path, arg1, QStringLiteral("desktop-login"));
             QFileInfo file_info(defualtloginsound);
             if (file_info.exists()) {
                 ui->button_login_sound->setText(QStringLiteral("Default"));
@@ -590,7 +582,7 @@ void MainWindow::on_comboBox_theme_activated(const QString &arg1)
             ui->button_logout_sound->setText(file_info.baseName());
             ui->button_logout_sound->setToolTip(file_info.filePath());
         } else {
-            defualtlogoutsound = findSoundEvent(QStringLiteral("/usr/share/sounds/") + arg1, QStringLiteral("desktop-logout"));
+            defualtlogoutsound = findThemeSoundEvent(home_path, arg1, QStringLiteral("desktop-logout"));
             QFileInfo file_info(defualtlogoutsound);
             if (file_info.exists()) {
                 ui->button_logout_sound->setText(QStringLiteral("Default"));
