@@ -97,9 +97,10 @@ void MainWindow::setup()
     QString soundtheme = runCmd(QStringLiteral("xfconf-query -c xsettings -p /Net/SoundThemeName")).str;
 
     // Check home directory location first
-    if (QDir(home_path + "/.local/share/sounds" + soundtheme).exists()) {
-        defualtloginsound = runCmd(home_path + "/.local/share/sounds" + soundtheme + "/ |grep desktop-login").str;
-        defualtlogoutsound = runCmd(home_path + "/.local/share/sounds" + soundtheme + "/ |grep desktop-logout").str;
+    if (QDir(home_path + "/.local/share/sounds/" + soundtheme).exists()) {
+        defualtloginsound = runCmd("find " + home_path + "/.local/share/sounds/" + soundtheme + "/ |grep desktop-login").str;
+        defualtlogoutsound
+            = runCmd("find " + home_path + "/.local/share/sounds/" + soundtheme + "/ |grep desktop-logout").str;
     } else {
         // check system level location second
         defualtloginsound = runCmd("find /usr/share/sounds/" + soundtheme + "/ |grep desktop-login").str;
@@ -275,8 +276,9 @@ void MainWindow::on_buttonApply_clicked()
     qDebug() << currentlogin;
 
     // Check home directory location first for defaults first
-    if (QDir(home_path + "/.local/share/sounds" + soundtheme2).exists()) {
-        defualtloginsound = runCmd(home_path + "/.local/share/sounds" + soundtheme2 + "/ |grep desktop-login").str;
+    if (QDir(home_path + "/.local/share/sounds/" + soundtheme2).exists()) {
+        defualtloginsound
+            = runCmd("find " + home_path + "/.local/share/sounds/" + soundtheme2 + "/ |grep desktop-login").str;
         // defualtlogoutsound = runCmd(home_path + "/.local/share/sounds" + soundtheme2 + "/ |grep
         // desktop-logout").str;
     } else {
