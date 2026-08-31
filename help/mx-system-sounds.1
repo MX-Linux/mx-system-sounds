@@ -1,0 +1,44 @@
+.TH MX-SYSTEM-SOUNDS 1 "2026-08-30" "MX Linux" "User Commands"
+.SH NAME
+mx-system-sounds \- configure system sound events for the Xfce desktop
+.SH SYNOPSIS
+.B mx-system-sounds
+.SH DESCRIPTION
+.B mx-system-sounds
+is a graphical utility for MX Linux that lets a user enable or disable
+Xfce event sounds, choose a sound theme, and customize individual sound
+events from a single dialog.
+.PP
+The dialog covers three areas:
+.TP
+.B Xfce Event Sounds
+Mirrors the "Event Sounds" settings found in Appearance Settings; either
+tool may be used interchangeably.
+.TP
+.B Session Sounds
+MX-specific login and logout sound settings, enabled independently of
+the main Xfce event sounds.
+.TP
+.B Custom Sounds
+Selection of the sound theme, and of custom login/logout sounds. The
+currently selected sound can be previewed, and a theme's default sound
+(if any) can be restored.
+.SH OPTIONS
+This application has no documented command-line options. The graphical
+interface provides all operations.
+.SH FILES
+.TP
+.I ~/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf
+Per-user login/logout sound preferences.
+.TP
+.I /usr/share/doc/mx-system-sounds
+Installed HTML help, images, and license documentation.
+.SH SEE ALSO
+.BR startupsound-mx (1)
+.SH AUTHOR
+Written by Adrian and the MX Linux team.
+.SH COPYRIGHT
+Copyright \(co 2016\-2026 MX Authors.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.

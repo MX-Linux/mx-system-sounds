@@ -1,0 +1,38 @@
+.TH STARTUPSOUND-MX 1 "2026-08-30" "MX Linux" "User Commands"
+.SH NAME
+startupsound-mx \- play the configured MX login sound at session startup
+.SH SYNOPSIS
+.B startupsound-mx
+.SH DESCRIPTION
+.B startupsound-mx
+is invoked automatically as an Xfce autostart entry. It waits for the
+session's sound server and for
+.B xfce4-session
+to finish starting, then plays either the user's custom login sound or
+the current sound theme's default login sound, depending on the
+preferences set in
+.BR mx-system-sounds (1).
+.PP
+If login sounds are disabled, or no configuration is present, the
+script exits without playing anything.
+.SH OPTIONS
+This script takes no command-line options.
+.SH FILES
+.TP
+.I ~/.config/MX-Linux/mx-system-sounds/mx-login-logout_sounds.conf
+Whether the login sound is enabled.
+.TP
+.I ~/.config/MX-Linux/mx-system-sounds/startupsound.conf
+Path to the custom login sound, if one is set.
+.TP
+.I /etc/xdg/autostart/zstartup-sound.desktop
+Autostart entry that runs this script.
+.SH SEE ALSO
+.BR mx-system-sounds (1)
+.SH AUTHOR
+Written by dolphin_oracle and the MX Linux team.
+.SH COPYRIGHT
+Copyright \(co 2016\-2026 MX Authors.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
